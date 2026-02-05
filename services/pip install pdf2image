@@ -1,0 +1,18 @@
+from pdf2image import convert_from_path
+import os
+
+OUTPUT_DIR = "storage/images"
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+images = convert_from_path(
+    "storage/pdfs/documento_del_dia.pdf",
+    dpi=300
+)
+
+paths = []
+for i, img in enumerate(images):
+    path = f"{OUTPUT_DIR}/page_{i+1}.png"
+    img.save(path)
+    paths.append(path)
+
+print("Imágenes creadas:", paths)
