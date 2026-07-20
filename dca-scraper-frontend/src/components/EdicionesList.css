@@ -1,0 +1,41 @@
+.ediciones-list h1 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  color: #1E2130;
+  margin-bottom: 1rem;
+}
+
+.ediciones-list table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.ediciones-list th {
+  text-align: left;
+  padding: 10px 14px;
+  background: #1E2130;
+  color: #fff;
+}
+
+.ediciones-list td {
+  padding: 10px 14px;
+  border-bottom: 1px solid #F5CEDE;
+}
+
+.ediciones-list tr:hover {
+  background: #FBDDE9;
+}
+
+.ediciones-list a {
+  color: #C13A5A;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.dca-loading, .dca-error {
+  font-family: 'DM Sans', sans-serif;
+  padding: 2rem;
+}
+
+.dca-error { color: #C13A5A; }

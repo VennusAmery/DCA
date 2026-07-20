@@ -1,0 +1,15 @@
+.estado-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.estado-pendiente { background: #C96B7B; }
+.estado-descargado { background: #C13A5A; }
+.estado-transcrito { background: #E8A0B0; color: #1E2130; }
+.estado-resumido { background: #1E2130; }
+.estado-error { background: #7a1230; }

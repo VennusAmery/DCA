@@ -1,0 +1,13 @@
+.resumen-viewer {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background: #FBDDE9;
+  border-radius: 12px;
+}
+
+.resumen-viewer h2 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  color: #1E2130;
+  margin-top: 0;
+}
