@@ -1,0 +1,7 @@
+.env
+storage/pdfs/
+storage/reportes/
+storage/textos/
+*.pdf
+*.txt
+node_modules/
