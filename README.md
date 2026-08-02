@@ -5,7 +5,7 @@
 pnpm install
 ```
 
-## Correr en desarrollo
+## Correr 
 ```bash
 cd api-dca-ocr / python app.py  
 cd api-dca-ocr / python -m services.auto_dca
