@@ -75,8 +75,8 @@ Documento original del DCA a analizar:
     response = model.generate_content(
         prompt,
         generation_config={
-            "temperature": 0.2, # Un pelín más arriba para que redacte de forma más fluida y resumida
-            "max_output_tokens": 8192 # Espacio de sobra para una gran respuesta ejecutiva
+            "temperature": 0.2, 
+            "max_output_tokens": 8192 
         }
     )
 
