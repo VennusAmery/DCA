@@ -1,4 +1,4 @@
-# DCA Scraper Frontend
+# DCA Scraper 
 
 ## Instalar
 ```bash
@@ -7,12 +7,8 @@ pnpm install
 
 ## Correr en desarrollo
 ```bash
-pnpm dev
+cd api-dca-ocr / python app.py  
+cd api-dca-ocr / python -m services.auto_dca
+cd dca-scraper-frontend / pnpm run dev
 ```
-
-## Build producción
-```bash
-pnpm build
-```
-
-Requiere el backend Flask corriendo en `localhost:5000`.
+Requiere el backend Flask corriendo en `localhost:5000`
