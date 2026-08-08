@@ -1,3 +1,7 @@
+"""
+python app.py  
+
+"""
 import re
 from pathlib import Path
 import json
@@ -80,10 +84,31 @@ def listar_ediciones():
     resultado = []
     for nombre in procesados:
         base = Path(nombre).stem
-        estado = 'resumido' if base in mapa else 'transcrito'
-        resultado.append({'nombre': nombre, 'estado': estado})
-    return jsonify(resultado)
+        entrada = mapa.get(base)
+        estado = 'resumido' if entrada else 'transcrito'
 
+        tema = nombre
+        temas_secundarios = []
+        if entrada and entrada.get("resumen"):
+            ruta_resumen = RESUMENES_DIR / entrada["resumen"]
+            if ruta_resumen.exists() and ruta_resumen.is_file():
+                lineas = ruta_resumen.read_text(encoding="utf-8").split("\n")
+                for linea in lineas:
+                    linea = linea.strip()
+                    if linea.startswith("# ") and tema == nombre:
+                        tema = linea[2:].strip()
+                    elif linea.startswith("## "):
+                        temas_secundarios.append(linea[3:].strip())
+                    if len(temas_secundarios) >= 3:
+                        break
+
+        resultado.append({
+            'nombre': nombre,
+            'estado': estado,
+            'tema': tema,
+            'temas_secundarios': temas_secundarios,
+        })
+    return jsonify(resultado)
 
 @app.route('/api/ediciones/<path:nombre>', methods=['GET'])
 def obtener_edicion(nombre):
@@ -132,4 +157,4 @@ def descargar_pdf(nombre):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5002)
