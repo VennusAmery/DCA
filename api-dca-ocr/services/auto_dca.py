@@ -6,7 +6,7 @@ from datetime import date
 import json
 
 from services.download_pdf import descargar_pdf_dca
-from services.control_descargas import ya_procesado, marcar_procesado
+from services.control_descargas import marcar_procesado
 from services.transcribir_pdf import transcribir_pdf
 from services.resumen_ejecutivo import generar_resumen_ejecutivo
 print("IMPORTACIÓN COMPLETADA")
@@ -64,14 +64,15 @@ def ejecutar_automatico():
     nombre = ruta_pdf.name
     base = ruta_pdf.stem
 
-    if ya_procesado(nombre):
-        print(f"🔁 El archivo '{nombre}' ya fue procesado. Abortando.")
-        return
-
     db = SessionLocal()
     edicion = None
 
     try:
+        ya_existe = db.query(Edicion).filter_by(nombre_archivo=nombre).first()
+        if ya_existe:
+            print(f"🔁 El archivo '{nombre}' ya está en la base de datos. Abortando.")
+            return
+
         edicion = Edicion(
             nombre_archivo=nombre,
             fecha_publicacion=date.today(),
