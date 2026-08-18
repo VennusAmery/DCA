@@ -44,8 +44,11 @@ export default function EdicionDetalle() {
           📰 PDF Original DCA
         </button>
 
-        <button className="toggle-texto" onClick={() => setVerTextoCrudo(!verTextoCrudo)}>
-          {verTextoCrudo ? 'Ocultar texto crudo' : 'Ver texto crudo transcrito'}
+        <button 
+          className={`toggle-texto ${verTextoCrudo ? 'active' : ''}`} 
+          onClick={() => setVerTextoCrudo(!verTextoCrudo)}
+        >
+          {verTextoCrudo ? '🙈 Ocultar texto crudo' : '📝 Ver texto crudo transcrito'}
         </button>
 
         {pdfActivo === 'reporte' && edicion.tiene_pdf_reporte && (
@@ -62,7 +65,7 @@ export default function EdicionDetalle() {
 
       {pdfActivo === 'reporte' && (
         edicion.tiene_pdf_reporte ? (
-          <div className="pdf-container">
+          <div className="pdf-container" key="reporte">
             <iframe className="pdf-embed" src={urlPdfReporte} title="Reporte PDF" />
           </div>
         ) : (
@@ -72,7 +75,7 @@ export default function EdicionDetalle() {
 
       {pdfActivo === 'dca' && (
         urlPdfDca ? (
-          <div className="pdf-container">
+          <div className="pdf-container" key="dca">
             <iframe className="pdf-embed" src={urlPdfDca} title="PDF Original DCA" />
           </div>
         ) : (

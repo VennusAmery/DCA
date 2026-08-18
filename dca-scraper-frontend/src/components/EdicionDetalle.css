@@ -28,13 +28,72 @@
   margin: 1rem 0 15px;
 }
 
-.tab-btn.active {
-  color: white;
+.tab-btn {
+  display: inline-block;
+  margin: 0;
+  padding: 8px 16px;
+  background: #F5CEDE;
+  color: #C13A5A;
+  border: none;
+  border-radius: 999px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
 }
 
-.descargar-pdf,
-.toggle-texto,
-.tab-btn {
+.tab-btn:hover {
+  background: #FBDDE9;
+  transform: translateY(-1px);
+}
+
+.tab-btn.active {
+  background: #C13A5A;
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(193, 58, 90, 0.3);
+  transform: translateY(-1px);
+}
+
+.tab-btn.active:hover {
+  background: #1E2130;
+  box-shadow: 0 4px 14px rgba(30, 33, 48, 0.25);
+}
+
+.toggle-texto {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  padding: 8px 18px;
+  background: transparent;
+  color: #C13A5A;
+  border: 2px solid #C13A5A;
+  border-radius: 999px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.toggle-texto:hover {
+  background: #C13A5A;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(193, 58, 90, 0.25);
+  transform: translateY(-1px);
+}
+
+.toggle-texto.active {
+  background: #1E2130;
+  border-color: #1E2130;
+  color: #fff;
+}
+
+.toggle-texto.active:hover {
+  background: #C13A5A;
+  border-color: #C13A5A;
+}
+
+.descargar-pdf {
   display: inline-block;
   margin: 0;
   padding: 8px 16px;
@@ -43,12 +102,12 @@
   border-radius: 8px;
   text-decoration: none;
   font-weight: 700;
+  transition: background 0.3s ease, transform 0.2s ease;
 }
 
-.descargar-pdf:hover,
-.toggle-texto:hover,
-.tab-btn:hover{
+.descargar-pdf:hover {
   background: #1E2130;
+  transform: translateY(-1px);
 }
 
 .resumen-viewer {
@@ -56,6 +115,7 @@
   padding: 1.5rem;
   background: #FBDDE9;
   border-radius: 12px;
+  animation: fadeSlideIn 0.35s ease;
 }
 
 .resumen-viewer h2 {
@@ -94,10 +154,25 @@
   color: #1E2130;
 }
 
+.pdf-container {
+  animation: fadeSlideIn 0.35s ease;
+}
+
 .pdf-embed {
   width: 100%;
   height: 800px;
   border: 1px solid #F5CEDE;
   border-radius: 8px;
   margin-top: 1rem;
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
