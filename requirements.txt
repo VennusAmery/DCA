@@ -1,13 +1,13 @@
-python -m pip install pdf2image
-python -m pip install requests
-python -m pip install pillow
-python -m pip install pytesseract
-python -m pip install python-dotenv
-python -m pip install google-generativeai
-python -m pip install reportlab
-
-https://github.com/oschwartz10612/poppler-windows/releases
-https://github.com/UB-Mannheim/tesseract/wiki
-https://github.com/tesseract-ocr/tessdata/raw/main/spa.traineddata
-
 Flask
+flask-cors
+gunicorn
+python-dotenv
+requests
+Pillow
+pdf2image
+pytesseract
+google-generativeai
+reportlab
+SQLAlchemy
+pymysql
+APScheduler
