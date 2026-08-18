@@ -107,7 +107,6 @@ def descargar_pdf_dca(nombre):
     db = SessionLocal()
     try:
         e = buscar_edicion(db, nombre)
-        # Reemplaza 'pdf_bytes' por la columna real de tu modelo Edicion donde guardas el PDF descargado
         pdf_blob = getattr(e, 'pdf_bytes', getattr(e, 'archivo_pdf', None))
 
         if not e or not pdf_blob:
@@ -119,6 +118,24 @@ def descargar_pdf_dca(nombre):
             as_attachment=False,
             download_name=f'{e.nombre_archivo}.pdf',
         )
+    finally:
+        db.close()
+
+@app.route('/api/ediciones', methods=['GET'])
+def listar_ediciones():
+    db = SessionLocal()
+    try:
+        ediciones = db.query(
+            Edicion.nombre_archivo,
+            Edicion.fecha_publicacion,
+            Edicion.estado
+        ).order_by(Edicion.fecha_publicacion.desc()).all()
+
+        return jsonify([{
+            'nombre': e.nombre_archivo,
+            'fecha_publicacion': e.fecha_publicacion.isoformat() if e.fecha_publicacion else None,
+            'estado': e.estado,
+        } for e in ediciones])
     finally:
         db.close()
 
