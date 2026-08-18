@@ -10,7 +10,6 @@ from database import Base
 
 ESTADOS = ("pendiente", "descargado", "transcrito", "resumido", "error")
 
-
 class Edicion(Base):
     __tablename__ = "ediciones"
     __table_args__ = (
@@ -24,6 +23,7 @@ class Edicion(Base):
     estado = Column(Enum(*ESTADOS, name="estado_enum"), default="pendiente", nullable=False)
     pdf_dca = Column(LargeBinary(length=(2**32) - 1), nullable=True)  
     creado_en = Column(DateTime, default=datetime.utcnow)
+    pdf_bytes = Column(LargeBinary)
 
     transcripcion = relationship(
         "Transcripcion", back_populates="edicion",
@@ -46,7 +46,6 @@ class Transcripcion(Base):
     )
     texto = Column(Text(length=4294967295), nullable=False)  # LONGTEXT
     creado_en = Column(DateTime, default=datetime.utcnow)
-
     edicion = relationship("Edicion", back_populates="transcripcion")
 
 

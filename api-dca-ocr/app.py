@@ -24,7 +24,6 @@ scheduler.add_job(
 )
 scheduler.start()
 
-# Helper para buscar la edición tolerando si viene con o sin la extensión '.pdf'
 def buscar_edicion(db, nombre):
     nombre_sin_ext = nombre[:-4] if nombre.endswith('.pdf') else nombre
     nombre_con_ext = f"{nombre_sin_ext}.pdf"

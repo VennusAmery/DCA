@@ -81,6 +81,8 @@ def ejecutar_automatico():
 
         edicion.pdf_dca = ruta_pdf.read_bytes()
         db.commit()
+        edicion.pdf_bytes = ruta_pdf.read_bytes()
+        db.commit()
 
         print("📄 Transcribiendo PDF...")
         texto_extraido, ruta_txt = transcribir_pdf(ruta_pdf)
