@@ -18,10 +18,10 @@ export default function EdicionDetalle() {
       .finally(() => setCargando(false))
   }, [nombre])
 
-  // Oculta el texto crudo cada vez que se cambia de pestaña
-  useEffect(() => {
-    setVerTextoCrudo(false)
-  }, [pdfActivo])
+  const cambiarTab = (tab) => {
+    setPdfActivo(tab)
+    setVerTextoCrudo(false) // se oculta el texto crudo al cambiar de pestaña
+  }
 
   if (cargando) return <p className="dca-loading">Cargando edición...</p>
   if (error) return <p className="dca-error">Error: {error}</p>
@@ -38,13 +38,13 @@ export default function EdicionDetalle() {
       <div className="botones-fila">
         <button 
           className={`accion-btn ${pdfActivo === 'reporte' ? 'active' : ''}`}
-          onClick={() => setPdfActivo('reporte')}
+          onClick={() => cambiarTab('reporte')}
         >
           📄 Reporte Generado
         </button>
         <button 
           className={`accion-btn ${pdfActivo === 'dca' ? 'active' : ''}`}
-          onClick={() => setPdfActivo('dca')}
+          onClick={() => cambiarTab('dca')}
         >
           📰 PDF Original DCA
         </button>
