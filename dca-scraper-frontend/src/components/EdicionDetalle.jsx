@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { getEdicion, getPdfUrl, getPdfDcaUrl } from '../api/dcaApi' // Agrega getPdfDcaUrl si aplica
+import { getEdicion, getPdfUrl } from '../api/dcaApi' 
 import './EdicionDetalle.css'
 
 export default function EdicionDetalle() {
@@ -9,7 +9,7 @@ export default function EdicionDetalle() {
   const [cargando, setCargando] = useState(true)
   const [error, setError] = useState(null)
   const [verTextoCrudo, setVerTextoCrudo] = useState(false)
-  const [pdfActivo, setPdfActivo] = useState('reporte') // 'reporte' | 'dca'
+  const [pdfActivo, setPdfActivo] = useState('reporte')
 
   useEffect(() => {
     getEdicion(nombre)
@@ -22,16 +22,14 @@ export default function EdicionDetalle() {
   if (error) return <p className="dca-error">Error: {error}</p>
   if (!edicion) return null
 
-  // Define las URLs de los PDF según la estructura de tu API
   const urlPdfReporte = getPdfUrl(nombre)
-  const urlPdfDca = edicion.url_pdf_dca || (getPdfDcaUrl ? getPdfDcaUrl(nombre) : null)
+  const urlPdfDca = edicion.url_pdf_dca || edicion.pdf_url
 
   return (
     <div className="edicion-detalle">
       <Link to="/" className="volver">&larr; Volver</Link>
       <h1>{edicion.nombre}</h1>
 
-      {/* Selector de PDFs */}
       <div className="pdf-selector-tabs">
         <button 
           className={`tab-btn ${pdfActivo === 'reporte' ? 'active' : ''}`}
@@ -47,36 +45,26 @@ export default function EdicionDetalle() {
         </button>
       </div>
 
-      {/* Visor de PDF Reporte */}
       {pdfActivo === 'reporte' && (
         edicion.tiene_pdf_reporte ? (
           <div className="pdf-container">
             <a className="descargar-pdf" href={urlPdfReporte} download target="_blank" rel="noreferrer">
               Descargar reporte PDF
             </a>
-            <iframe
-              className="pdf-embed"
-              src={urlPdfReporte}
-              title="Reporte PDF"
-            />
+            <iframe className="pdf-embed" src={urlPdfReporte} title="Reporte PDF" />
           </div>
         ) : (
           <p className="dca-error">Reporte PDF aún no generado para esta edición.</p>
         )
       )}
 
-      {/* Visor de PDF Original DCA */}
       {pdfActivo === 'dca' && (
         urlPdfDca ? (
           <div className="pdf-container">
             <a className="descargar-pdf" href={urlPdfDca} download target="_blank" rel="noreferrer">
               Descargar PDF Original DCA
             </a>
-            <iframe
-              className="pdf-embed"
-              src={urlPdfDca}
-              title="PDF Original DCA"
-            />
+            <iframe className="pdf-embed" src={urlPdfDca} title="PDF Original DCA" />
           </div>
         ) : (
           <p className="dca-error">PDF original del DCA no disponible.</p>
@@ -84,10 +72,7 @@ export default function EdicionDetalle() {
       )}
 
       {edicion.resumen_html && (
-        <div
-          className="resumen-html"
-          dangerouslySetInnerHTML={{ __html: edicion.resumen_html }}
-        />
+        <div className="resumen-html" dangerouslySetInnerHTML={{ __html: edicion.resumen_html }} />
       )}
 
       <button className="toggle-texto" onClick={() => setVerTextoCrudo(!verTextoCrudo)}>
