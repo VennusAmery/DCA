@@ -87,8 +87,11 @@ def ejecutar_automatico():
         db.refresh(edicion)
 
         comprimir_pdf(ruta_pdf)
-        edicion.pdf_bytes = ruta_pdf.read_bytes()
+        datos = ruta_pdf.read_bytes()
+        print(f"Bytes leídos: {len(datos)}")
+        edicion.pdf_bytes = datos
         db.commit()
+        print(f"pdf_bytes después de commit: {edicion.pdf_bytes is not None}")
 
         print("📄 Transcribiendo PDF...")
         texto_extraido, ruta_txt = transcribir_pdf(ruta_pdf)
