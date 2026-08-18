@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { getEdicion, getPdfUrl, getPdfDcaUrl } from '../api/dcaApi'
+import { getEdicion, getPdfUrl } from '../api/dcaApi' 
 import './EdicionDetalle.css'
 
 export default function EdicionDetalle() {
@@ -23,7 +23,7 @@ export default function EdicionDetalle() {
   if (!edicion) return null
 
   const urlPdfReporte = getPdfUrl(nombre)
-  const urlPdfDca = edicion.url_pdf_dca || (getPdfDcaUrl ? getPdfDcaUrl(nombre) : null)
+  const urlPdfDca = edicion.url_pdf_dca || edicion.pdf_url
 
   return (
     <div className="edicion-detalle">
@@ -37,37 +37,20 @@ export default function EdicionDetalle() {
         >
           📄 Reporte Generado
         </button>
-
-        {edicion.tiene_pdf_reporte && (
-          <a 
-            className="descargar-pdf-btn" 
-            href={urlPdfReporte} 
-            download 
-            target="_blank" 
-            rel="noreferrer"
-          >
-            ⬇️ Descargar Reporte
-          </a>
-        )}
-
         <button 
           className={`tab-btn ${pdfActivo === 'dca' ? 'active' : ''}`}
           onClick={() => setPdfActivo('dca')}
         >
           📰 PDF Original DCA
         </button>
-
-        <button 
-          className={`tab-btn toggle-texto ${verTextoCrudo ? 'active' : ''}`} 
-          onClick={() => setVerTextoCrudo(!verTextoCrudo)}
-        >
-          {verTextoCrudo ? '🙈 Ocultar texto crudo' : '📝 Ver texto crudo transcrito'}
-        </button>
       </div>
 
       {pdfActivo === 'reporte' && (
         edicion.tiene_pdf_reporte ? (
           <div className="pdf-container">
+            <a className="descargar-pdf" href={urlPdfReporte} download target="_blank" rel="noreferrer">
+              Descargar reporte PDF
+            </a>
             <iframe className="pdf-embed" src={urlPdfReporte} title="Reporte PDF" />
           </div>
         ) : (
@@ -91,6 +74,10 @@ export default function EdicionDetalle() {
       {edicion.resumen_html && (
         <div className="resumen-html" dangerouslySetInnerHTML={{ __html: edicion.resumen_html }} />
       )}
+
+      <button className="toggle-texto" onClick={() => setVerTextoCrudo(!verTextoCrudo)}>
+        {verTextoCrudo ? 'Ocultar texto crudo' : 'Ver texto crudo transcrito'}
+      </button>
 
       {verTextoCrudo && (
         <div className="resumen-viewer">
