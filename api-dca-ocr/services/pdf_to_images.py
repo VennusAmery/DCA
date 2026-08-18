@@ -1,7 +1,11 @@
+"""
+pdf_to_images.py
+"""
 from pdf2image import convert_from_path
 import os
 
 IMAGE_DIR = 'storage/imagenes'
+
 
 def pdf_a_imagenes(pdf_path):
     os.makedirs(IMAGE_DIR, exist_ok=True)
@@ -15,14 +19,3 @@ def pdf_a_imagenes(pdf_path):
         rutas.append(ruta)
 
     return rutas
-
-
-POPPLER_PATH = r"D:\libreria\Release-26.02.0-0\poppler-26.02.0\Library\bin"
-
-def pdf_a_imagenes(pdf_path):
-    paginas = convert_from_path(
-        pdf_path,
-        dpi=300,
-        poppler_path=POPPLER_PATH
-    )
-    return paginas

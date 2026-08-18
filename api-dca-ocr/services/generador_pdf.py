@@ -25,10 +25,7 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-
-# ══════════════════════════════════════════════════════════════
 # PALETA
-# ══════════════════════════════════════════════════════════════
 class P:
     CRIMSON    = HexColor("#C13A5A")
     ROSE       = HexColor("#C96B7B")
@@ -63,9 +60,7 @@ class P:
     NOT_BG     = HexColor("#FAF5F7")
 
 
-# ══════════════════════════════════════════════════════════════
 # CONSTANTES
-# ══════════════════════════════════════════════════════════════
 STORAGE_DIR = Path("storage/reportes")
 STORAGE_DIR.mkdir(parents=True, exist_ok=True)
 LOGO_PATH   = Path("assets/Lumes-Logo.png")
@@ -79,14 +74,11 @@ _ITALIC_RE  = re.compile(r"\*(.+?)\*")
 _GLOS_RE    = re.compile(r"\*\*(.+?)\*\*\s*[:\-–]\s*(.+?)(?=\n\*\*|\s*\Z)", re.DOTALL)
 
 
-# ══════════════════════════════════════════════════════════════
 # HELPERS MARKDOWN
-# ══════════════════════════════════════════════════════════════
 def _bold(t: str) -> str:
     t = _BOLD_RE.sub(r"<b>\1</b>", t)
     t = _ITALIC_RE.sub(r"<i>\1</i>", t)
     return t
-
 
 def _md2flow(texto: str, st_p, st_b) -> list:
     """Markdown básico → lista de Paragraph."""
@@ -101,10 +93,7 @@ def _md2flow(texto: str, st_p, st_b) -> list:
             out.append(Paragraph(_bold(ln), st_p))
     return out
 
-
-# ══════════════════════════════════════════════════════════════
 # FLOWABLES PERSONALIZADOS
-# ══════════════════════════════════════════════════════════════
 class BandaCrimson(Flowable):
     """Franja crimson de 4pt de altura."""
     def __init__(self, ancho: float):
@@ -159,10 +148,7 @@ class BulletCircle(Flowable):
         c.setLineWidth(1.5)
         c.circle(4, 4, 3, fill=0, stroke=1)
 
-
-# ══════════════════════════════════════════════════════════════
 # ESTILOS
-# ══════════════════════════════════════════════════════════════
 def _estilos() -> dict:
     return {
         # Cabecera
@@ -265,10 +251,7 @@ def _estilos() -> dict:
                         fontSize=7, textColor=P.GRAY_TEXT, alignment=TA_CENTER),
     }
 
-
-# ══════════════════════════════════════════════════════════════
 # SANITIZAR METADATA
-# ══════════════════════════════════════════════════════════════
 def _sanitizar(meta: dict) -> dict:
     hoy = datetime.now().strftime("%d/%m/%Y")
     rel = str(meta.get("relevancia", "media")).lower().strip()
@@ -296,9 +279,7 @@ def generar_nombre_pdf(meta: dict) -> str:
     # Retorna algo como "Publicacion DCA 17 06 2026.pdf"
     return f"{nombre_limpio} {fecha_limpia}.pdf"
 
-# ══════════════════════════════════════════════════════════════
 # COMPONENTES — CABECERA
-# ══════════════════════════════════════════════════════════════
 ALTO_CABECERA = 3.4 * cm   # altura del bloque navy
 LOGO_SZ       = 2.0 * cm   # tamaño real del logo 
 
@@ -413,10 +394,7 @@ def _cabecera(meta: dict, st: dict) -> list:
     """Reserva espacio vertical para la cabecera (que se dibuja en el canvas)."""
     return [Spacer(1, ALTO_CABECERA + 4 + 12)]  
 
-
-# ══════════════════════════════════════════════════════════════
 # METADATOS
-# ══════════════════════════════════════════════════════════════
 def _meta_tabla(meta: dict, st: dict) -> Table:
     """Grid 3×2 con micro-labels gray y valores navy bold."""
     p = P
@@ -788,10 +766,7 @@ def _sumario(txt: str, st: dict) -> list:
         out.append(row)
     return out
 
-
-# ══════════════════════════════════════════════════════════════
 # PARSEO SECCIONES
-# ══════════════════════════════════════════════════════════════
 _SEC_RE = re.compile(r"^##\s+(.+?)\s*\n([\s\S]*?)(?=\n##\s|\Z)", re.MULTILINE)
 
 
@@ -848,10 +823,7 @@ _TEXTOS_ALERTA = {
     "baja":  "Publicación informativa. Se recomienda su lectura para mantenerse actualizado sobre el marco normativo laboral vigente.",
 }
 
-
-# ══════════════════════════════════════════════════════════════
 # FOOTER + CABECERA
-# ══════════════════════════════════════════════════════════════
 def _footer_cb(titulo: str, meta: dict = None, primera: bool = False):
     def on_page(canvas, doc):
         # Cabecera solo en la primera página
@@ -878,9 +850,7 @@ def _footer_cb(titulo: str, meta: dict = None, primera: bool = False):
         canvas.restoreState()
     return on_page
 
-# ══════════════════════════════════════════════════════════════
 # FUNCIÓN PRINCIPAL
-# ══════════════════════════════════════════════════════════════
 def generar_pdf(resumen_md: str, metadata: Optional[dict] = None) -> str:
     if not resumen_md or not resumen_md.strip():
         raise ValueError("resumen_md no puede estar vacío.")
