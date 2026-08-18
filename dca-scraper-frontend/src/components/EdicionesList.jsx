@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import { getEdiciones } from '../api/dcaApi'
 import EstadoBadge from './EstadoBadge'
 import './EdicionesList.css'
-import { Analytics } from "@vercel/analytics/next"
 
 const MESES = [
   { num: '01', nombre: 'Enero' },
