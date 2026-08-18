@@ -28,7 +28,7 @@ export default function EdicionDetalle() {
 
       {edicion.tiene_pdf_reporte ? (
         <>
-          <a className="descargar-pdf" href={getPdfUrl(nombre)} target="_blank" rel="noreferrer">
+          <a className="descargar-pdf" href={getPdfUrl(nombre)} download target="_blank" rel="noreferrer">
             Descargar reporte PDF
           </a>
           <iframe

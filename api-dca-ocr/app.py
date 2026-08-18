@@ -88,7 +88,7 @@ def descargar_pdf(nombre):
         return send_file(
             BytesIO(e.resumen.reporte_pdf),
             mimetype='application/pdf',
-            as_attachment=True,
+            as_attachment=False,
             download_name=e.resumen.reporte_nombre or f'{nombre}.pdf',
         )
     finally:
