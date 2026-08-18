@@ -1,5 +1,5 @@
 """
-python app.py  
+python app.py
 
 """
 import re
@@ -13,6 +13,7 @@ from apscheduler.triggers.cron import CronTrigger
 
 from services.auto_dca import ejecutar_automatico
 from services.control_descargas import cargar_registro
+from utils_fecha import extraer_fecha
 
 app = Flask(__name__)
 CORS(app)
@@ -105,6 +106,7 @@ def listar_ediciones():
         resultado.append({
             'nombre': nombre,
             'estado': estado,
+            'fecha_publicacion': extraer_fecha(nombre),
             'tema': tema,
             'temas_secundarios': temas_secundarios,
         })
@@ -135,6 +137,7 @@ def obtener_edicion(nombre):
 
     return jsonify({
         'nombre': nombre,
+        'fecha_publicacion': extraer_fecha(nombre),
         'texto': texto,
         'resumen_html': resumen_html,
         'tiene_pdf_reporte': tiene_pdf_reporte,

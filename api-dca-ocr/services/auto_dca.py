@@ -2,6 +2,7 @@
 auto_dca.py
 """
 from pathlib import Path
+from datetime import date
 import json
 
 from services.download_pdf import descargar_pdf_dca
@@ -13,6 +14,9 @@ print("IMPORTACIÓN COMPLETADA")
 from services.generador_pdf import generar_pdf
 
 import requests
+
+from database import SessionLocal
+from database.models import Edicion, Transcripcion, Resumen
 
 MAPA_PATH = Path("storage/mapa.json")
 RESUMENES_DIR = Path("storage/resumenes")
@@ -64,14 +68,30 @@ def ejecutar_automatico():
         print(f"🔁 El archivo '{nombre}' ya fue procesado. Abortando.")
         return
 
-    print("📄 Transcribiendo PDF...")
-    texto_extraido, ruta_txt = transcribir_pdf(ruta_pdf)
-    # función de envío
-    # _enviar_a_lumes(texto_extraido, nombre)
-
-    marcar_procesado(nombre)
+    db = SessionLocal()
+    edicion = None
 
     try:
+        edicion = Edicion(
+            nombre_archivo=nombre,
+            fecha_publicacion=date.today(),
+            estado="descargado",
+        )
+        db.add(edicion)
+        db.commit()
+        db.refresh(edicion)
+
+        print("📄 Transcribiendo PDF...")
+        texto_extraido, ruta_txt = transcribir_pdf(ruta_pdf)
+        # función de envío
+        # _enviar_a_lumes(texto_extraido, nombre)
+
+        db.add(Transcripcion(edicion_id=edicion.id, texto=texto_extraido))
+        edicion.estado = "transcrito"
+        db.commit()
+
+        marcar_procesado(nombre)
+
         print("📊 Generando resumen ejecutivo...")
         resumen = generar_resumen_ejecutivo(ruta_txt)
 
@@ -81,15 +101,31 @@ def ejecutar_automatico():
 
         ruta_reporte = generar_pdf(resumen)
         nombre_reporte = Path(ruta_reporte).name
+        pdf_bytes = Path(ruta_reporte).read_bytes()
+
+        db.add(Resumen(
+            edicion_id=edicion.id,
+            contenido_md=resumen,
+            reporte_pdf=pdf_bytes,
+            reporte_nombre=nombre_reporte,
+        ))
+        edicion.estado = "resumido"
+        db.commit()
 
         _guardar_en_mapa(base, nombre_reporte, ruta_resumen.name)
 
         print(f"📄 PDF generado: {ruta_reporte}")
+        print(f"✅ Proceso completo y registrado: {nombre}")
 
     except Exception as e:
-        print(f"Error generando resumen ejecutivo: {e}")
+        db.rollback()
+        if edicion is not None:
+            edicion.estado = "error"
+            db.commit()
+        print(f"Error en el pipeline: {e}")
 
-    print(f"✅ Proceso completo y registrado: {nombre}")
+    finally:
+        db.close()
 
 
 if __name__ == "__main__":

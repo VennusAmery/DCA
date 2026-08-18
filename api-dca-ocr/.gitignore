@@ -1,6 +1,7 @@
 .env
 storage/pdfs/
 storage/reportes/
+storage/resumenes/
 storage/textos/
 *.pdf
 node_modules/

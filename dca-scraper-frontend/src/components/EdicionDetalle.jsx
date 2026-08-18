@@ -26,13 +26,6 @@ export default function EdicionDetalle() {
       <Link to="/" className="volver">&larr; Volver</Link>
       <h1>{edicion.nombre}</h1>
 
-      {edicion.resumen_html && (
-        <div
-          className="resumen-html"
-          dangerouslySetInnerHTML={{ __html: edicion.resumen_html }}
-        />
-      )}
-
       {edicion.tiene_pdf_reporte ? (
         <>
           <a className="descargar-pdf" href={getPdfUrl(nombre)} target="_blank" rel="noreferrer">
@@ -48,9 +41,17 @@ export default function EdicionDetalle() {
         <p className="dca-error">Reporte PDF aún no generado para esta edición.</p>
       )}
 
+      {edicion.resumen_html && (
+        <div
+          className="resumen-html"
+          dangerouslySetInnerHTML={{ __html: edicion.resumen_html }}
+        />
+      )}
+
       <button className="toggle-texto" onClick={() => setVerTextoCrudo(!verTextoCrudo)}>
         {verTextoCrudo ? 'Ocultar texto crudo' : 'Ver texto crudo transcrito'}
       </button>
+
       {verTextoCrudo && (
         <div className="resumen-viewer">
           <pre>{edicion.texto || 'Sin texto disponible'}</pre>
