@@ -37,13 +37,13 @@ export default function EdicionDetalle() {
 
       <div className="botones-fila">
         <button 
-          className={`accion-btn ${pdfActivo === 'reporte' ? 'active' : ''}`}
+          className={`accion-btn ${pdfActivo === 'reporte' && !verTextoCrudo ? 'active' : ''}`}
           onClick={() => cambiarTab('reporte')}
         >
           📄 Reporte Generado
         </button>
         <button 
-          className={`accion-btn ${pdfActivo === 'dca' ? 'active' : ''}`}
+          className={`accion-btn ${pdfActivo === 'dca' && !verTextoCrudo ? 'active' : ''}`}
           onClick={() => cambiarTab('dca')}
         >
           📰 PDF Original DCA
@@ -56,46 +56,48 @@ export default function EdicionDetalle() {
           {verTextoCrudo ? '🙈 Ocultar texto crudo' : '📝 Ver texto crudo transcrito'}
         </button>
 
-        {pdfActivo === 'reporte' && edicion.tiene_pdf_reporte && (
+        {!verTextoCrudo && pdfActivo === 'reporte' && edicion.tiene_pdf_reporte && (
           <a className="accion-btn" href={urlPdfReporte} download target="_blank" rel="noreferrer">
             ⬇️ Descargar reporte PDF
           </a>
         )}
-        {pdfActivo === 'dca' && urlPdfDca && (
+        {!verTextoCrudo && pdfActivo === 'dca' && urlPdfDca && (
           <a className="accion-btn" href={urlPdfDca} download target="_blank" rel="noreferrer">
             ⬇️ Descargar PDF Original DCA
           </a>
         )}
       </div>
 
-      {pdfActivo === 'reporte' && (
-        edicion.tiene_pdf_reporte ? (
-          <div className="pdf-container" key="reporte">
-            <iframe className="pdf-embed" src={urlPdfReporte} title="Reporte PDF" />
-          </div>
-        ) : (
-          <p className="dca-error">Reporte PDF aún no generado para esta edición.</p>
-        )
-      )}
-
-      {pdfActivo === 'dca' && (
-        urlPdfDca ? (
-          <div className="pdf-container" key="dca">
-            <iframe className="pdf-embed" src={urlPdfDca} title="PDF Original DCA" />
-          </div>
-        ) : (
-          <p className="dca-error">PDF original del DCA no disponible.</p>
-        )
-      )}
-
-      {edicion.resumen_html && (
-        <div className="resumen-html" dangerouslySetInnerHTML={{ __html: edicion.resumen_html }} />
-      )}
-
-      {verTextoCrudo && (
-        <div className="resumen-viewer">
+      {verTextoCrudo ? (
+        <div className="resumen-viewer" key="texto-crudo">
           <pre>{edicion.texto || 'Sin texto disponible'}</pre>
         </div>
+      ) : (
+        <>
+          {pdfActivo === 'reporte' && (
+            edicion.tiene_pdf_reporte ? (
+              <div className="pdf-container" key="reporte">
+                <iframe className="pdf-embed" src={urlPdfReporte} title="Reporte PDF" />
+              </div>
+            ) : (
+              <p className="dca-error">Reporte PDF aún no generado para esta edición.</p>
+            )
+          )}
+
+          {pdfActivo === 'dca' && (
+            urlPdfDca ? (
+              <div className="pdf-container" key="dca">
+                <iframe className="pdf-embed" src={urlPdfDca} title="PDF Original DCA" />
+              </div>
+            ) : (
+              <p className="dca-error">PDF original del DCA no disponible.</p>
+            )
+          )}
+
+          {edicion.resumen_html && (
+            <div className="resumen-html" dangerouslySetInnerHTML={{ __html: edicion.resumen_html }} />
+          )}
+        </>
       )}
     </div>
   )
