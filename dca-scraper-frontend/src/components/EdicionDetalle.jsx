@@ -18,6 +18,11 @@ export default function EdicionDetalle() {
       .finally(() => setCargando(false))
   }, [nombre])
 
+  // Oculta el texto crudo cada vez que se cambia de pestaña
+  useEffect(() => {
+    setVerTextoCrudo(false)
+  }, [pdfActivo])
+
   if (cargando) return <p className="dca-loading">Cargando edición...</p>
   if (error) return <p className="dca-error">Error: {error}</p>
   if (!edicion) return null
@@ -32,33 +37,33 @@ export default function EdicionDetalle() {
 
       <div className="botones-fila">
         <button 
-          className={`tab-btn ${pdfActivo === 'reporte' ? 'active' : ''}`}
+          className={`accion-btn ${pdfActivo === 'reporte' ? 'active' : ''}`}
           onClick={() => setPdfActivo('reporte')}
         >
           📄 Reporte Generado
         </button>
         <button 
-          className={`tab-btn ${pdfActivo === 'dca' ? 'active' : ''}`}
+          className={`accion-btn ${pdfActivo === 'dca' ? 'active' : ''}`}
           onClick={() => setPdfActivo('dca')}
         >
           📰 PDF Original DCA
         </button>
 
         <button 
-          className={`toggle-texto ${verTextoCrudo ? 'active' : ''}`} 
+          className={`accion-btn ${verTextoCrudo ? 'active' : ''}`} 
           onClick={() => setVerTextoCrudo(!verTextoCrudo)}
         >
           {verTextoCrudo ? '🙈 Ocultar texto crudo' : '📝 Ver texto crudo transcrito'}
         </button>
 
         {pdfActivo === 'reporte' && edicion.tiene_pdf_reporte && (
-          <a className="descargar-pdf" href={urlPdfReporte} download target="_blank" rel="noreferrer">
-            Descargar reporte PDF
+          <a className="accion-btn" href={urlPdfReporte} download target="_blank" rel="noreferrer">
+            ⬇️ Descargar reporte PDF
           </a>
         )}
         {pdfActivo === 'dca' && urlPdfDca && (
-          <a className="descargar-pdf" href={urlPdfDca} download target="_blank" rel="noreferrer">
-            Descargar PDF Original DCA
+          <a className="accion-btn" href={urlPdfDca} download target="_blank" rel="noreferrer">
+            ⬇️ Descargar PDF Original DCA
           </a>
         )}
       </div>
