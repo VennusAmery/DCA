@@ -47,21 +47,6 @@ def procesar_dca():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
-
-@app.route('/api/ediciones', methods=['GET'])
-def listar_ediciones():
-    db = SessionLocal()
-    try:
-        ediciones = db.query(Edicion).order_by(Edicion.fecha_publicacion.desc()).all()
-        return jsonify([{
-            'nombre': e.nombre_archivo,
-            'fecha_publicacion': e.fecha_publicacion.isoformat() if e.fecha_publicacion else None,
-            'estado': e.estado,
-        } for e in ediciones])
-    finally:
-        db.close()
-
-
 @app.route('/api/ediciones/<path:nombre>', methods=['GET'])
 def obtener_edicion(nombre):
     db = SessionLocal()
