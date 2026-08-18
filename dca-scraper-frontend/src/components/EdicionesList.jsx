@@ -89,7 +89,7 @@ export default function EdicionesList() {
   return (
     <div className="ediciones-list">
       <div className="ediciones-header-fijo">
-        <h1>Diario de Centro América</h1>
+        <h1>DCA Scraper</h1>
 
         <div className="controles-filtro">
           <input
