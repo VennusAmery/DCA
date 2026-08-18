@@ -110,14 +110,14 @@
 
 .tab-btn {
   padding: 8px 16px;
-  background-color: #f5f5f5;
+  background: #C13A5A;
+  color: white;
   cursor: pointer;
   text-decoration: none;
   border-radius: 8px;
 }
 
 .tab-btn.active {
-  background: #C13A5A;
   color: white;
   font-weight: 700;
 }
