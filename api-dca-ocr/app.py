@@ -24,6 +24,16 @@ scheduler.add_job(
 )
 scheduler.start()
 
+# Helper para buscar la edición tolerando si viene con o sin la extensión '.pdf'
+def buscar_edicion(db, nombre):
+    nombre_sin_ext = nombre[:-4] if nombre.endswith('.pdf') else nombre
+    nombre_con_ext = f"{nombre_sin_ext}.pdf"
+    
+    return db.query(Edicion).filter(
+        (Edicion.nombre_archivo == nombre) |
+        (Edicion.nombre_archivo == nombre_sin_ext) |
+        (Edicion.nombre_archivo == nombre_con_ext)
+    ).first()
 
 @app.route('/')
 def home():
@@ -76,7 +86,6 @@ def obtener_edicion(nombre):
     finally:
         db.close()
 
-
 @app.route('/api/ediciones/<path:nombre>/pdf', methods=['GET'])
 def descargar_pdf(nombre):
     db = SessionLocal()
@@ -94,6 +103,25 @@ def descargar_pdf(nombre):
     finally:
         db.close()
 
+@app.route('/api/ediciones/<path:nombre>/pdf-dca', methods=['GET'])
+def descargar_pdf_dca(nombre):
+    db = SessionLocal()
+    try:
+        e = buscar_edicion(db, nombre)
+        # Reemplaza 'pdf_bytes' por la columna real de tu modelo Edicion donde guardas el PDF descargado
+        pdf_blob = getattr(e, 'pdf_bytes', getattr(e, 'archivo_pdf', None))
+
+        if not e or not pdf_blob:
+            return jsonify({'error': 'PDF original del DCA no disponible'}), 404
+
+        return send_file(
+            BytesIO(pdf_blob),
+            mimetype='application/pdf',
+            as_attachment=False,
+            download_name=f'{e.nombre_archivo}.pdf',
+        )
+    finally:
+        db.close()
 
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

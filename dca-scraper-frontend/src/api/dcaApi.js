@@ -9,9 +9,8 @@ const api = axios.create({
 })
 
 export const getEdiciones = () => api.get('/ediciones').then(r => r.data)
-
 export const getEdicion = (nombre) => api.get(`/ediciones/${encodeURIComponent(nombre)}`).then(r => r.data)
-
 export const getPdfUrl = (nombre) => `${BASE_URL}/ediciones/${encodeURIComponent(nombre)}/pdf`
+export const getPdfDcaUrl = (nombre) => `${BASE_URL}/ediciones/${encodeURIComponent(cleanNombre(nombre))}/pdf-original`
 
 export default api
