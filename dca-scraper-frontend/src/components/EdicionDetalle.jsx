@@ -1,6 +1,7 @@
+// edicion-detalle.jsx
 import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { getEdicion, getPdfUrl } from '../api/dcaApi' 
+import { getEdicion, getPdfUrl, getPdfDcaUrl } from '../api/dcaApi'
 import './EdicionDetalle.css'
 
 export default function EdicionDetalle() {
@@ -28,7 +29,7 @@ export default function EdicionDetalle() {
   if (!edicion) return null
 
   const urlPdfReporte = getPdfUrl(nombre)
-  const urlPdfDca = edicion.url_pdf_dca || edicion.pdf_url
+  const urlPdfDca = getPdfDcaUrl(nombre)
 
   return (
     <div className="edicion-detalle">

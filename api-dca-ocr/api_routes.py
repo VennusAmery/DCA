@@ -1,6 +1,6 @@
 # api-dca-ocr/api_routes.py
 
-from flask import Blueprint, jsonify, send_file, abort
+from flask import Blueprint, jsonify, send_file, abort, Response
 from database import SessionLocal
 from models import Edicion, Transcripcion, Resumen
 import os
@@ -62,3 +62,14 @@ def descargar_pdf(edicion_id):
     if not os.path.exists(ruta):
         abort(404)
     return send_file(ruta, mimetype='application/pdf', as_attachment=True)
+
+@api_bp.route('/dca/<nombre>/pdf-original', methods=['GET'])
+def pdf_original(nombre):
+    session = SessionLocal()
+    try:
+        e = session.query(Edicion).filter_by(nombre_archivo=nombre).first()
+        if not e or not e.pdf_dca:
+            abort(404)
+        return Response(e.pdf_dca, mimetype="application/pdf")
+    finally:
+        session.close()

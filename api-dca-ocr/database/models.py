@@ -33,7 +33,6 @@ class Edicion(Base):
         uselist=False, cascade="all, delete-orphan"
     )
 
-
 class Transcripcion(Base):
     __tablename__ = "transcripciones"
     __table_args__ = {"mysql_charset": "utf8mb4", "mysql_collate": "utf8mb4_unicode_ci"}
@@ -65,3 +64,13 @@ class Resumen(Base):
     creado_en = Column(DateTime, default=datetime.utcnow)
 
     edicion = relationship("Edicion", back_populates="resumen")
+
+
+class Edicion(Base):
+    __tablename__ = "ediciones"
+    id = Column(Integer, primary_key=True)
+    nombre_archivo = Column(String(255))
+    fecha_publicacion = Column(Date)
+    estado = Column(String(50))
+    creado_en = Column(DateTime)
+    pdf_dca = Column(LargeBinary)  

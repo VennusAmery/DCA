@@ -21,7 +21,6 @@ from database.models import Edicion, Transcripcion, Resumen
 MAPA_PATH = Path("storage/mapa.json")
 RESUMENES_DIR = Path("storage/resumenes")
 
-
 def _cargar_mapa():
     if not MAPA_PATH.exists():
         return {}
@@ -30,13 +29,11 @@ def _cargar_mapa():
     except json.JSONDecodeError:
         return {}
 
-
 def _guardar_en_mapa(base: str, reporte_nombre: str, resumen_nombre: str):
     mapa = _cargar_mapa()
     mapa[base] = {"reporte": reporte_nombre, "resumen": resumen_nombre}
     MAPA_PATH.parent.mkdir(parents=True, exist_ok=True)
     MAPA_PATH.write_text(json.dumps(mapa, indent=2, ensure_ascii=False), encoding="utf-8")
-
 
 def _enviar_a_lumes(texto: str, nombre_pdf: str):
     """Entrega el texto procesado al pipeline de LUMES."""
@@ -81,6 +78,9 @@ def ejecutar_automatico():
         db.add(edicion)
         db.commit()
         db.refresh(edicion)
+
+        edicion.pdf_dca = ruta_pdf.read_bytes()
+        db.commit()
 
         print("📄 Transcribiendo PDF...")
         texto_extraido, ruta_txt = transcribir_pdf(ruta_pdf)
