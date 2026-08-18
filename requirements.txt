@@ -11,3 +11,4 @@ reportlab
 SQLAlchemy
 pymysql
 APScheduler
+pymupdf

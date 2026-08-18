@@ -64,7 +64,7 @@ export default function EdicionDetalle() {
         )}
         {!verTextoCrudo && pdfActivo === 'dca' && urlPdfDca && (
           <a className="accion-btn" href={urlPdfDca} download target="_blank" rel="noreferrer">
-            ⬇️ Descargar PDF Original DCA
+            ⬇️ Descargar DCA PDF
           </a>
         )}
       </div>
