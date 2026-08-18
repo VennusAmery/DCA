@@ -3,7 +3,7 @@
 from PIL import Image
 import pytesseract
 
-pytesseract.pytesseract.tesseract_cmd = r"D:\libreria\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
 
 def ocr_imagenes(imagenes):
     texto_total = ""
