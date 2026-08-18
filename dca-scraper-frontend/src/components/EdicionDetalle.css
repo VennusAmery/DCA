@@ -117,7 +117,12 @@
 }
 
 .tab-btn.active {
-  background-color: #C13A5A;
+  background: #C13A5A;
   color: white;
-  border-color: #0056b3;
+  border-radius: 8px;
+  margin: 1rem 0;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
 }
