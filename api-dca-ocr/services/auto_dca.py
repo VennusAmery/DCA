@@ -24,9 +24,11 @@ RESUMENES_DIR = Path("storage/resumenes")
 import fitz
 
 def comprimir_pdf(ruta_pdf):
+    ruta_temp = ruta_pdf.with_suffix(".tmp.pdf")
     doc = fitz.open(ruta_pdf)
-    doc.save(ruta_pdf, garbage=4, deflate=True, incremental=False)
+    doc.save(ruta_temp, garbage=4, deflate=True)
     doc.close()
+    ruta_temp.replace(ruta_pdf)
 
 def _cargar_mapa():
     if not MAPA_PATH.exists():
