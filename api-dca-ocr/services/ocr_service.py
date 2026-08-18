@@ -1,6 +1,6 @@
 # -- ocr_service.py --
 
-from PIL.Image import Image
+from PIL import Image
 import pytesseract
 
 pytesseract.pytesseract.tesseract_cmd = r"D:\libreria\tesseract.exe"
