@@ -34,11 +34,9 @@
   padding: 8px 16px;
   background: #C13A5A;
   color: #fff;
-  border: none;
   border-radius: 8px;
-  font-family: 'DM Sans', sans-serif;
+  text-decoration: none;
   font-weight: 700;
-  cursor: pointer;
 }
 
 .tab-btn.active {
@@ -65,15 +63,14 @@
 }
 
 .toggle-texto {
+  display: inline-block;
   margin: 0;
   padding: 8px 16px;
-  background: #1E2130;
+  background: #C13A5A;
   color: #fff;
-  border: none;
   border-radius: 8px;
-  font-family: 'DM Sans', sans-serif;
+  text-decoration: none;
   font-weight: 700;
-  cursor: pointer;
 }
 
 .toggle-texto:hover {
