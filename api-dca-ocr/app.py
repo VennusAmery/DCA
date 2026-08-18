@@ -16,7 +16,7 @@ from services.control_descargas import cargar_registro
 from utils_fecha import extraer_fecha
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=["https://dca-three.vercel.app"])
 
 TXT_DIR = Path("storage/textos")
 REPORTES_DIR = Path("storage/reportes")

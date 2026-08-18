@@ -2,7 +2,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://dca-kmda.onrender.com/api',
   timeout: 15000,
 })
 
