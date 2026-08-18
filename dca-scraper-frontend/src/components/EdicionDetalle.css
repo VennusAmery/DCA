@@ -109,12 +109,14 @@
 }
 
 .tab-btn {
+  display: inline-block;
+  margin: 1rem 0;
   padding: 8px 16px;
   background: #C13A5A;
-  color: white;
-  cursor: pointer;
-  text-decoration: none;
+  color: #fff;
   border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 .tab-btn.active {
