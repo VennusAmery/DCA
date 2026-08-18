@@ -53,7 +53,7 @@ export default function EdicionDetalle() {
           className={`accion-btn ${verTextoCrudo ? 'active' : ''}`} 
           onClick={() => setVerTextoCrudo(!verTextoCrudo)}
         >
-          {verTextoCrudo ? '🙈 Ocultar texto crudo' : '📝 Ver texto crudo transcrito'}
+          📝 Ver texto crudo transcrito
         </button>
 
         {!verTextoCrudo && pdfActivo === 'reporte' && edicion.tiene_pdf_reporte && (
