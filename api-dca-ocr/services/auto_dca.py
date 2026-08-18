@@ -21,6 +21,13 @@ from database.models import Edicion, Transcripcion, Resumen
 MAPA_PATH = Path("storage/mapa.json")
 RESUMENES_DIR = Path("storage/resumenes")
 
+import fitz
+
+def comprimir_pdf(ruta_pdf):
+    doc = fitz.open(ruta_pdf)
+    doc.save(ruta_pdf, garbage=4, deflate=True, incremental=False)
+    doc.close()
+
 def _cargar_mapa():
     if not MAPA_PATH.exists():
         return {}
@@ -79,8 +86,7 @@ def ejecutar_automatico():
         db.commit()
         db.refresh(edicion)
 
-        edicion.pdf_dca = ruta_pdf.read_bytes()
-        db.commit()
+        comprimir_pdf(ruta_pdf)
         edicion.pdf_bytes = ruta_pdf.read_bytes()
         db.commit()
 
