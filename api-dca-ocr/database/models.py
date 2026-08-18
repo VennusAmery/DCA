@@ -22,6 +22,7 @@ class Edicion(Base):
     nombre_archivo = Column(String(255), nullable=False)
     fecha_publicacion = Column(Date, nullable=False)
     estado = Column(Enum(*ESTADOS, name="estado_enum"), default="pendiente", nullable=False)
+    pdf_dca = Column(LargeBinary(length=(2**32) - 1), nullable=True)  
     creado_en = Column(DateTime, default=datetime.utcnow)
 
     transcripcion = relationship(
@@ -32,6 +33,7 @@ class Edicion(Base):
         "Resumen", back_populates="edicion",
         uselist=False, cascade="all, delete-orphan"
     )
+
 
 class Transcripcion(Base):
     __tablename__ = "transcripciones"
@@ -64,13 +66,3 @@ class Resumen(Base):
     creado_en = Column(DateTime, default=datetime.utcnow)
 
     edicion = relationship("Edicion", back_populates="resumen")
-
-
-class Edicion(Base):
-    __tablename__ = "ediciones"
-    id = Column(Integer, primary_key=True)
-    nombre_archivo = Column(String(255))
-    fecha_publicacion = Column(Date)
-    estado = Column(String(50))
-    creado_en = Column(DateTime)
-    pdf_dca = Column(LargeBinary)  
