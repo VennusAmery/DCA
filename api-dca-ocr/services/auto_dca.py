@@ -1,9 +1,13 @@
 """
 auto_dca.py
 """
+import os
 from pathlib import Path
 from datetime import date
 import json
+
+from dotenv import load_dotenv
+load_dotenv()
 
 from services.download_pdf import descargar_pdf_dca
 from services.control_descargas import marcar_procesado
@@ -17,6 +21,15 @@ import requests
 
 from database import SessionLocal
 from database.models import Edicion, Transcripcion, Resumen
+
+import cloudinary
+import cloudinary.uploader
+
+cloudinary.config(
+    cloud_name=os.getenv("CLOUDINARY_CLOUD_NAME"),
+    api_key=os.getenv("CLOUDINARY_API_KEY"),
+    api_secret=os.getenv("CLOUDINARY_API_SECRET"),
+)
 
 MAPA_PATH = Path("storage/mapa.json")
 RESUMENES_DIR = Path("storage/resumenes")
@@ -43,23 +56,6 @@ def _guardar_en_mapa(base: str, reporte_nombre: str, resumen_nombre: str):
     mapa[base] = {"reporte": reporte_nombre, "resumen": resumen_nombre}
     MAPA_PATH.parent.mkdir(parents=True, exist_ok=True)
     MAPA_PATH.write_text(json.dumps(mapa, indent=2, ensure_ascii=False), encoding="utf-8")
-
-def _enviar_a_lumes(texto: str, nombre_pdf: str):
-    """Entrega el texto procesado al pipeline de LUMES."""
-    try:
-        res = requests.post(
-            "http://localhost:3000/api/dca/procesar",
-            json={
-                "texto":      texto,
-                "nombre_pdf": nombre_pdf,
-                "fuente":     "DCA"
-            },
-            timeout=30
-        )
-        print(f"[LUMES] Texto enviado → {res.status_code}")
-    except Exception as e:
-        print(f"[LUMES] Error al enviar: {e}")
-
 
 def ejecutar_automatico():
     ruta_pdf = descargar_pdf_dca()
@@ -89,16 +85,20 @@ def ejecutar_automatico():
         db.refresh(edicion)
 
         comprimir_pdf(ruta_pdf)
-        datos = ruta_pdf.read_bytes()
-        print(f"Bytes leídos: {len(datos)}")
-        edicion.pdf_bytes = datos
+
+        print("☁️ Subiendo PDF a Cloudinary...")
+        resultado = cloudinary.uploader.upload(
+            str(ruta_pdf),
+            resource_type="raw",
+            public_id=f"dca/{base}",
+            overwrite=True
+        )
+        edicion.url_pdf_dca = resultado['secure_url']
         db.commit()
-        print(f"pdf_bytes después de commit: {edicion.pdf_bytes is not None}")
+        print(f"✅ PDF subido: {edicion.url_pdf_dca}")
 
         print("📄 Transcribiendo PDF...")
         texto_extraido, ruta_txt = transcribir_pdf(ruta_pdf)
-        # función de envío
-        # _enviar_a_lumes(texto_extraido, nombre)
 
         db.add(Transcripcion(edicion_id=edicion.id, texto=texto_extraido))
         edicion.estado = "transcrito"

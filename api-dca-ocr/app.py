@@ -5,6 +5,7 @@ from io import BytesIO
 
 from flask import Flask, jsonify, send_file, abort
 from flask_cors import CORS
+from flask import redirect
 from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.triggers.cron import CronTrigger
 
@@ -92,17 +93,9 @@ def descargar_pdf_dca(nombre):
     db = SessionLocal()
     try:
         e = buscar_edicion(db, nombre)
-        pdf_blob = getattr(e, 'pdf_bytes', getattr(e, 'archivo_pdf', None))
-
-        if not e or not pdf_blob:
+        if not e or not e.url_pdf_dca:
             return jsonify({'error': 'PDF original del DCA no disponible'}), 404
-
-        return send_file(
-            BytesIO(pdf_blob),
-            mimetype='application/pdf',
-            as_attachment=False,
-            download_name=f'{e.nombre_archivo}.pdf',
-        )
+        return redirect(e.url_pdf_dca)
     finally:
         db.close()
 

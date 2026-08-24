@@ -12,3 +12,4 @@ SQLAlchemy
 pymysql
 APScheduler
 pymupdf
+cloudinary

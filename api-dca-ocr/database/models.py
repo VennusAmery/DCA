@@ -24,6 +24,7 @@ class Edicion(Base):
     pdf_dca = Column(LargeBinary(length=(2**32) - 1), nullable=True)  
     creado_en = Column(DateTime, default=datetime.utcnow)
     pdf_bytes = Column(LargeBinary)
+    url_pdf_dca = Column(String(500), nullable=True)
 
     transcripcion = relationship(
         "Transcripcion", back_populates="edicion",
@@ -44,7 +45,7 @@ class Transcripcion(Base):
         Integer, ForeignKey("ediciones.id", ondelete="CASCADE"),
         nullable=False, unique=True
     )
-    texto = Column(Text(length=4294967295), nullable=False)  # LONGTEXT
+    texto = Column(Text(length=4294967295), nullable=False)  
     creado_en = Column(DateTime, default=datetime.utcnow)
     edicion = relationship("Edicion", back_populates="transcripcion")
 

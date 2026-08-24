@@ -22,3 +22,5 @@ El **DCA (Diario de Centroamérica)** es el diario oficial de Guatemala, y publi
    - Ver el reporte/resumen generado.
    - Consultar el texto crudo transcrito.
    - Descargar cualquiera de los PDFs.
+
+pip install -r requirements.txt
