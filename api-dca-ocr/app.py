@@ -13,8 +13,16 @@ from services.auto_dca import ejecutar_automatico
 from database import SessionLocal
 from database.models import Edicion, Resumen
 
+from b2sdk.v2 import InMemoryAccountInfo, B2Api
+import os
+
 app = Flask(__name__)
 CORS(app, origins=["https://dca-three.vercel.app"])
+
+info = InMemoryAccountInfo()
+b2_api = B2Api(info)
+b2_api.authorize_account("production", os.getenv("B2_KEY_ID"), os.getenv("B2_APP_KEY"))
+bucket = b2_api.get_bucket_by_name(os.getenv("B2_BUCKET_NAME"))
 
 scheduler = BackgroundScheduler(timezone="America/Guatemala")
 scheduler.add_job(
@@ -72,20 +80,22 @@ def obtener_edicion(nombre):
     finally:
         db.close()
 
-@app.route('/api/ediciones/<path:nombre>/pdf', methods=['GET'])
-def descargar_pdf(nombre):
+@app.route('/api/ediciones/<path:nombre>/pdf-dca', methods=['GET'])
+def descargar_pdf_dca(nombre):
     db = SessionLocal()
     try:
-        e = db.query(Edicion).filter_by(nombre_archivo=nombre).first()
-        if not e or not e.resumen or not e.resumen.reporte_pdf:
-            return jsonify({'error': 'Reporte no generado aún'}), 404
+        e = buscar_edicion(db, nombre)
+        if not e or not e.url_pdf_dca:
+            return jsonify({'error': 'PDF original del DCA no disponible'}), 404
 
-        return send_file(
-            BytesIO(e.resumen.reporte_pdf),
-            mimetype='application/pdf',
-            as_attachment=False,
-            download_name=e.resumen.reporte_nombre or f'{nombre}.pdf',
+        nombre_archivo_b2 = f"dca/{e.nombre_archivo}"
+        auth_token = bucket.get_download_authorization(
+            file_name_prefix=nombre_archivo_b2,
+            valid_duration_in_seconds=3600
         )
+        url_firmada = f"{bucket.get_download_url(nombre_archivo_b2)}?Authorization={auth_token}"
+
+        return redirect(url_firmada)
     finally:
         db.close()
 
