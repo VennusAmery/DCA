@@ -12,4 +12,4 @@ SQLAlchemy
 pymysql
 APScheduler
 pymupdf
-cloudinary
+b2sdk
