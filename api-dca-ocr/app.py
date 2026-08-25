@@ -27,7 +27,7 @@ bucket = b2_api.get_bucket_by_name(os.getenv("B2_BUCKET_NAME"))
 scheduler = BackgroundScheduler(timezone="America/Guatemala")
 scheduler.add_job(
     ejecutar_automatico,
-    trigger=CronTrigger(hour=10, minute=0, timezone="America/Guatemala"),
+    trigger=CronTrigger(day_of_week="mon-fri", hour=10, minute=0, timezone="America/Guatemala"),
     id="dca_diario",
     replace_existing=True,
 )
