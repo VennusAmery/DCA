@@ -76,8 +76,11 @@ Documento original del DCA a analizar:
         prompt,
         generation_config={
             "temperature": 0.2, 
-            "max_output_tokens": 8192 
+            "max_output_tokens": 32768
         }
     )
+
+    if response.candidates[0].finish_reason.name == "MAX_TOKENS":
+        print("⚠️ Respuesta truncada por límite de tokens")
 
     return response.text
