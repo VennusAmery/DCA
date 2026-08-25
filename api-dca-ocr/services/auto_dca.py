@@ -1,6 +1,3 @@
-"""
-auto_dca.py
-"""
 import os
 from pathlib import Path
 from datetime import date
@@ -22,26 +19,15 @@ import requests
 from database import SessionLocal
 from database.models import Edicion, Transcripcion, Resumen
 
-import cloudinary
-import cloudinary.uploader
+from b2sdk.v2 import InMemoryAccountInfo, B2Api
 
-cloudinary.config(
-    cloud_name=os.getenv("CLOUDINARY_CLOUD_NAME"),
-    api_key=os.getenv("CLOUDINARY_API_KEY"),
-    api_secret=os.getenv("CLOUDINARY_API_SECRET"),
-)
+info = InMemoryAccountInfo()
+b2_api = B2Api(info)
+b2_api.authorize_account("production", os.getenv("B2_KEY_ID"), os.getenv("B2_APP_KEY"))
+bucket = b2_api.get_bucket_by_name(os.getenv("B2_BUCKET_NAME"))
 
 MAPA_PATH = Path("storage/mapa.json")
 RESUMENES_DIR = Path("storage/resumenes")
-
-import fitz
-
-def comprimir_pdf(ruta_pdf):
-    ruta_temp = ruta_pdf.with_suffix(".tmp.pdf")
-    doc = fitz.open(ruta_pdf)
-    doc.save(ruta_temp, garbage=4, deflate=True)
-    doc.close()
-    ruta_temp.replace(ruta_pdf)
 
 def _cargar_mapa():
     if not MAPA_PATH.exists():
@@ -84,18 +70,18 @@ def ejecutar_automatico():
         db.commit()
         db.refresh(edicion)
 
-        comprimir_pdf(ruta_pdf)
+        print("☁️ Subiendo PDF a Backblaze...")
+        pdf_bytes_original = ruta_pdf.read_bytes()
 
-        print("☁️ Subiendo PDF a Cloudinary...")
-        resultado = cloudinary.uploader.upload(
-            str(ruta_pdf),
-            resource_type="raw",
-            public_id=f"dca/{base}",
-            overwrite=True
+        archivo_subido = bucket.upload_bytes(
+            pdf_bytes_original,
+            f"dca/{nombre}"
         )
-        edicion.url_pdf_dca = resultado['secure_url']
+        download_url = b2_api.get_download_url_for_fileid(archivo_subido.id_)
+
+        edicion.url_pdf_dca = download_url
         db.commit()
-        print(f"✅ PDF subido: {edicion.url_pdf_dca}")
+        print(f"✅ PDF subido: {download_url}")
 
         print("📄 Transcribiendo PDF...")
         texto_extraido, ruta_txt = transcribir_pdf(ruta_pdf)

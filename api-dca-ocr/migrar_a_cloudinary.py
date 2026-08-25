@@ -1,18 +1,18 @@
-# migrar_a_cloudinary.py
+# migrar_a_b2.py
 import os
 from dotenv import load_dotenv
 load_dotenv()
 
-import cloudinary
-import cloudinary.uploader
+from b2sdk.v2 import InMemoryAccountInfo, B2Api
 from database import SessionLocal
 from database.models import Edicion
 
-cloudinary.config(
-    cloud_name=os.getenv("CLOUDINARY_CLOUD_NAME"),
-    api_key=os.getenv("CLOUDINARY_API_KEY"),
-    api_secret=os.getenv("CLOUDINARY_API_SECRET"),
-)
+info = InMemoryAccountInfo()
+b2_api = B2Api(info)
+b2_api.authorize_account("production", os.getenv("B2_KEY_ID"), os.getenv("B2_APP_KEY"))
+
+bucket_name = os.getenv("B2_BUCKET_NAME")
+bucket = b2_api.get_bucket_by_name(bucket_name)
 
 ediciones = SessionLocal().query(Edicion).filter(Edicion.pdf_bytes.isnot(None)).all()
 
@@ -25,17 +25,19 @@ for e in ediciones:
 
         print(f"Subiendo: {edicion.nombre_archivo}")
 
-        resultado = cloudinary.uploader.upload(
+        nombre_archivo_b2 = f"dca/{edicion.nombre_archivo}"
+
+        archivo_subido = bucket.upload_bytes(
             edicion.pdf_bytes,
-            resource_type="raw",
-            public_id=f"dca/{edicion.nombre_archivo.replace('.pdf','')}",
-            overwrite=True
+            nombre_archivo_b2
         )
 
-        edicion.url_pdf_dca = resultado['secure_url']
+        download_url = b2_api.get_download_url_for_fileid(archivo_subido.id_)
+
+        edicion.url_pdf_dca = download_url
         edicion.pdf_bytes = None
         db.commit()
-        print(f"OK: {resultado['secure_url']}")
+        print(f"OK: {download_url}")
 
     except Exception as ex:
         db.rollback()
