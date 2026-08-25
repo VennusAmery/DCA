@@ -16,6 +16,8 @@ from database.models import Edicion, Resumen
 from b2sdk.v2 import InMemoryAccountInfo, B2Api
 import os
 
+from datetime import datetime, timedelta
+
 app = Flask(__name__)
 CORS(app, origins=["https://dca-three.vercel.app"])
 
@@ -32,6 +34,23 @@ scheduler.add_job(
     replace_existing=True,
 )
 scheduler.start()
+
+
+_cache_tokens = {}
+def obtener_url_firmada(nombre_archivo_b2):
+    ahora = datetime.now()
+    if nombre_archivo_b2 in _cache_tokens:
+        url_cache, expira = _cache_tokens[nombre_archivo_b2]
+        if ahora < expira:
+            return url_cache
+
+    auth_token = bucket.get_download_authorization(
+        file_name_prefix=nombre_archivo_b2,
+        valid_duration_in_seconds=3600
+    )
+    url_firmada = f"{bucket.get_download_url(nombre_archivo_b2)}?Authorization={auth_token}"
+    _cache_tokens[nombre_archivo_b2] = (url_firmada, ahora + timedelta(minutes=50))
+    return url_firmada
 
 def buscar_edicion(db, nombre):
     nombre_sin_ext = nombre[:-4] if nombre.endswith('.pdf') else nombre
@@ -89,11 +108,7 @@ def descargar_pdf_dca(nombre):
             return jsonify({'error': 'PDF original del DCA no disponible'}), 404
 
         nombre_archivo_b2 = f"dca/{e.nombre_archivo}"
-        auth_token = bucket.get_download_authorization(
-            file_name_prefix=nombre_archivo_b2,
-            valid_duration_in_seconds=3600
-        )
-        url_firmada = f"{bucket.get_download_url(nombre_archivo_b2)}?Authorization={auth_token}"
+        url_firmada = obtener_url_firmada(nombre_archivo_b2)
 
         return redirect(url_firmada)
     finally:
