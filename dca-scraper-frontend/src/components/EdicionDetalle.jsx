@@ -28,8 +28,8 @@ export default function EdicionDetalle() {
   if (error) return <p className="dca-error">Error: {error}</p>
   if (!edicion) return null
 
+  const urlPdfDca = edicion.url_pdf_dca ? `${BASE_URL_SCRAPER}/ediciones/${encodeURIComponent(nombre)}/pdf-dca` : null
   const urlPdfReporte = getPdfUrl(nombre)
-  const urlPdfDca = edicion.url_pdf_dca
 
   return (
     <div className="edicion-detalle">
