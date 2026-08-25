@@ -1,8 +1,8 @@
 // edicion-detalle.jsx
 import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { getEdicion, getPdfUrl } from '../api/dcaApi'
 import './EdicionDetalle.css'
+import { getEdicion, getPdfUrl, getPdfDcaUrl } from '../api/dcaApi'
 
 export default function EdicionDetalle() {
   const { nombre } = useParams()
