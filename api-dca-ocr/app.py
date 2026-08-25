@@ -67,6 +67,7 @@ def obtener_edicion(nombre):
             'texto': texto,
             'resumen_html': resumen_html,
             'tiene_pdf_reporte': tiene_pdf_reporte,
+            'url_pdf_dca': e.url_pdf_dca,
         })
     finally:
         db.close()

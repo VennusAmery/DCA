@@ -1,7 +1,7 @@
 // edicion-detalle.jsx
 import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { getEdicion, getPdfUrl, getPdfDcaUrl } from '../api/dcaApi'
+import { getEdicion, getPdfUrl } from '../api/dcaApi'
 import './EdicionDetalle.css'
 
 export default function EdicionDetalle() {
@@ -21,7 +21,7 @@ export default function EdicionDetalle() {
 
   const cambiarTab = (tab) => {
     setPdfActivo(tab)
-    setVerTextoCrudo(false) // se oculta el texto crudo al cambiar de pestaña
+    setVerTextoCrudo(false)
   }
 
   if (cargando) return <p className="dca-loading">Cargando edición...</p>
@@ -29,7 +29,7 @@ export default function EdicionDetalle() {
   if (!edicion) return null
 
   const urlPdfReporte = getPdfUrl(nombre)
-  const urlPdfDca = getPdfDcaUrl(nombre)
+  const urlPdfDca = edicion.url_pdf_dca
 
   return (
     <div className="edicion-detalle">
