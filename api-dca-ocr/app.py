@@ -99,6 +99,23 @@ def descargar_pdf_dca(nombre):
     finally:
         db.close()
 
+@app.route('/api/ediciones/<path:nombre>/pdf', methods=['GET'])
+def descargar_pdf_reporte(nombre):
+    db = SessionLocal()
+    try:
+        e = buscar_edicion(db, nombre)
+        if not e or not e.resumen or not e.resumen.reporte_pdf:
+            return jsonify({'error': 'Reporte PDF no encontrado'}), 404
+
+        return send_file(
+            BytesIO(e.resumen.reporte_pdf),
+            mimetype='application/pdf',
+            as_attachment=False,
+            download_name=f"reporte_{e.nombre_archivo}"
+        )
+    finally:
+        db.close()
+
 @app.route('/api/ediciones', methods=['GET'])
 def listar_ediciones():
     db = SessionLocal()
