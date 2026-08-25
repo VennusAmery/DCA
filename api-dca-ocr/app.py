@@ -99,17 +99,6 @@ def descargar_pdf_dca(nombre):
     finally:
         db.close()
 
-@app.route('/api/ediciones/<path:nombre>/pdf-dca', methods=['GET'])
-def descargar_pdf_dca(nombre):
-    db = SessionLocal()
-    try:
-        e = buscar_edicion(db, nombre)
-        if not e or not e.url_pdf_dca:
-            return jsonify({'error': 'PDF original del DCA no disponible'}), 404
-        return redirect(e.url_pdf_dca)
-    finally:
-        db.close()
-
 @app.route('/api/ediciones', methods=['GET'])
 def listar_ediciones():
     db = SessionLocal()
