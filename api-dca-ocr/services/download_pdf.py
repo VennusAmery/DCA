@@ -3,7 +3,10 @@ import requests
 import os
 from datetime import datetime
 from pathlib import Path
+import pytz
 
+zona_gt = pytz.timezone("America/Guatemala")
+hoy = datetime.now(zona_gt)
 def descargar_pdf_dca():
     PDF_URL = "https://legal.dca.gob.gt/Content/PDF/DocumentoDelDiaPdf.pdf"
     OUTPUT_DIR = "storage/pdfs"
@@ -14,7 +17,9 @@ def descargar_pdf_dca():
         "enero", "febrero", "marzo", "abril", "mayo", "junio",
         "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
     ]
-    hoy = datetime.now()
+
+    zona_gt = pytz.timezone("America/Guatemala")
+    hoy = datetime.now(zona_gt)
     dia = hoy.day
     mes = MESES_ES[hoy.month - 1]
     anio = hoy.year
