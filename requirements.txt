@@ -15,3 +15,4 @@ pymupdf
 b2sdk
 pytz
 opencv-python
+opencv-python-headless
