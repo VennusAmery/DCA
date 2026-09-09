@@ -19,7 +19,7 @@ def generar_resumen_ejecutivo(ruta_txt):
     )
 
     model = genai.GenerativeModel(
-        "models/gemini-2.5-flash"
+        "models/gemini-3.6-flash"
     )
 
 

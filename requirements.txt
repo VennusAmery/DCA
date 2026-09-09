@@ -14,3 +14,4 @@ APScheduler
 pymupdf
 b2sdk
 pytz
+opencv-python
