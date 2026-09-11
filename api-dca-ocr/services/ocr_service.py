@@ -1,9 +1,9 @@
-# -- ocr_service.py --
+import os
 import cv2
 import pytesseract
 
-pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
-
+TESSERACT_CMD = os.getenv("TESSERACT_CMD", "/usr/bin/tesseract")
+pytesseract.pytesseract.tesseract_cmd = TESSERACT_CMD
 
 def _preprocesar(ruta_imagen):
     """

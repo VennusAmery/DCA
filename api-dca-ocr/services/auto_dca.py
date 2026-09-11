@@ -5,7 +5,7 @@ import json
 
 from dotenv import load_dotenv
 load_dotenv()
-
+from datetime import date, datetime
 from services.download_pdf import descargar_pdf_dca
 from services.control_descargas import marcar_procesado
 from services.transcribir_pdf import transcribir_pdf
@@ -44,6 +44,11 @@ def _guardar_en_mapa(base: str, reporte_nombre: str, resumen_nombre: str):
     MAPA_PATH.write_text(json.dumps(mapa, indent=2, ensure_ascii=False), encoding="utf-8")
 
 def ejecutar_automatico():
+    hoy = datetime.now()
+    if hoy.weekday() >= 5:  
+        print(f"📅 Hoy es {hoy.strftime('%A')} ({hoy.strftime('%d/%m/%Y')}). El script solo se ejecuta de lunes a viernes.")
+        return
+
     ruta_pdf = descargar_pdf_dca()
 
     if not ruta_pdf:
