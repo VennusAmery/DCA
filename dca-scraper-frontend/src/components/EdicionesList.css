@@ -110,6 +110,21 @@
   padding: 2rem;
 }
 
+.dca-loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  width: 100%;
+}
+
+.dca-loading-gif {
+  max-width: 120px; /* Ajusta el tamaño deseado */
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+S
 .dca-error { color: #C13A5A; }
 
 /* --- AJUSTES RESPONSIVOS--- */

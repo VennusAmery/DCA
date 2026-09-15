@@ -83,7 +83,15 @@ export default function EdicionesList() {
       })
   }, [ediciones, busqueda, anioFiltro, mesFiltro, orden])
 
-  if (cargando) return <p className="dca-loading">Cargando ediciones...</p>
+  if (cargando) {
+    return (
+      <div className="dca-loading-container">
+        {/* Referencia directa a la carpeta public */}
+        <img src="/cargando.gif" alt="Cargando..." className="dca-loading-gif" />
+      </div>
+    )
+  }
+
   if (error) return <p className="dca-error">Error: {error}</p>
 
   return (
@@ -137,28 +145,31 @@ export default function EdicionesList() {
         </div>
       </div>
 
-      <table>
-        <thead>
-          <tr>
-            <th>Nombre</th>
-            <th>Fecha</th>
-            <th>Estado</th>
-            <th></th>
-          </tr>
-        </thead>
-        <tbody>
-          {edicionesProcesadas.map((e) => (
-            <tr key={e.nombre}>
-              <td>{e.nombre}</td>
-              <td>{formatearFecha(e.fecha_publicacion)}</td>
-              <td><EstadoBadge estado={e.estado} /></td>
-              <td>
-                <Link to={`/ediciones/${encodeURIComponent(e.nombre)}`}>Ver detalle</Link>
-              </td>
+      {/* Contenedor wrapper para el scroll responsive */}
+      <div className="tabla-contenedor">
+        <table>
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Fecha</th>
+              <th>Estado</th>
+              <th></th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {edicionesProcesadas.map((e) => (
+              <tr key={e.nombre}>
+                <td>{e.nombre}</td>
+                <td>{formatearFecha(e.fecha_publicacion)}</td>
+                <td><EstadoBadge estado={e.estado} /></td>
+                <td>
+                  <Link to={`/ediciones/${encodeURIComponent(e.nombre)}`}>Ver</Link>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
 
       {edicionesProcesadas.length === 0 && (
         <p className="dca-loading">No hay resultados que coincidan con los filtros.</p>

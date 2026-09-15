@@ -24,7 +24,13 @@ export default function EdicionDetalle() {
     setVerTextoCrudo(false)
   }
 
-  if (cargando) return <p className="dca-loading">Cargando edición...</p>
+if (cargando) {
+    return (
+      <div className="dca-loading-container">
+        <img src="/cargando.gif" alt="Cargando..." className="dca-loading-gif" />
+      </div>
+    )
+  }  
   if (error) return <p className="dca-error">Error: {error}</p>
   if (!edicion) return null
 
