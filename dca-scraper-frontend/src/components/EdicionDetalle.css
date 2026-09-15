@@ -1,3 +1,17 @@
+.dca-loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  width: 100%;
+}
+
+.dca-loading-gif {
+  width: 100px; 
+  height: auto;
+  object-fit: contain;
+}
+
 .edicion-detalle {
   font-family: 'DM Sans', sans-serif;
   padding: 1rem 0;
@@ -160,3 +174,4 @@
     min-height: 400px;
   }
 }
+

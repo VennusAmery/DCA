@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import './EdicionDetalle.css'
 import { getEdicion, getPdfUrl, getPdfDcaUrl } from '../api/dcaApi'
+import loaderGif from '../assets/cargando.gif'
 
 export default function EdicionDetalle() {
   const { nombre } = useParams()
@@ -27,10 +28,10 @@ export default function EdicionDetalle() {
 if (cargando) {
     return (
       <div className="dca-loading-container">
-        <img src="/cargando.gif" alt="Cargando..." className="dca-loading-gif" />
+        <img src={loaderGif} alt="Cargando..." className="dca-loading-gif" />
       </div>
     )
-  }  
+  }
   if (error) return <p className="dca-error">Error: {error}</p>
   if (!edicion) return null
 

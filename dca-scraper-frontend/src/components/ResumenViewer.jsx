@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { getResumen } from '../api/dcaApi'
 import './ResumenViewer.css'
+import loaderGif from '../assets/cargando.gif'
 
 export default function ResumenViewer({ edicionId }) {
   const [resumen, setResumen] = useState(null)
@@ -14,7 +15,13 @@ export default function ResumenViewer({ edicionId }) {
       .finally(() => setCargando(false))
   }, [edicionId])
 
-  if (cargando) return <p className="dca-loading">Cargando resumen...</p>
+  if (cargando) {
+    return (
+      <div className="dca-loading-container">
+        <img src={loaderGif} alt="Cargando..." className="dca-loading-gif" />
+      </div>
+    )
+  }
   if (error) return <p className="dca-error">Sin resumen disponible</p>
   if (!resumen) return null
 

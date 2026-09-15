@@ -119,8 +119,7 @@
 }
 
 .dca-loading-gif {
-  max-width: 120px; /* Ajusta el tamaño deseado */
-  width: 100%;
+  width: 100px; 
   height: auto;
   object-fit: contain;
 }

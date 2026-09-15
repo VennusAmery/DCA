@@ -12,6 +12,20 @@
   margin-top: 0;
 }
 
+.dca-loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  width: 100%;
+}
+
+.dca-loading-gif {
+  width: 100px; 
+  height: auto;
+  object-fit: contain;
+}
+
 /* --- AJUSTES RESPONSIVOS --- */
 @media (max-width: 600px) {
   .resumen-viewer {

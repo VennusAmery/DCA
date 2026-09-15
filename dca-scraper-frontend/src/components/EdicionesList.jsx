@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { getEdiciones } from '../api/dcaApi'
 import EstadoBadge from './EstadoBadge'
 import './EdicionesList.css'
+import loaderGif from '../assets/cargando.gif'
 
 const MESES = [
   { num: '01', nombre: 'Enero' },
@@ -86,8 +87,7 @@ export default function EdicionesList() {
   if (cargando) {
     return (
       <div className="dca-loading-container">
-        {/* Referencia directa a la carpeta public */}
-        <img src="/cargando.gif" alt="Cargando..." className="dca-loading-gif" />
+        <img src={loaderGif} alt="Cargando..." className="dca-loading-gif" />
       </div>
     )
   }
