@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import './EdicionDetalle.css'
 import { getEdicion, getPdfUrl, getPdfDcaUrl } from '../api/dcaApi'
-import loaderGif from '../assets/cargando.gif'
+import loaderGif from '/src/assets/cargando.gif'
 
 export default function EdicionDetalle() {
   const { nombre } = useParams()

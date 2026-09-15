@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { getResumen } from '../api/dcaApi'
 import './ResumenViewer.css'
-import loaderGif from '../assets/cargando.gif'
+import loaderGif from '/src/assets/cargando.gif'
 
 export default function ResumenViewer({ edicionId }) {
   const [resumen, setResumen] = useState(null)
