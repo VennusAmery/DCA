@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { getEdiciones } from '../api/dcaApi'
 import EstadoBadge from './EstadoBadge'
 import './EdicionesList.css'
-import loaderGif from '/src/assets/cargando.gif'
+import loaderGif from '../../src/assets/cargando.gif'
 
 const MESES = [
   { num: '01', nombre: 'Enero' },
