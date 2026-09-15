@@ -15,10 +15,32 @@ export default function ResumenViewer({ edicionId }) {
       .finally(() => setCargando(false))
   }, [edicionId])
 
-  if (cargando) {
+if (cargando) {
     return (
-      <div className="dca-loading-container">
-        <img src={loaderGif} alt="Cargando..." className="dca-loading-gif" />
+      <div
+        style={{
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          backdropFilter: 'blur(4px)',
+          background: 'rgba(255,255,255,0.6)',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center',
+          zIndex: 9999,
+        }}
+      >
+        <img
+          src={loaderGif}
+          alt="Cargando..."
+          style={{ width: 100, position: 'relative', zIndex: 10000 }}
+        />
+        <p style={{ marginTop: 12, color: 'var(--crimson, #333)', fontWeight: 600 }}>
+          Cargando...
+        </p>
       </div>
     )
   }
