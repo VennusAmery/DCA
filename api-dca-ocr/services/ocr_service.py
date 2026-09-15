@@ -3,11 +3,6 @@ import platform
 import cv2
 import pytesseract
 
-# La ruta de Tesseract depende del sistema operativo. En Render/Linux
-# viene en /usr/bin/tesseract vía apt. En Windows normalmente queda en
-# "C:\Program Files\Tesseract-OCR\tesseract.exe" tras instalar el .exe
-# de UB-Mannheim. Se puede sobreescribir con la variable de entorno
-# TESSERACT_CMD si tu instalación quedó en otro lado.
 _RUTA_POR_DEFECTO_WINDOWS = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 _RUTA_POR_DEFECTO_LINUX = "/usr/bin/tesseract"
 

@@ -1,5 +1,5 @@
 """
-LUMES — Generador de PDF v4.0
+Generador de PDF v4.0
 """
 
 import os, re, logging
