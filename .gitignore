@@ -6,5 +6,4 @@ storage/textos/
 storage/imagenes/
 
 *.pdf
-*.png
 node_modules/
