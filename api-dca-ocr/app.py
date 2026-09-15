@@ -63,10 +63,6 @@ def buscar_edicion(db, nombre):
         (Edicion.nombre_archivo == nombre_con_ext)
     ).first()
 
-@app.route('/')
-def home():
-    return 'API DCA funcionando'
-
 
 @app.route('/api/dca/procesar', methods=['GET'])
 def procesar_dca():
