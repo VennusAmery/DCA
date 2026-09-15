@@ -1,24 +1,18 @@
-"""
-python app.py
-"""
 from io import BytesIO
+import os
+from datetime import datetime, timedelta
 
-from flask import Flask, jsonify, send_file, abort
+from flask import Flask, jsonify, send_file, abort, redirect, send_from_directory
 from flask_cors import CORS
-from flask import redirect
 from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.triggers.cron import CronTrigger
 
 from services.auto_dca import ejecutar_automatico
 from database import SessionLocal
 from database.models import Edicion, Resumen
-
 from b2sdk.v2 import InMemoryAccountInfo, B2Api
-import os
 
-from datetime import datetime, timedelta
-from flask import Flask, send_from_directory, jsonify, abort, redirect, send_file
-
+# Directorio base y carpeta de archivos estáticos
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PUBLIC_DIR = os.path.join(BASE_DIR, 'public')
 
@@ -38,7 +32,6 @@ scheduler.add_job(
     replace_existing=True,
 )
 scheduler.start()
-
 
 _cache_tokens = {}
 def obtener_url_firmada(nombre_archivo_b2):
@@ -66,6 +59,7 @@ def buscar_edicion(db, nombre):
         (Edicion.nombre_archivo == nombre_con_ext)
     ).first()
 
+# --- RUTAS DE LA API ---
 
 @app.route('/api/dca/procesar', methods=['GET'])
 def procesar_dca():
@@ -149,16 +143,16 @@ def listar_ediciones():
     finally:
         db.close()
 
+# --- RUTA FRONTEND (CATCH-ALL) ---
+
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve_frontend(path):
     target_path = os.path.join(app.static_folder, path)
     
-    # 1. Si se solicita un archivo estático existente (JS, CSS, Imágenes), lo sirve
-    if path != "" and os.path.exists(target_path):
+    if path != "" and os.path.isfile(target_path):
         return send_from_directory(app.static_folder, path)
     
-    # 2. De lo contrario, entrega el index.html
     return send_from_directory(app.static_folder, 'index.html')
 
 if __name__ == '__main__':
