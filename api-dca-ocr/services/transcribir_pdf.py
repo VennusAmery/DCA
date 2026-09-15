@@ -11,20 +11,6 @@ PDF_DIR = "storage/pdfs"
 TXT_DIR = "storage/textos"
 os.makedirs(TXT_DIR, exist_ok=True)
 
-# Si una página tiene menos caracteres de texto nativo que esto, se asume
-# que es una página escaneada (imagen) y se manda a OCR.
-#
-# IMPORTANTE: se subió de 40 a 500. El DCA a veces tiene páginas híbridas:
-# una tabla lateral nativa ("EN ESTA EDICIÓN ENCONTRARÁ...") con pocas
-# decenas de caracteres, PERO con el cuerpo real del acuerdo/artículo
-# incrustado como IMAGEN (típico en publicaciones con membretes o
-# diagramación especial). Con el umbral en 40, esa tabla lateral por sí
-# sola ya "pasaba" el umbral, así que la página se marcaba como "ya tiene
-# texto nativo" y jamás se mandaba a OCR — perdiendo el cuerpo completo
-# del acuerdo sin ningún error visible. Una página real de DCA con
-# contenido normativo completo normalmente supera los 1000-1500
-# caracteres; 500 es un piso conservador que sigue exigiendo OCR en casos
-# híbridos como este.
 UMBRAL_MIN_CARACTERES = 500
 
 

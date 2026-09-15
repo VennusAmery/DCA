@@ -18,8 +18,9 @@ import os
 
 from datetime import datetime, timedelta
 
-app = Flask(__name__)
-CORS(app, origins=["https://dca-three.vercel.app"])
+
+app = Flask(__name__, static_folder='public', static_url_path='')
+CORS(app)
 
 info = InMemoryAccountInfo()
 b2_api = B2Api(info)

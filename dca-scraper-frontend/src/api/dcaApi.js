@@ -1,11 +1,11 @@
 // dca-scraper-frontend/src/api/dcaApi.js
 import axios from 'axios'
 
-const BASE_URL = 'https://dca-kmda.onrender.com/api'
+const BASE_URL = '/api'
 
 const api = axios.create({
   baseURL: BASE_URL,
-  timeout: 15000,
+  timeout: 35000,
 })
 
 export const getEdiciones = () => api.get('/ediciones').then(r => r.data)
