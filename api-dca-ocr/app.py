@@ -16,7 +16,7 @@ from b2sdk.v2 import InMemoryAccountInfo, B2Api
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PUBLIC_DIR = os.path.join(BASE_DIR, 'public')
 
-app = Flask(__name__, static_folder=PUBLIC_DIR, static_url_path='')
+app = Flask(__name__, static_folder=None)
 CORS(app)
 
 info = InMemoryAccountInfo()
@@ -142,6 +142,16 @@ def listar_ediciones():
         } for e in ediciones])
     finally:
         db.close()
+
+# RUTA CATCH-ALL REVISADA
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def serve_frontend(path):
+    target_path = os.path.join(PUBLIC_DIR, path)
+    
+    if path != "" and os.path.isfile(target_path):
+        return send_from_directory(PUBLIC_DIR, path)    
+    return send_from_directory(PUBLIC_DIR, 'index.html')
 
 # --- RUTA FRONTEND (CATCH-ALL) ---
 
