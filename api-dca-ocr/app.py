@@ -17,9 +17,12 @@ from b2sdk.v2 import InMemoryAccountInfo, B2Api
 import os
 
 from datetime import datetime, timedelta
+from flask import Flask, send_from_directory, jsonify, abort, redirect, send_file
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+PUBLIC_DIR = os.path.join(BASE_DIR, 'public')
 
-app = Flask(__name__, static_folder='public', static_url_path='')
+app = Flask(__name__, static_folder=PUBLIC_DIR, static_url_path='')
 CORS(app)
 
 info = InMemoryAccountInfo()
@@ -145,6 +148,18 @@ def listar_ediciones():
         } for e in ediciones])
     finally:
         db.close()
+
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def serve_frontend(path):
+    target_path = os.path.join(app.static_folder, path)
+    
+    # 1. Si se solicita un archivo estático existente (JS, CSS, Imágenes), lo sirve
+    if path != "" and os.path.exists(target_path):
+        return send_from_directory(app.static_folder, path)
+    
+    # 2. De lo contrario, entrega el index.html
+    return send_from_directory(app.static_folder, 'index.html')
 
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
