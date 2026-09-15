@@ -142,28 +142,18 @@ def listar_ediciones():
         } for e in ediciones])
     finally:
         db.close()
-
-# RUTA CATCH-ALL REVISADA
-@app.route('/', defaults={'path': ''})
-@app.route('/<path:path>')
+        
+# --- RUTA FRONTEND (CATCH-ALL) ---
+@app.route('/', defaults={'path': ''}, endpoint='serve_frontend_root')
+@app.route('/<path:path>', endpoint='serve_frontend_path')
 def serve_frontend(path):
     target_path = os.path.join(PUBLIC_DIR, path)
     
     if path != "" and os.path.isfile(target_path):
-        return send_from_directory(PUBLIC_DIR, path)    
+        return send_from_directory(PUBLIC_DIR, path)
+    
     return send_from_directory(PUBLIC_DIR, 'index.html')
 
-# --- RUTA FRONTEND (CATCH-ALL) ---
-
-@app.route('/', defaults={'path': ''})
-@app.route('/<path:path>')
-def serve_frontend(path):
-    target_path = os.path.join(app.static_folder, path)
-    
-    if path != "" and os.path.isfile(target_path):
-        return send_from_directory(app.static_folder, path)
-    
-    return send_from_directory(app.static_folder, 'index.html')
-
 if __name__ == '__main__':
-    app.run(debug=True, port=5002)
+    port = int(os.environ.get('PORT', 5002))
+    app.run(host='0.0.0.0', port=port)
