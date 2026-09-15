@@ -89,3 +89,28 @@
   background-color: #fff;
   cursor: pointer;
 }
+
+/* --- AJUSTES RESPONSIVOS--- */
+
+@media (max-width: 600px) {
+  .controles-filtro {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .buscador-input,
+  .filtro-select {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .ediciones-list th, 
+  .ediciones-list td {
+    padding: 8px 10px;
+    font-size: 0.85rem;
+  }
+
+  .ediciones-list table th {
+    top: 115px; /* Ajuste por el cambio de altura de la cabecera en móviles */
+  }
+}

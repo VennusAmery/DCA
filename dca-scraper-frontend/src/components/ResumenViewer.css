@@ -11,3 +11,12 @@
   color: #1E2130;
   margin-top: 0;
 }
+
+/* --- AJUSTES RESPONSIVOS --- */
+@media (max-width: 600px) {
+  .resumen-viewer {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+}
