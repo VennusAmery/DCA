@@ -67,18 +67,18 @@ NÚMERO 52
 
 COMUNÍQUESE
 
-€ºUauºº“ G
-ZE MA
+RS: uz
+TE MALA
 
-atarina Roquel
+atarina Roquet
 Ministra delTrabajo y Previsión Social
 
-SECRETARIZ GENERAL
-Minieterio de Frabajo y Previsión Social
+SECRETARIAS GENERAL
+Ministerio de Prabajo y Previsión Social
 
-DE LA PRESIDENGÍA E LA REPÚBLICA
+DE LA PRESIDENGÍA DE LA REPÚBLICA
 
--
+e
 
 (E-597-2026)-10-septiembre
 
@@ -92,7 +92,7 @@ LA MINISTRA DE EDUCACIÓN
 
 CONSIDERANDO
 
-Que la Constitución Política de la República de Guatemala, establece dentro de las funciones
+Que la Constitución Política de la República de Guatemala, establece dentro de [as funciones
 de los ministros de Estado, la de ejercer jurisdicción sobre todas las dependencias de su
 ministerio, así como dirigir, tramitar, resolver e inspeccionar todos los negocios relacionados
 con el mismo.
@@ -125,18 +125,18 @@ Administrativos, todos Decretos del Congreso de la República de Guatemala.
 ACUERDA
 
 REGULAR EL SISTEMA DE REGISTROS EDUCATIVOS -SIRE- PARA LOS NIVELES DE
-EDUCACIÓN INICIAL, PREPRIMARIA, PRIMARIA Y MEDIA DEL SUESISTEMA DE
-EDUCACION ESCOLAR
+EDUCACIÓN INICIAL, PREPRIMARIA, PRIMARIA Y MEDIA DEL SUBSISTEMA DE
+EDUCACIÓN ESCOLAR
 
 ARTÍCULO 1.
  Sistema. El Sistema de Registros Educativos -SIRE-, es un sistema informático
 destinado al registro oficial de los estudiantes del Subsistema de Educación Escolar en los
-niveles de Educación Inicial, Preprimaria, Primaria y Media (ciclos de Educación Básica y
+niveles de Educación. Inicial, Preprimaria, Primaria y Media (ciclos de Educación Básica y
 Diversificada), en todos los sectores educativos, bajo la rectoría del Ministerio de Educación,
 disponible para directores y docentes de los centros educativos.
 
 ARTÍCULO 2.
- Objeto. El objeto de esta noma es regular el Sistema de Registros Educativos
+ Objeto. El objeto de esta norma es regular el Sistema de Registros Educativos
 -SIRE-, como la herramienta tecnológica para realizar procesos de recolección e integración de
 registros educativos, que permita crear una fuente oficial de consulta de datos, para la
 formulación de indicadores, toma de decisiones y administración de los servicios educativos del
@@ -163,13 +163,13 @@ oficial, por lo que podrán ser utilizados como fuente veraz y oportuna de infor
 ARTÍCULO 4.
  Inscripción. Para efectuar la primera inscripción en el Sistema de Registros
 Educativos -SIRE-, los padres de familia o encargados, deberán presentar ante el centro
-educativo, la certifilcación de nacimiento del estudiante (vigente por fecha o verificación, según
+educativo, la certificación de nacimiento del estudiante (vigente por fecha o verificación, según
 lo establece el Registro Nacional de las Personas - RENAP) y los estudiantes mayores de edad,
-adicionalmente deberán presentar copia del Documento Personal de Identificación -DP| emitido
+adicionalmente deberán presentar copia del Documento Personal de Identificación -DP] emitido
 por el Registro Nacional de las Personas -RENAP (vigente), en formato fisico o digital. En el
 caso de estudiantes extranjeros, el documento de identificación podrá ser el pasaporte, DPI
 para extranjero domiciliado o bien el Documento Personal de Identidad Especial de Menor de
-Edad Solicitante del Estatuto de Refugiado - DPIE, emitidos por RENAP.
+Edad Solicitante de! Estatuto de Refugiado - DPIE, emitidos por RENAP.
 
 Después de realizada la inscripción, se generará la constancia respectiva, la cual será remitida
 al responsable del estudiante o a este si es mayor de edad, en formato físico o digital.
@@ -179,18 +179,18 @@ ARTÍCULO 5.
 registrado en el Subsistema de Educación Escolar, quien deberá llenar el formulario electrónico
 de inscripción escolar autorizado por el Ministerio de Educación dentro del Sistema de Registros
 Educativos -SIRE- y generará la constancia de inscripción respectiva, la cual se entregará de
-forma física o digital a los padres de familia, encargado o estudiante mayor de edad.
+forma fisica o digital a los padres de familia, encargado o estudiante mayor de edad.
 
 El formulario electrónico de inscripción contiene los siguientes datos del estudiante: nombre
 completo, sexo, fecha de nacimiento, departamento y municipio de nacimiento, grado que
-cursará, Código Unico de Identificación —CUI-, número de pasaporte si es extranjero no
-domiciliado, DPI para extranjero domiciliado, DPIE, dirección de residencia y número de teléfono
+cursará, Código Unico de Identificación —CUl-, número de pasaporte si es extranjero no
+domiciliado, DP! para extranjero domiciliado, DPIE, dirección de residencia y número de teléfono
 de emergencia. En el caso de estudiantes mayores de edad, deberán consignar además su
 dirección de correo electrónico y número de teléfono personal.
 
-El formulario mcluye los datos de los padres de familia y/o encargado: nombre completo de cada
+El formulario incluye los datos de los padres de familia y/o encargado: nombre completo de cada
 uno de ellos, número de teléfono, dirección de correo electrónico, profesión, Código Único de
-Identificación —CUI—, DPI para extranjero domiciliado o bien el Documento Personal de Identidad
+Identificación —CUl—, DP] para extranjero domiciliado o bien el Documento Personal de Identidad
 Especial de Menor de Edad Solicitante del Estatuto de Refugiado - DPIE, emitidos por RENAP
 y dirección actual de residencia.
 
@@ -198,7 +198,7 @@ Si el estudiante ya cuenta con código personal y los padres de familia, encarga
 mayor de edad, solicitan inscripción en un centro educativo distinto al que estuvo inscrito en el
 ciclo escolar anterior o requieren traslado a otro centro educativo durante el ciclo escolar
 vigente, los padres de familia, encargado o estudiante mayor de edad, únicamente deberán
-indicar el código personal al nuevo centro educativo, para registrar la mscr¡pclón sin necesidad
+indicar el código personal al nuevo centro educativo, para registrar la inscripción, sin necesidad
 de presentar en físico, certificados de estudios, certificación de nacimiento, ni otros documentos
 adicionales; debido a que el sistema cuenta con su historial académico.
 
@@ -220,7 +220,7 @@ y Media y en los Subsistemas de Educación Escolar y Extraescolar, o norma vigen
 las equiparaciones y equivalencias de estudios en los niveles que corresponda.
 
 ARTÍCULO 6.
- Perfodo de inscripción. La inscripción se realizará en el Sistema de Registros
+ Período de inscripción. La inscripción se realizará en el Sistema de Registros
 Educativos -SIRE- en las fechas que determine el Ministerio de Educación en cada ciclo escolar
 según el Calendario Escolar vigente.
 
@@ -236,7 +236,7 @@ Educativos -SIRE-, los resultados de la evaluación de los aprendizajes, conform
 legal correspondiente y el Calendario Escolar vigente.
 
 ARTÍCULO 9.
- Correcclón. En los casos en que se hubiere asentado información errónea en el
+ Corrección. En los casos en que se hubiere asentado información errónea en el
 Sistema de Registros Educativos -SIRE-, los padres de familia, encargado o estudiante mayor
 de edad, podrán solicitar al centro educativo correspondiente que efectúe las correcciones
 necesarias, adjuntando las pruebas que demuestren los cambios, si fuera necesario; no
@@ -248,7 +248,7 @@ ARTÍCULO 10.
 Educación, como entes rectores de sus procesos, podrán diseñar, requerir, implementar y
 mantener actualizados procesos estandarizados de recolección, administración y resguardo de
 registros educativos; mediante formularios electrónicos diseñados por las mismas, integrados
-en el Sistema de Registros Educativos -SIRE-, previa autorización de la Dirección de
+en el Sistema de Registros Educativos -SIRE-; previa autorización de la Dirección de
 Planificación Educativa -DIPLAN-. También serán responsables del traslado de las
 instrucciones, capacitación y seguimiento, con el personal de las Direcciones Departamentales
 de Educación -DIDEDUC-, que las replican a nivel departamental, para que se realicen dichos
@@ -256,8 +256,8 @@ procesos, los cuales tendrán como finalidad fortalecer la toma de decisiones, l
 estratégica y la mejora de las gestiones administrativas en beneficio del Sistema Educativo
 Nacional.
 
-ARTÍCULO 11
-, De las Direcciones Departamentales de Educación - DIDEDUC,. Es
+ARTÍCULO 11.
+ De las Direcciones Departamentales de Educación - DIDEDUC. Es
 responsabilidad de las Direcciones Departamentales de Educación, comunicar, capacitar,
 monitorear y velar porque los centros educativos de todos los niveles y sectores, cumplan con
 las disposiciones emanadas de la Dirección de Planificación Educativa - DIPLAN, como ente
@@ -269,7 +269,7 @@ lugar a que los directores y docentes de los centros educativos de todos los niv
 sean sancionados administrativamente como en derecho corresponde, según la gravedad de la
 falta.
 
-Si el hecho es coanstitutivo de delito, la autoridad corespondiente deberá presentar la denuncia
+Si el hecho es constitutivo de delito, la autoridad correspondiente deberá presentar la denuncia
 ante la instancia respectiva.
 
 ARTÍCULO 13.
@@ -306,17 +306,17 @@ Educación, las atribuciones siguientes:
 a. Asegurar la disponibilidad y continuidad de funcionamiento de la infraestructura tecnológica
 sobre la cual opera el SIRE.
 
-b. Definir e inplementar planes de contingencia y protocolos de respaldo de la información
+b. Definir e implementar planes de contingencia y protocolos de respaldo de la información
 contenida en el SIRE.
 
-C. Realizar el análisis, diseño, desarrollo, implementación, modificación y actualización del
+Cc. Realizar el análisis, diseño, desarrollo, implementación, modificación y actualización del
 SIRE y proveer el mantenimiento preventivo y correctivo al código fuente y arquitectura de
 software del mismo a requerimiento y/o en coordinación con DIPLAN.
 
 d. Gestionar la atención de requerimientos de desarrollo y actualización del sistema,
 trasladados por DIPLAN.
 
-e. Poner a disposición la mesa de ayuda del SIRE y coadministrarla en coordinación con
+e. Poner a disposición la mesa de ayuda del S!RE y coadministrarla en coordinación con
 DIPLAN y la Dirección General de Acreditación y Certificación -DIGEACE-, para uso de las
 Direcciones Departamentales de Educación -DIDEDUC-, en la resolución de casos e
 incidentes que se presenten y con relación al uso del sistema.
@@ -404,7 +404,7 @@ deportivas, recreativas, artísticas y culturales, entre otras, que contribuyan 
 complementar la educación formal, bajo los principios de igualdad y equidad con enfoque
 intercultural.
 
-C. Fortalecer habilidades para la vida y competencias socioemocionales, tales como la
+Cc. Fortalecer habilidades para la vida y competencias socioemocionales, tales como la
 comunicación asertiva, el trabajo colaborativo, el liderazgo, el pensamiento crítico y la
 resolución pacífica de conflictos, entre otras.
 
@@ -416,7 +416,7 @@ haciendo.
 
 b. Contribuir a la prevención de la violencia y al fortalecimiento de la convivencia pacífica.
 
-C. Vincular la escuela con la comunidad, consolidándola como un espacio abierto de
+c. Vincular la escuela con la comunidad, consolidándola como un espacio abierto de
 aprendizaje y participación.
 
 d. Propiciar la participación de estudiantes con discapacidad, mediante ajustes pedagógicos,
@@ -430,11 +430,12 @@ de siete a dieciocho años.
 Se prioriza la participación de estudiantes de centros educativos públicos, en situación de
 vulnerabilidad y con el acompañamiento familiar o comunitario para favorecer la permanencia
 escolar. La participación está organizada en dos niveles etarios, para garantizar la pertinencia
-pedagógica, según las características y necesidades de cada etapa de desarrollo.
+pedagógica, según las caracteristicas y necesidades de cada etapa de desarrollo.
 
-Artiículo 5. Participación de estudiantes con discapacidad. El Programa promueve la
+Artículo 5.
+ Participación de estudiantes con discapacidad. El Programa promueve la
 participación de estudiantes con discapacidad. Corresponde a la Dirección General de Educación
-Especial -DIGEESP- elaborar, aprobar y difundir los líneamientos técnicos necesarios para
+Especial -DIGEESP- elaborar, aprobar y difundir los lineamientos técnicos necesarios para
 orientar la adecuada implementación de ajustes pedagógicos y medidas de accesibilidad, a fin
 de asegurar el acompañamiento y la participación plena de los estudiantes con discapacidad en
 las actividades del programa.
@@ -459,7 +460,7 @@ vigente, gestionar el equipo e implementos necesarios, así como la supervisión
 técnica.
 
 Artículo 8.
- Componentes de arte y cultura. La Dirección General de Gestlón de Calidad
+ Componentes de arte y cultura. La Dirección General de Gestión de Calidad
 Educativa -DIGECADE- y la Dirección General de Educación Extraescolar -DIGEEX-, en el marco
 de sus competencias institucionales, son responsables de orientar técnica y metodológicamente
 la implementación de los componentes de arte, cultura y otros que sean determinados por el
@@ -467,7 +468,7 @@ Ministerio de Educación, vinculados al desarrollo curricular y formativo, para 
 lineamientos respectivos.
 
 En el ámbito de arte y cultura, deben promover espacios formativos que fortalezcan la expresión
-artística, la identidad cultural y la valoración de la diversidad lingúística, facilitando su adecuado
+artística, la identidad cultural y la valoración de la diversidad linguística, facilitando su adecuado
 funcionamiento.
 
 Artículo 9.
@@ -503,13 +504,13 @@ recurso humano idóneo para la implementación del programa de conformidad con l
 mecanismos, procedimientos y disponibilidad presupuestaria.
 
 Artículo 11.
- Implementos. La Dirección General de Educación Física -DIGEF- y otras
+ Implementos. La Dirección General de Educación Fisica -DIGEF- y otras
 direcciones relacionadas, en el marco de sus funciones y competencias, deben establecer los
 mecanismos idóneos para la adquisición de los materiales, insumos y equipo requeridos para el
 desarrollo de las actividades del programa, utilizando los recursos financieros asignados.
 
 Artículo 12.
- Jornada. Las actividades se desarrollan en jormada de fin de semana y se organizan
+ Jornada. Las actividades se desarrollan en jornada de fin de semana y se organizan
 de acuerdo a la demanda y el nivel de participación que se registre en cada sede de
 implementación. Estas deben estructurarse en espacios formativos destinados al desarrollo de
 los módulos correspondientes, un receso supervisado, y un momento de cierre, reflexión y orden
@@ -518,13 +519,13 @@ del espacio utilizado.
 Las Direcciones Departamentales de Educación -DIDEDUC- deben realizar ajustes razonables
 en la organización de las jornadas cuando las condiciones climáticas, territoriales o de contexto
 lo requieran, debiendo garantizar en todo momento el cumplimiento de las horas establecidas, de
-acuerdo a la demanda, el carácter formativo de la jomada y la debida supervisión de los
+acuerdo a la demanda, el carácter formativo de la jornada y la debida supervisión de los
 participantes.
 
 Artículo 13.
  Financiamiento. El Programa se financiará con cargo al presupuesto vigente del
 Ministerio de Educación, conforme a la disponibilidad financiera anual aprobada. Las actividades
-del programa son gratuitas; queda prohibido realizar cobros, rifas obligatorias o
+del programa son gratuitas, queda prohibido realizar cobros, rifas obligatorias O
 condicionamientos de participación. Podrán gestionarse recursos de cooperación nacional e
 internacional, conforme a la normativa aplicable.
 
@@ -548,7 +549,7 @@ Artículo 16.
  Sistema Informático del Programa. Para garantizar el adecuado registro,
 seguimiento, monitoreo y consolidación de información del programa, la Dirección General de
 Educación Física -DIGEF- en coordinación con la Dirección de Informática -DINFO-, deben
-desarrollar e inmplementar el sistema informático del Programa.
+desarrollar e implementar el sistema informático del Programa.
 
 La Dirección General de Educación Física -DIGEF- asignará los recursos presupuestarios
 necesarios para el funcionamiento y mantenimiento del sistema informático del Programa.
@@ -576,8 +577,8 @@ Artículo 19.
 proporcionada por -DIGEF- y las otras direcciones relacionadas.
 
 Artículo 20.
- Procedimientos, instructivos y guías. La Dirección General de Educación Física
--DIGEF-, en coordinación con la Dirección de Desarrollo y Fortalecimiento Instituciona! -DIDEFI-
+ Procedimientos, instructivos y guías. La Dirección General de Educación Fisica
+-DIGEF-, en coordinación con la Dirección de Desarrollo y Fortalecimiento Institucional -DIDEF!-
 y otras direcciones responsables, deben elaborar y actualizar los procedimientos, instructivos o
 guías para hacer operativo el programa, los cuales se emitirán dentro de los ciento veinte días
 después de la vigencia del presente Acuerdo.
@@ -593,20 +594,22 @@ publicación en el
 
 COMUNÍQUESE
 
-1eRIO D,
-eeO ,,5Q,
-QI e
+SERIO D,
+Saco 40%
+E Í
 
 D
-ACIÓ,
-&Qz<&“€. I/¡,(¿*o A
-Sy a
-T= y AA
-- Z =0
-A oº_vv_º,/4 “¿&é
-WOTSEM s,
 
-MALA, C-
+ACIÓ,
+SO M8 A
+Sy 229)
+z24 dm
+== y =O
+A 7 SS
+
+YO TSEM “e,
+
+MaLa, OP
 
 (E-591-2026)-10-septiembre
 
@@ -622,9 +625,9 @@ Gabriel Medrano Valenzuela
 
 CONSIDERANDO
 Que el Registro General de la Propiedad por la naturaleza de sus funciones,
-permite impliementar y adoptar las medidas necesarias para el buen
+permite implementar y adoptar las medidas necesarias para el buen
 funcionamiento de este, ejercitando para el efecto las potestades administrativas
-y financieras relacionadas con la adquisición, gestión y pago de servicios, insumos
+y financieras relacionadas con la adquisición, gestión y pago de servicios, Insumos
 y bienes muebles, con el objeto de atender en forma oportuna las necesidades
 institucionales.
 
@@ -634,7 +637,7 @@ Que a través del Acta 28-2025 de fecha veinticuatro de noviembre de dos mil
 veinticinco de la Comisión Nacional Registral y del Acuerdo Administrativo del
 Registrador General de la Propiedad 225-2025 de fecha ocho de diciembre del
 ejercicio fiscal dos mil veinticinco fueron aprobadas las Normas de Ejecución
-Presupuestaria Ejercicio fiscal 2026, las cuales en el numeral I| señalan los
+Presupuestaria Ejercicio fiscal 2026, las cuales en el numeral Il señalan los
 porcentajes de distribución por cuatrimestre de los ingresos percibidos y
 devengados durante el ejercicio fiscal 2026.
 
@@ -648,30 +651,30 @@ asimismo, la Dirección Jurídica emitió el Dictamen No. CO-178-2026 de fecha
 CONSIDERANDO
 Que por medio del Acta 17-2026 de fecha 17 de agosto de dos mil veintiséis la
 Comisión Nacional Registral aprobó la modificación de la Norma de Ejecución
-Presupuestaria lI, en donde se maodifica el porcentaje de modernización para el
+Presupuestaria !l, en donde se modifica el porcentaje de modernización para el
 tercer cuatrimestre del ejercicio fiscal 2026.
 
 POR TANTO
 En el ejercicio de las funciones que le confiere el Artículo 27 del Acuerdo
-Cubernativo 30-2005 del veintisiete de enera del año dos mil cinco "Reglamento
+Gubernativo 30-2005 del veintisiete de enero del año dos mil cinco "Reglamento
 de los Registros de la Propiedad",
 
 ACUERDA
 
 Artículo 1.
  Reformar La Norma de Ejecución Presupuestaria Ejercicio Fiscal 2026
-número || aprobada mediante el Acuerdo Administrativo 225-2025 deT
+número !l, aprobada mediante el Acuerdo Administrativo 225-2025 der.
 
-Registrador General de la Propiedad, de fecha 08 de diciembre de 2025, la cn¿pí
+Registrador Ceneral de la Propiedad, de fecha 08 de diciembre de 2025, la o
 queda así:
 
-“Los ingresos percibidos y devengados, según el Acuerdo Gubernativo 325 ZQOÍ—'¡
-de fecha 18 de julio de 2005 y sus reformas, deberán distribuirse de lá forma
-S|gu¡ente
+“Los ingresos percibidos y devengados, según el Acuerdo Gubernativo 323: B00k,
+de fecha 18 de julio de 2005 y sus reformas, deberán distribuirse de lá forina”
+siguiente:
 
-»
+ut
 
-s
+*
 
 Guatemala, JUEVES 10 de septiembre de 2026
 
@@ -695,9 +698,9 @@ Tercer Cuatrimestre
 
 95% 5%
 
-0%
+50%
 
-”
+»
 
 Artículo 2.
  El presente Acuerdo Administrativo surte efectos desde la presente
@@ -706,9 +709,9 @@ fecha, hasta el treinta y uno (31) de diciembre del ejercicio fiscal dos mil vei
 
 Artículo 3.
  Todas las demás Normas y disposiciones aprobadas mediante el
-Acuerdo Administrativo 225-2025, no sufren cambio o medificación alguna,
+Acuerdo Administrativo 225-2025, no sufren cambio o modificación alguna,
 quedando inalterables en su contenido, salvo lo dispuesto en el Artículo uno (1)
-del presente Acuerdo Administrativo.
+del presente Acuerdo Administrativo,
 
 Artículo 4.
  Notificación. Notifíquese el presente acuerdo a la Dirección
@@ -720,18 +723,17 @@ Artículo 5.
  Publicación. Se instruye a efecto se realice la publicación de la
 presente modificación en el Diario de Centroamérica.
 
-Dado en la ciudad de Guatemala a los veinticinco días del mes de agosto del año
-dos mit veintiséis.
+Dado en la ciudad de Guatemala a los veinticinco días de! mes de agosto del año
+dos mil veintiséis.
 
 COMUNÍQUESE.
 
-E
-Registrador General m a,
-REGISTRO GENERAL DE LA PROPIEDAD F*
+Rebistrador General UR
+REGISTRO GENERAL DE LA PROPIEDAD" FRA"
 
 (348576)-10-septiembre
 
-Comyo Mconaas Adopcones
+Longo Macanal a dapuanes
 
 CONSEJO NACIONAL DE ADOPCIONES
 
@@ -746,7 +748,7 @@ Que de conformidad con lo establecido en el artículo 17 del Decreto Número 77-
 del Congreso de la República de Guatemala, Ley de Adopciones, el Consejo
 Nacional de Adopciones es una entidad autónoma, de derecho público, con
 personalidad jurídica, patrimonio propio y plena capacidad para contraer
-obiigaciones.
+obligaciones.
 
 CONSIDERANDO
 
@@ -812,10 +814,10 @@ PRESUPUESTO DE INGRESOS
 (Cifras expresadas en Quetzales)
 
 FUENTE DE
-FINANCIAMIENTO DESCRIPCIÓN ASIGNADO _) AMPLIACIÓN W VIGENTE
+FINANCIAMIENTO DESCRIPCIÓN ASIGNADO - AMPLIACIÓN | VIGENTE
 DISMINUCIÓN DE CAJA Y BANCOS DE INGRESOS
-PROPIOS W Q 5,618,090.00 | Q 1,620,000.00 | Q 7,238,090.00
-| TOTAL | Q 5,618,090.00 | Q 1,620,000.00 | Q 7,238,090.00
+PROPIOS | Q 5,618,090.00 | Q 1,620,000.00 | Q 7,238,090.00
+[ TOTAL | Q 5,618,090.00 | Q 1,620,000.00 | Q 7,238,090.00
 
 TERCERO: Presupuesto de Egresos: Se amplía el Presupuesto de Egresos del
 Consejo Nacional de Adopciones, correspondiente al ejercicio fiscal 2026, por la
@@ -824,15 +826,15 @@ cantidad de UN MILLÓN SEISCIENTOS VEINTE MIL QUETZALES EXACTOS (Q.
 
 PRESUPUESTO DE EGRESOS
 PRESUPUESTO DE EGRESOS POR TIPO DE GASTO
-(Cifras expresadas en Quetzales)
+(Cifras expresadas en Quetzalos)
 
-FUENTE DE W
+FUENTE DE |
 ASIGNADO AMPLIACIÓN VIGENTE
 
 FINANCIAMIENTO DESCRIPCIÓN
-32 [GASTOS DE FUNCIONAMIENTO | Q 5,618,090.00 | Q_ 510,000.00 | Q6.128.090.00 |
-| GASTOS DE INVERSIÓN Q 1,110,000.00 | Q 1.110,000.00 |
-TOTAL Q 5,618,090.00 | Q 1,620,000.00 | Q 7,238,090.00
+2 [GASTOS DE FUNCIONAMIENTO | Q 5.618,090.00 | Q_ 510,000.00 | Q6,128,090.00 |
+[GASTOS DE INVERSIÓN Q 1,110,000.00 | Q 1,110,000.00 |
+TOTAL Q 5,618,090.00 | Q 1,620,000.00 | Q7,238,090.00
 
 PRESUPUESTO DE EGRESOS
 AMPLIACIÓN ASIGNADA POR PROGRAMA
@@ -873,7 +875,7 @@ Cifras expresadas en Quetzales
 FUENTE DE
 FINANCIAMIENTO DESCRIPCIÓN AMPLIACIÓN
 
-GRUPO DE GASTO 100 "SERVICIOS NO PERSONALES"
+GRUPO DE GASTO 100 "SERVICIOS NO PERSONALES”
 GRUPO DE GASTO 200 "MATERIALES Y SUMINISTROS"
 32 GRUPO DE GASTO 300 "PROPIEDAD, PLANTA, EQUIPO E
 INTANGIBLE" Q
@@ -881,24 +883,19 @@ Q
 
 1,110,000.00
 
-GRUPO DE GASTO 400 "TRANSFERENCIAS CORRIENTES" 4,050.00
-Q 1,620,000.00
-
-TOTAL
+GRUPO DE GASTO 400 "TRANSFERENCIAS CORRIENTES” 4,050.00
+TOTAL Q _ 1,620,000.00
 
 PRESUPUESTO DE EGRESOS
 AMPLIACIÓN ASIGNADA POR FUENTE DE FINANCIAMIENTO
 Cifras expresadas en Quetzales
+
 FUENTE DE
-FINANCIAMIENTO
 
-DESCRIPCIÓN AMPLIACIÓN
+FINANCIAMIENTO DESCRIPCIÓN AMPLIACIÓN
 
-DISMINUCIÓN DE CAJA Y BANCOS DE INGRESOS PROPIOS Q — 1,620,000.00
-
-TOTAL
-
-Q 1,620,000.00
+DISMINUCIÓN DE CAJA Y BANCOS DE INGRESOS PROPIOS Q 1,620,000.00
+TOTAL Q _ 1,620,000.00
 
 CUARTO: El presente Acuerdo surte efectos a partir de la publicación en el Diario
 de Centro América.
@@ -911,7 +908,7 @@ de Adopciones, para su conocimiento y efectos correspondie
 
 Nombre: EDWIN IVAN MARQUEZ CHÚA / CONSEJO NACIONAL D
 ADOPCIONES
-Emitido por: Camara de Comercio de Guatemala CA 1
+Ermtido por: Camara de Comercio de Guatemala CA 1
 
 Presidente del Consejo Directivo
 
@@ -920,17 +917,18 @@ EDDY GIOVANNI ORELLANA
 DONIS / CONSEJO
 NACIONAL DE ADOPCIONES
 
-Lic. Eddy Giovanni Oreilana Dónis
+Lic. Eddy Giovanni Orellana Dónis
 Vocal | del Consejo Directivo
 
-Nombre: ARICEL DEL ROSARIO CARBALLO CORADO / CONSEJO
+Nombre ARICEL DEL ROSARIO CARBALLO CORADO / CONSEJO
 NACIONAL DE ADOPCIONES
-Emitido por. Comara de Comercio de Guatemala CA 1
+Emutido por. Camara de Comercio de Guatemala CA 1
 
-Leda. Aricel del Rosario Carballo Corado
-Vocal II del Consejo Directivo
+Vocal Il del Consejo Directivo
 
 (348622)-10-septiembre
+
+Leda. Aricel del Rosario Carballo Corado
 
 LA INFRASCRITA SECRETARIA MUNICIPAL DEL MUNICIPIO DE SANTA LUCIA MILPAS ALTAS,
 DEPARTAMENTO DE SACATEPEQUEZ, CERTIFICA: QUE HA TENIDO A LA VISTA EL TOMO No. XLIV DE
@@ -938,11 +936,11 @@ ACTAS DE SESIONES DEL CONCEJO MUNICIPAL, EN EL QUE SE ENCUENTRA EL ACTA No. 61-2
 DE FECHA DIECISIETE DE AGOSTO DE DOS MIL VEINTISEIS, LA QUE EN LO CONDUCENTE EN SU
 PUNTO CUARTO 4) DICE:
 
-PRIMERO...SEGUNDO... TERCERO...CUARTO: puntos varios; ...4) El señor alcalde municipal expone a los
+PRIMERO. ..SEGUNDO... TERCERO. .CUARTO: puntos varios; ...4) El señor alcalde municipal expone a los
 miembros del Concejo Municipal que de acuerdo a la planificación de la ejecución del proyecto:
-CONSTRUCCION EDIFICIO MUNICIPAL (MUNICIPALIDAD) SANTA LUCIA MILPAS ALTAS,
+CONSTRUCCION — EDIFICIO MUNICIPAL (MUNICIPALIDAD) SANTA LUCIA MILPAS ALTAS,
 SACATEPEQUEZ, se hace necesario el dejar constado, que con la demolición del Edificio Municipal que se
-ejecutara para poder conllevar el proyecto arriba identificado, las oficinas municipales que están en el mismo
+ejecutara para poder conllevar el proyecto arriba identificado, las oficinas municipates que están en el mismo
 se trasladaran al edificio en donde se localizaba el Instituto Mixto de Educación Básica por Cooperativa de
 Enseñanza Santa Lucia con dirección para tomar en cuenta para los efectos correspondientes, tercera
 calle dos guion veinte (3ra calle 2-20) Santa Lucia Milpas Altas zona 1, esto de manera temporal, con esto
@@ -958,92 +956,49 @@ previa lectura se acepta, aprueba y ratifica, firmada por los intervinieron. (fs
 Guerra Oliva. estando presentes los miembros del Concejo Municipal, Síndico Primero Gerson Zivverman
 Aragón Castellanos, Sindico Segundo Marvin Arenales Jerez, Concejal Primero Boris Omar Salazar Herrera,
 Concejal Segundo Josué Yanuario Acajabon Torres, Concejal Tercero Jorge Alejandro del Águila Minas,
-Concejal Cuarto José Raúl Estrada Cermeño: y la Secretaria Municipal que certifica Gabriela María Azmitia
+Concejal Cuarto José Raúl Estrada Cermeño. y la Secretaria Municipal que certifica Gabriela Maria Azmitia
 
 EXTIENDO, SELLO Y FIRMO LA PRESENTE EN UNA HOJA DE PAPEL BOND TAMAÑO OFICIO EN
 SANTA LUCIA MILPAS ALTAS SACATEPEQUEZ A TREINTA Y UN DÍAS DEL MES DE AGOSTO DEL DOS
-MIL VEINTISEIS.
+MIL. VEINTISEIS.
 
-=A
-TNO
-w'ºnr;.goºº'
+AD
+INS
+ASS
 
 (VSN-33801)-10-septiembre
 
-NUESTROS PRECIOS NO HANCAMBIADO
+NUESTROS PRECIOS NO HAN CAMBIADO
 
 Según Acuerdo Gubernativo Número 112-2015 del Presidente de la República, Tarifario de los Servicios que presta
 la Dirección General del 
 
-Diario»Centro América
+Diario» Centro América
 
-FUNDADO EN 18806 DECANO DE LA PRENSA DEL ISTMO
+FUNDADO EN 185800 DECANO DE LA PREN3A DEL ¡28TMO
 
-PAGINA COMPLETA DCA Y
-CONTRAPORTADA REVISTA
-e
-
-MED'A PAGINA HOR ZONTAL
-5X 4 MODULOS,
-
-114 XK de MODQULOS
-'ERNES Q 6,970.68 Q 3,485.34
-(6X A MODULOS) Q6.970.68
+PAGINA COMPLETA DOA Y MEDIA PAGINA HOR ZONTAL 144 PAGINA MEDIA PAG NA
+CONTRAPORTADA REVISTA (6x4 MODULOS), 134 MODULOS: VERTICAL
+¡ERNES Q 6,970.68 Q 3,485.34 (2x8 MODULOS)
+16 MODULOS) Q 6,970.68
 Q13,941.36
 
-MEDIA PAG NA
-VERTICAL
-
-SX 8 MODULOS)
-
 Sección INFORMATIVA
-—
+Mi
 
-CINTRLLO
-XT MODULOS)
-Q1,742.67 Q 1,742.67
+INTO JON ?RAPORTADA_DCA
+6x1 MODULOS) Ba 5 MODIULOS)
+Q1,742.67 Q 1,742.67 Q14,070.00
 
-CONTRAPORTADA DCA
-H MODULOS)
-Q14,070.00
+UNA PÁGINA MEDIA /4 DE /8 DE PÁGINA CINTILLO CONTRA
+(6 X 8 MÓDULOS) (6 X 4 MÓDULOS) (3 X 4 MÓDULOS) (2 X 3 MÓDULOS) (6 X 1 MÓDULOS) PORTADA
+B/N sin timbre de prensa Q8,160.00 Q4,080.00 Q2,040.00 Q1,020.00 Q1020.00 0 apj
+aplica
+PRECIO TOTAL. Q8,200.80 Q4,100.40 Q2,050.20 Q1,025.10 Q1,025.10
+FULL COLOR sin timbre de prensa Q13,872.00 Q6,936.00 Q3,468.00 Q1,734.00 Q1734.00 Q14,000.00
+PRECIO TOTAL. Q13,941.36 Q6,970.68 Q3,/485.34 Q1,]74267 Q1,742.67 Q14,070.00
 
-B/N sin timbre de prensa
-PRECIO TOTAL
-
-H lae BRE b p ei
-
-FULL COLOR sin timbre de prensa
-PRECIO TOTAL
-
-MQ bb d pretroz
-
-UNA PÁGINA
-(6 X 8 MÓDULOS)
-
-Q 8,160.00
-Q 8,200.80
-
-Q 13,872.00
-Q 13,941.36
-
-MEDIA PÁGINA
-(6 X 4 MÓDULOS)
-
-Q 4,080.00
-Q 4,100.40
-
-Q6,936.00
-Q 6,970.68
-
-1/4 DE /8 DE PÁGINA CINTILLO CONTRA
-(3X4MÓDULOS) — (2X3MÓDULOS) — (6X1MÓDULOS) PORTADA
-
-Q 2,040.00 Q 1,020.00 Q 1,020.00 no aplica
-
-Q 2,050.20 Q 1,025.10 Q 1,025.10
-
-Q 3,468.00 Q 1,734.00 Q 1,734.00 Q 14,000.00
-Q 3,485.34 Q 1,742.67 Q 1,742.67 Q 14,070.00
+A LS
 
 El precio incluye la publicación en la versión impresa del 
 en el Portal Web del Diario y la Certificación Electrónica del Edicto.
@@ -6870,26 +6825,26 @@ NÚMERO 52
 
 Guatemala, JUEVES 10 de septiembre de 2026 17
 
-MUNICIPALIDAD DE CONCEPCIÓN T L ADA DEPARTAMENTO DE SAN MARCOS,
-CONVACATE Ta a c¡ EUBLICA
-Se invita a todas las empresa,s I _ oJ a bras a participar en el proceso de
-Licitación del proyecto: CONS UCCION SIST k DE AGUA POTABLE CASERIO
-TUIZACTZOC ALDEA TALHUITO, 0. CEPC¿QN TUI a ”_*
-ser consultadas en el portal de
-apertura de plicas se realizará eñ ,
+MUNICIPALIDAD DE CONCEPCIÓN Ri papa BA DEPARTAMENTO DE SAN MARCOS,
+CONVAGARS Ta, En ACÁ fUBLICA
+Se invita a todas las empresap í lo) í Nas a participar en el proceso de
+Licitación del proyecto: CON: TRUCCIÓN: SISTE DE AGUA POTABLE CASERIO
+TUIZACTZOC ALDEA TALHUITO, PO pa TU F y
+ser consultadas en el portal del
+apertura de plicas se realizará en ¡
 
 octubre de 2026. A las 10:00 am.
 
-, SAN MARCOS. Las bases pueden
-0G: 31382819. La recepción y
+, SAN MARCOS, Las bases pueden
+06: 31382819, La recepción y
 
 (347752)-10-septiembre
 
-Prevención;
+Prevención,
 
-NANZA .
-Contraloría General de Cuentas nny Confianza
-GUICTMALA, CA
+TRORZA .
+Contraloría General de Cuentas consnyen Confianza
+GUATEMALA, CA.
 
 LICITACIÓN PÚBLICA No. CGC-LP-03-2026
 CONTRALORÍA GENERAL DE CUENTAS
@@ -6925,7 +6880,7 @@ Guatemala, septiembre de 2026.
 
 (348565)-10-septiembre
 
-Z INVITACION LICITACION PUBLICA DMP No. 03-2026 .
+AN INVITACION LICITACION PUBLICA DMP No. 03-2026 Pg
 
 La Municipalidad de Nueva Concepción, Departamento Escuintla, invita a toda persona individual o jurídica nacional
 o extranjera debidamente inscrita en el Registro General de Adquisiciones del Estado de Guatemala, a participar en
@@ -6934,7 +6889,7 @@ ALCANTARILLADO SANITARIO AV. FRAY MATIAS HACIA AV. ANTONIO YANES SOBRE CALLE NIC
 CASCO URBANO DEL MUNICIPIO DE NUEVA CONCEPCION, ESCUINTLA. --
 
 Los interesados en participar en este proceso, podrán descargar las Bases de Licitación en el portal
-GUATECOMPRAS, www.quatecompras gob gt, consultando el Número de Operación GUATECOMPRAS -NOG-
+GUATECOMPRAS, www. guatecompras gob gt, consultando el Número de Operación GUATECOMPRAS -NOG-
 30996600.
 
 La recepción de ofertas será en el Salón de Seciones del Concejo Municipal ubicado en segundo nivel, del interior de
@@ -6943,15 +6898,15 @@ GUATECOMPRAS, transcurridos treinta (30) minutos no se aceptará ninguna oferta 
 
 Nueva Concepción, Escuintla Septiembre 2026.
 
-¡saías Corado García
+Isaías Corado García
 Alcalde Municipal
 
 Nueva Concepción, Escuintla. .
 (348594)-10-septiembre
 
-INVITACION LICITACION PUBLICA DMP No. 02-2026 J-"'?í»f'w
+INVITACION LICITACION PUBLICA DMP No. 02-2026 AS
 
-¡(—¡_¿,
+ga
 
 La Municipalidad de Nueva Concepción, Departamento Escuintla, invita a toda persona individual o jurídica
 nacional o extranjera debidamente inscrita en el Registro General de Adquisiciones del Estado de Guatemala, a
@@ -6960,7 +6915,7 @@ CONSTRUCCION MUELLE Y MALECON TURISTICO INTEGRAL ALDEA TECOJATE SECTOR 1, DEL
 MUNICIPIO DE NUEVA CONCEPCION, ESCUINTLA.
 
 Los interesados en participar en este proceso, podrán descargar las Bases de Licitación en el portal
-GUATECOMPRAS, wmwaww.quatecompras.gob.agt, consultando el Número de Operación GUATECOMPRAS -
+GUATECOMPRAS, www.guatecompras.gob. at, consultando el Número de Operación GUATECOMPRAS —
 NOG- 30996740.
 
 La recepción de ofertas será en el Salón de Seciones del Concejo Municipal ubicado en segundo nivel, del interior
@@ -6974,7 +6929,7 @@ Alcalde Municipal
 
 Nueva Concepción, Escuintla. (348595)-10-septiembre
 
-INVITACION LICITACION PUBLICA No. 06-2026
+INVITACION LICITACION PUBLICA No, 06-2026
 
 La Municipalidad de Nueva Concepción, Departamento Escuintla, invita a toda persona individual o juridica nacional o extranjera
 debidamente inscrita en el Registro General de Adquisiciones del Estado de Guatemala, a participar en el Evento de LICITACION
@@ -6982,9 +6937,9 @@ PUBLICA para el proyecto denominado con el nombre de: MEJORAMIENTO CAMINO RURAL 
 CALLE DEL BANCO DEL MUNICIPIO DE NUEVA CONCEPCION, ESCUINTLA. -
 
 Los interesados en participar en este proceso, podrán descargar las Bases de Licitación en el portal GUATECOMPRAS,
-www quatecompras dob at, consultando el Número de Operación GUATECOMPRAS -NOG-31747035 La recepción de ofertas
+ww quatecompres gob at, consultando el Número de Operación GUATECOMPRAS -NOG-31747035 La recepción de ofertas
 será en el Salón de Seciones del Concejo Municipal ubicado en segundo nivel, del interior de la Municipalidad de Nueva
-Concepción, Escuntla, la oferta debe ser entregada en fecha y hora establecida en GUATECOMPRAS, transcurridos tremta (30)
+Concepción, Escuintla, la oferta debe ser entregada en fecha y hora establecida en GUATECOMPRAS, transcurridos treinta (30)
 minutos no se aceptará ninguna oferta más
 
 Nueva Concepción, Escuintla Septiembre 2026
@@ -6996,16 +6951,16 @@ Nueva Concepción, Escuintla.
 
 INVITACION LICITACION PUBLICA No. 05-2026
 
-La Municipalidad de Nueva Concepción, Departamento Escuintla, invita a toda persona individual o jurídica nacional o extranjera
-debidamente inscnita en el Registro General de Adquisiciones del Estado de Guatemala, a participar en el Evento de LICITACION
+La Municipalidad de Nueva Concepción, Departamento Escuintla, invita a toda persona individual o juridica nacional o extranjera
+debidamente inscrita en el Registro General de Adquisiciones del Estado de Guatemala, a participar en el Evento de LICITACION
 PUBLICA para el proyecto denominado con el nombre de: MEJORAMIENTO CALLE BELICE BARRIO SANTA TERESA DEL
 MUNICIPIO DE NUEVA CONCEPCION, ESCUINTLA. -
 
 Los interesados en participar en este proceso, podrán descargar las Bases de Licitación en el portal GUATECOMPRAS,
-www quatecompras dgob «t, consultando el Número de Operación GUATECOMPRAS -NOG-31744133.
+www quatecompras gob qt, consultando el Número de Operación GUATECOMPRAS -NOG-31744133.
 
 La recepción de ofertas será en el Salón de Seciones del Concejo Municipal ubicado en segundo nivel, del interior de la
-Municipalidad de Nueva Concepción, Escumtla, la oferta debe ser entregada en fecha y hora establecida en GUATECOMPRAS,
+Municipalidad de Nueva Concepción, Escuintla, la oferta debe ser entregada en fecha y hora establecida en GUATECOMPRAS,
 transcurridos treinta (30) minutos no se aceptará ninguna oferta más
 
 Nueva Concepción, Escuintla Septiembre 2026
@@ -7014,8 +6969,8 @@ Alcalde Municipal
 Nueva Concepción, Escuintla.
 (348592)-10-septiembre
 
-ae $ INVITACION LICITACION PUBLICA No. 04-2024 Ne $7
-P —————;——]]———L—;]——]——— Za
+rs” INVITACION LICITACION PUBLICA No. 04-2024 "pue SP
+page OO Ada
 
 La Municipalidad de Nueva Concepción, Departamento Escuintla, invita a toda persona individual o jurídica nacional o
 extranjera debidamente inscrita en el Registro General de Adquisiciones del Estado de Guatemala, a participar en el
@@ -7023,7 +6978,7 @@ Evento de LICITACION PUBLICA para el proyecto denominado con el nombre de: MEJOR
 TROCHA 4 CALLE PALO BLANCO DEL MUNICIPIO DE NUEVA CONCEPCION, ESCUINTLA.
 
 Los interesados en participar en este proceso, podrán descargar las Bases de Licitación en el portal GUATECOMPRAS,
-www.quatecompras.gob gt, consultando el Número de Operación GUATECOMPRAS -NOG-31520154.
+www. guatecompras.gob at, consultando el Número de Operación GUATECOMPRAS -NOG-31520154.
 
 La recepción de ofertas será en el Salón de Seciones del Concejo Municipal ubicado en segundo nivel, del interior de la
 Municipalidad de Nueva Concepción, Escuintla, la oferta debe ser entregada en fecha y hora establecida en
@@ -7031,9 +6986,9 @@ GUATECOMPRAS, transcurridos treinta (30) minutos no se aceptará ninguna oferta 
 
 Nueva Concepción, Escuintla Septiembre 2026.
 
-Isaías Corado García
+Isaías Corado Garcia
 Alcalde Municipal
-Nueva Concepción, Escuintia.
+Nueva Concepción, Escuintla.
 
 (348593)-10-septiembre
 
@@ -7046,8 +7001,8 @@ NÚMERO 52
 
 SUPERINTENDENCIA DE ADMINISTRACION TRIBUTARIA
 
-La Superintendencia de Administración Tributaria, a través de la Intendencia de Aduanas, hace del conocimiento del público en general, que de conformidad con lo establecido en el Título ViI
-del Código Aduanero Uniforme Centroamericano (CAUCA) y su Reglamento CRECAUCA), ha fijado el día 25 de septiembre de 2026 a las 09:00 horas, para realizar la:
+La Superintendencia de Administración Tributaria, a través de la Intendencia de Aduanas, hace del conocimiento del público en general, que de conformidad con lo establecido en el Título VII
+del Código Aduanero Uniforme Centroamericano (CAUCA) y su Reglamento (RECAUCA), ha fijado el día 25 de septiembre de 2026 a las 09:00 horas, para realizar la:
 
 SUBASTA PÚBLICA ADUANERA
 
@@ -7059,53 +7014,53 @@ Portuaria Nacional Santo Tomás de Castilla, ubicado en el área urbanizada, Bar
 
 ADUANA SANTO TOMAS DE CASTILLA
 
-MERCANCÍAS Y CONTENEDORES VACIOS: Partida 1: Ropa Usada (Pacas) Precio Base: Q70,993.78 Partida 2: Pacas de Peluches Usados Precio Base: Q10,019.89 Partida 3: 1440 Cajas de
+MERCANCÍAS Y CONTENEDORES VACIOS: Partida 1: Ropa Usada (Pacas) Precio Base: (270,993.78 Partida 2: Pacas de Peluches Usados Precio Base: G10,019.89 Partida 3: 1440 Cajas de
 MANNAPACK MIX (Mezcla De Soya Fortificada) Precio Base: Q6,465.86 Partida 4: Ropa Usada (Pacas) Precio Base: Q59,812.14 Partida 5: 1440 Cajas de MANNAPACK MIX (Mezcla de Soya
-Fortificada) Precio Base: Q6,465.86 Partida 6: Ropa Usada (Pacas) Precio Base: Q76,018.46 Partida 7: Desperdicio y Recortes de Plástico (20 Bultos) Precio Base: Q11,383.61 Partida 8: Contenedor
-vacío de 40 pies POCU7072257 Precio Base: G1,360.06 Partida 9: Contenedor vacío de 40 pies MAEU8340323 Precio Base: Q4,798.80 Partida 10: Contenedor vacío de 40 pies TCKU9460836
-Precio Base: Q1,360.06 Partida 11: Contenedor vacío de 40 pies PONU7455218 Precio Base: Q4,798.80 Partida 12: Contenedor vacío de 40 pies MSKU0058672 Precio Base: Q1,356.91
+Fortificada) Precio Base: 06,465.86 Partida 6: Ropa Usada (Pacas) Precio Base: Q76,018.46 Partida 7: Desperdicio y Recortes de Plástico (20 Bultos) Precio Base: Q11,383.61 Partida 8: Contenedor
+vacío de 40 pies POCU7O72257 Precio Base: Q1,360.06 Partida 9: Contenedor vacío de 40 pies MAEU8340323 Precio Base: Q4,798.80 Partida 10: Contenedor vacío de 40 pies TCKU94A60836
+Precio Base: Q1,360.06 Partida 11: Contenedor vacío de 40 pies PONU7455218 Precio Base: Q4,798.80 Partida 12: Contenedor vacio de 40 pies MSKUOO58672 Precio Base: Q1,356.91
 Partida 13: Contenedor vacío de 45 pies MSKU4591838 Precio Base: Q4,313.03 Partida 14: Contenedor vacío de 45 pies MSKU4666916 Precio Base: Q6,065.61 Partida 15: Contenedor vacío de 40 pies
-MSKU8123922 Precio Base: Q3,509.12 Partida 16: Contenedor vacío de 40 pies MRKU5335340 Precio Base: Q3,762.38 Partida 17: Contenedor vacío 40 pies MSKU9494532 Precio Base: Q3,386.14
-Partida 18: Contenedor vacío 40 pies MRKU4693118 Precio Base: Q6,810.59 Partida 19: Contenedor refrigerado vacío 40 pies HLBU92026145 Precio Base: Q7,014.24 Partida 20: Flat Rack 40 pies
-CMCU4336257 Precio Base: Q2,312.02 Partida 21: Contenedor vacío 45 pies CMCU4586636 Precio Base: Q6,778.44 Partida 22: Flat Rack 40 pies TRLU6E018278 Precio Base: Q?,310.23
-Partida 23: Contenedor vacío 45 pies CMCU4707419 Precio Base: Q7,382.39 Partida 24: Flat Rack 40 pies CMCU4332478 Precio Base: Q2,309.58 Partida 25: Flat Rack 40 pies
-CMCU4334315 Precio Base: Q2,309.58 Partida 26: Contenedor vacío 45 pies CMCU4551141 Precio Base: Q2,099.62 Partida 27: Contenedor vacío 45 pies CMCU4563688 Precio Base: Q2,099.62
-Partida 28: Contenedor vacío 45 pies CMCU4581819 Precio Base: Q6,771.28 Partida 29: Flat Rack 40 pies CMCU43308EO Precio Base: Q2,308.93.
+MSKU8123922 Precio Base: Q3,609.12 Partida 16: Contenedor vacío de 40 pies MRKU5335340 Precio Base: Q3,762.38 Partida 17: Contenedor vacío 40 pies MSKU9494532 Precio Base: Q3,386.14
+Partida 18: Contenedor vacío 40 pies MRKU4693113 Precio Base: Q6,810.59 Partida 19: Contenedor refrigerado vacío 40 pies HLBU9O26145 Precio Base: Q7,014.24 Partida 20: Flat Rack 40 pies
+CMCU4336257 Precio Base: Q2,312.02 Partida 21: Contenedor vacío 45 pies CMCU4586636 Precio Base: Q6,778.44 Partida 22: Flat Rack 40 pies TRLUGO18278 Precio Base: Q2,310.23
+Partida 23: Contenedor vacío 45 pies CMCU4707419 Precio Base: Q7,382.39 Partida 24: Flat Rack 40 pies CMCUA4332478 Precio Base: Q2,309.58 Partida 25: Flat Rack 40 pies
+CMCU4334315 Preclo Base: Q2,309.58 Partida 26: Contenedor vacío 45 pies CMCU4551141 Preclo Base: Q2,099.62 Partida 27: Contenedor vacío 45 pies CMCU4563688 Precio Base: Q2,099.62
+Partida 28: Contenedor vacío 45 pies CMCU4A581819 Precio Base: Q6,771.28 Partida 29: Flat Rack 40 pies CMCU4330860 Precio Base: Q2,308.93.
 
-VEHÍCULOS: Partida 30: Pick up HUMMER H3T 2009 Precio Base: G10,453.07 Partida 31: Camionetilla Kia Soul 2016 Precio Base: Q7,726.90 Partida 32: Camioneta Cadillac Escalade ESV 2007
+VEHÍCULOS: Partida 30: Pick up HUMMER H3T 2009 Precio Base: (10,453.07 Partida 31: Camionetilla Kia Soul 2016 Precio Base: Q7,726.90 Partida 32: Camioneta Cadillac Escalade ESV 2007
 Precio Base: Q9,790.34 Partida 33: Automóvil Honda Civic 2001 Precio Base: Q3,676.03 Partida 34: Camioneta Honda Cr-v Real time 4wd 2005 Precio Base: Q5,46914 Partida 35: Automóvil Honda
-Civic SI 2013 Precio Base: Q4,679.54 Partida 36: Pick up Nissan Frontier 2012 Precio Base: Q9,239.74 Partida 37: Moto Suzuki VS800 2007 Precio Base: Q4,039.19 Partida 38: Automóvil Honda Civic
-2015 Precio Base: Q16,788.62 Partida 39: Automóvil Mazda Protege 2002 Preclo Base: Q1,893.67 Partida 40: Camionetilla Scion Xb 2005 Preclo Base: Q3,173.66 Partida 41: Automóvil Mazda 3 2010
+Civic SI 2013 Precio Base: (04,679.54 Partida 36: Pick up Nissan Frontier 2012 Precio Base: Q9,239.74 Partida 37: Moto Suzuki VS800 2007 Precio Base: 04,039.19 Partida 38: Automóvil Honda Civic
+2015 Preclo Base: Q16,788.62 Partida 39: Automóvil Mazda Protege 2002 Preclo Base: Q1,893.67 Partida 40: Camionetilla Scion Xb 2005 Precio Base: Q3,173.66 Partida 41: Automóvil Mazda 3 2010
 Precio Base: Q3,054.32 Partida 42: Automóvil Nissan Micra 2017 Precio Base: Q5,686.69 Partida 43: Camioneta Honda Cr-v 2002 Precio Base: Q5,469.14 Partida 44: Automóvil Mazda 3 2010
-Precio Base: Q2,953.64.
+Preclo Base: Q2,953.64.
 
 Los días martes 22, miércoles 23 y jueves 24 de septiembre de 2026 en las instalaciones de Aduana Santo Tomás de Castilla ubicada en el Depósito Aduanero Temporal de Empresa Portuaria
-Nacional Santo Tomás de Castilla del municipio de Puerto Barríos, departamento de Izabal, en horarios de 08:00 a 12:00 y de 13:00 a 16:00 horas estarán a la vista de los interesados las
+Nacional Santo Tomás de Castilla del municipio de Puerto Barrios, departamento de Izabal, en horarios de 08:00 a 12:00 y de 13:00 a 16:00 horas estarán a la vista de los interesados las
 mercancías, contenedores vacíos y vehículos automotores objeto de subasta. En esos lugares se proporcionarán las bases de participación para la subasta pública aduanera y listados de las
 mercancías, contenedores vacíos y vehículos automotores objeto de subasta. En los mismos días podrán observarse fotografías de las mercancías objeto de subasta, en la página electrónica de
-la Superintendencia de Administración Tributaria, -SAT- en el link https://portal.sat.gob.gt/portal/subastas-y-donaciones-aduaneras/41624382420087-f2b228a7-36do
+la Superintendencia de Administración Tributaria, -SAT- en el link https://portal.sat.gob.gt/portal/subastas-y-donaciones-aduaneras/i11624382420087-f2b228a7-36d0
 
 Toda persona que desee participar como postor en la subasta, NO debe tener omisos con la Superintendencia de Administración Tributaria, debe poseer Número de Identificación Tributaria (NIT) y
 tener actualizado sus datos en el Registro Tributario Unificado (RTU) de la SAT.
 
 Para participar como postor en la subasta, es indispensable depositar mediante cheque de caja a nombre de la SUPERINTENDENCIA DE ADMINISTRACIÓN TRIBUTARIA el 25% (veinticinco por
-ciento) del precio base de lacs) partida(s) en qué se desee participar, individualizando el número de aquellas en que se tenga interés. La entrega del cheque debe efectuarse en la ventanilla de
+ciento) del precio base de la(s) partida(s) en qué se desee participar, indlvidualizando el número de aquellas en que se tenga interés. La entrega del cheque debe efectuarse en la ventanilla de
 recaudación ubicada en el interior de la Aduana Santo Tomás de Castilla, dentro de los 3 días hábiles previos a realizarse el evento de la subasta, es decir, los días 22, 23 y 24 de septiembre de
 2026 se podrán entregar dichos cheques de caja en el lugar antes indicado en horario de 8:00 a 16:00 horas.
 
 Las personas interesadas en participar en la subasta, además de cumplir con la realización de la entrega del cheque de caja del 25% sobre el precio base de la partida de interés, deben indicar de forma
-escrita el húmero de partida, adjuntando al mismo fotocopia del cheque de caja, para el efecto debe utilizar el anexo Formato presentación postura de interés RE-IAD/DNO-ADU-GOA-07 contenido
-en el procedimiento PR-IAD/DNO-ADU-GOA-0€6 y entregarlo al Técnico de Recaudación de Aduanas, quien elaborará el listado de postores y partidas de interés de los mismos, resguardándolo hasta
+escrita el número de partida, adjuntando al mismo fotocopia del cheque de caja, para el efecto debe utilizar el anexo Formato presentación postura de interés RE-l|AD/DNO-ADU-GOA-07 contenido
+en el procedimiento PR-IAD/DNO-ADU-GOA-06 y entregarlo al Técnico de Recaudación de Aduanas, quien elaborará el listado de postores y partidas de interés de los mismos, resguardándolo hasta
 el día de la realización del evento de subasta y entregándolo para el efecto a la Sección de Administración de Mercancías en Decomiso y Abandono de la Gerencia Regional Nororiente.
 
 Previo y posterior al evento de Subasta Pública Aduanera tomar en consideración que para poder ingresar a las instalaciones de la Empresa Portuaria Nacional Santo Tomás de Castilla y de Almacenes
 de Guatemala deberá llevar casco, chaleco reflectivo y botas tipo industrial.
 
 Para vehículos, cuando corresponda: Los contribuyentes, previo a realizar sus importaciones definitivas, están obligados a registrarse en el Padrón de Importadores, en los casos siguientes: a) Cuando
-estén registrados en el RTU como persona jurídica, b) cuando estén registrados en el RTU como persona individual y que cumplan en cualquier momento alguna de las condiciones siguientes: ) Tenga
-registrado en el RTU uno o más negoclos; lI) tenga reallzada una o varlas Importaciones que superen los US$ 10,000.00 (dlez mil dólares) en valor FOB en un mismo ejercicio fiscal.
+estén registrados en el RTU como persona jurídica, b) cuando estén registrados en el RTU como persona individual y que cumplan en cualquier momento alguna de las condiciones siguientes: l) Tenga
+registrado en el RTU uno o más negoclos; 11) tenga reallzada una o varlas Importaciones que superen los US$ 10,000.00 (dlez mil dólares) en valor FOB en un mismo ejercicio fiscal.
 
-La Superintendencia de Administración Tributaria, se exime de cualquier responsabilidad por algún derecho de Propledad Intelectual que a terceros pudiera corresponderles, derivado del
+La Superintendencia de Administración Tributaria, se exime de cualquier responsabllidad por algún derecho de Propledad Intelectual que a terceros pudlera corresponderles, derivado del
 proceso de Subasta Pública Aduanera.
 
 El postor a quien se adjudique una o varias partidas, debe efectuar el pago total correspondiente al precio de venta, inmediatamente o a más tardar dentro del día hábil siguiente a la fecha de
@@ -7114,7 +7069,7 @@ reallzación de la subasta.
 La subasta es de libre concurrencia, con excepción de los funcionarios y empleados de la Superintendencia de Administración Tributaria -SAT-, quienes no podrán participar directa o indirectamente
 como postores.
 
-Nota: para la partida 3 y 5 se deberá presentar Permiso de Salud y Allmentos el cual deberá gestlonarse ante el Ministerlo de Salud Pública y Asistencia Soclal. Más Información consultar las Bases
+Nota: para la partida 3 y 5 se deberá presentar Permiso de Salud y Allmentos el cual deberá gestlonarse ante el Ministerlo de Salud Pública y Asistencla Social. Más Información consultar las Bases
 de Participación.
 
 Las mercancías que sean rescatadas por sus consignatarios o por quien comprobare derecho sobre las mismas, serán anunciadas al iniciar el evento de subasta.
@@ -7126,8 +7081,8 @@ Lo descrito en el párrafo anterior sin perjuicio de lo que Leyes Especiales dis
 
 La Sección de Administración de Mercancías en Decomiso y Abandono, Gerencia Regional Nororiente, ubicada en la 9* calle lera Avenida final Las Champas Puerto Barrios, Izabal, a partir del día de
 la publicación del presente Aviso de Subasta, hasta el día 24 de septiembre de 2026, proporcionará a las personas interesadas, las bases de participación para la subasta pública aduanera y el listado
-de las mercancías. Las bases y los listados podrán ser consultados en la página electrónica de la Superintendencia de Administración Tributaria -SAT- (Www.sat.gob.gt) en el mismo período. Mayor
-información comunicarse al teléfono 2329-7070 extensiones 7364 y 7342 en horas y días hábiles. T
+de las mercancías. Las bases y los listados podrán ser consultados en la página electrónica de la Superintendencia de Administración Tributaria -SAT- (www.sat.gob.gt) en el mismo período. Mayor
+información comunicarse al teléfono 2329-7070 extensiones 7364 y 7342 en horas y días hábiles. qq
 
 (348528)-10-septiembre
 
@@ -7139,32 +7094,104 @@ NÚMERO 52
 (348605)–10–septiembre
 (348586)–10–septiembre
 (348587)–10–septiembre
-NÚMERO 52 
+NÚMERO 52
 
-CONVOCATORIA
 
-AYUVI 4
 
-¡QUE VIVAN LOS NIÑOS!
+Guatemala, JUEVES 10 de septiembre de 2026 19
 
 LA MUNICIPALIDAD DE HUEHUETENANGO,
 HUEHUETENANGO, GUATEMALA C.A.
 
 CONVOCA A PARTICIPAR
 
-EN EL EVENTO DE LICITACION PUBLICA No. 07 - 2076, Las entidades mercantiles
+EN EL EVENTO DE LICITACION PUBLICA No. 07 - 2026, Las entidades mercantiles
 interesadas en participar en el evento de LICITACION para el proyecto denominado:
-CONSTRUCCION SISTEMA DE TRATAMIENTO AGUAS RESIDUALES, SECTOR EL LLANO,
-JUMAJ ZONA 6, HUEHUETENANGO, HUEHUJETENANGO, podrán adquirir las bases del
+CONSTRUCCION SISTEMA DE TRATAMIENTO AGUAS RESIDUALES, SECTOR El LLANO,
+JUMA. ZONA 6, HUEHUETENANGO, HUEHUETENANGO, podrán adquirir las bases del
 presente concurso de Licitación en la DIRECCION MUNICIPAL DE PLANIFICACION -DMP- de
 la Municipalidad de Huehuetenango, la presentación y recepción de ofertas será en la
 oficina de la Junta Municipal de Licitación ubicada en el Predio Municipal Zona 10, en horario
-de las 10:00am a 10:30am. el día 12 de Octubre de 2076. La publicación del evento se
-puede leer a través de internet, en la dirección www.quatecompras.gob.at, consultando el
-número de Uperaciones Guatecompras NOG 31084439, las consultas relacionadas al
-proyecto se darán únicamente en la Municipalidad de HUEHLJETENANCGO. HUEHLIJETENANCO.
+de las 10:0Dam a 10:30am. el día 12 de Octubre de 2025. La publicación del evento se
+puede leer a través de internet, en la dirección www.guatecompras.gob.gt, consultando el
+número de Operaciones Guatecompras NOG 31084435, las consultas relacionadas al
+proyecto se darán únicamente en la Municipalidad de HUEHUETENANGO, HUEHUETENANGO.
 
 (348587)-10-septiembre
+
+MUNICIPALIDAD DE COLOTENANGO
+HUEHUETENANGO, GUATEMALA C.A.
+CONVOCATORIA
+LICITACION PUBLICA No. 11-2026.
+
+La municipalidad de Colotenango, del departamento de Huehuetenango, convoca:
+A todas las empresas interesadas en participar en la licitación del proyecto
+denominado: “CONSERVACION A LA CULTURA - DOTACION DE HILOS PARA TRAJE
+TIPICO (GUIPIL) A MUJERES ORGANIZADAS EN TODO EL MUNICIPIO DE
+COLOTENANGO, HUEHUETENANGO.” Ubicación: MUNICIPIO DE COLOTENANGO,
+HUEHUETENANGO. Podrán adquirir las bases en la DIRECCION MUNICIPAL DE
+PLANIFICACION —DMP- DE LA MUNICIPALIDAD DE COLOTENANGO,
+HUEHUETENANGO, el cierre de la recepción de ofertas en forma electrónica será a
+la 10:00 horas el día 19 octubre 2026, la publicación y el ingreso de la oferta
+electrónica del evento se puede consultar a través de internet en la dirección
+www. guatecompras.gt con el Numero de Operación en Guatecompras (NOG)
+31762697, Las consultas relacionadas al proyecto, se darán únicamente en la
+municipalidad de Colotenango, Huehuetenango.
+
+(348586)-10-septiembre
+
+(348604)-10-septiembre
+
+MINISTERIO PÚBLICO
+DE GUATEMALA
+
+Departamento de Eventos de Cotización y Licitación
+Guatemala, Guatemala
+
+REPÚBLICA DE GUATEMALA
+LICITACION PUBLICA MP-L-2-2025
+
+El Ministerio Público, de conformidad con lo establecido en el artículo
+23 del Decreto número 57-92 del Congreso de la República de
+Guatemala, Ley de Contrataciones del Estado:
+
+INVITA
+
+A participar en la licitación pública para la:
+
+“ADQUISICIÓN DE VEHÍCULOS TIPO PICK-UP
+CON FURGON PARA USO DEL
+MINISTERIO PÚBLICO, MP-L-2-2025””
+
+Los interesados en participar podrán adquirir las bases de licitación y
+demás documentación, por medio del Sistema de Información de
+Contrataciones y Adquisiciones del Estado —GUATECOMPRAS-—. Las
+bases de licitación fueron publicadas en dicho Sistema el 8 de
+septiembre de 2026.
+
+La fecha para la recepción de ofertas y apertura de plicas, será el 22 de
+octubre de 2026, a las 10:00 horas, en el salón Autonomía, quinto nivel
+del Edificio Administrativo del Ministerio Público, situado en la 8*.
+Avenida 10-67, zona 1 ciudad de Guatemala.
+
+Las plicas presentadas después de transcurridos treinta (30) minutos de
+la hora señalada para su presentación y recepción, serán rechazadas
+sin responsabilidad alguna del Ministerio Público y la Junta de Licitación
+nombrada para dicho evento.
+
+Las bases y demás documentación del presente concurso pueden ser
+consultadas en la dirección de Internet www. guatecompras.gat con el
+Número de Operación Guatecompras (NOG) 30367476.
+
+8% Avenida 10-67 zona 1, 5% nivel
+Edificio Administrativo
+Ciudad de Guatemala, Guatemala
+
+CONVOCATORIA
+
+AYUVI y
+
+¡QUE VIVAN LOS NIÑOS!
 
 El Presidente del Consejo Directivo de la
 
@@ -7176,85 +7203,23 @@ FUNDADORES Y BENEFACTORES
 
 La cual se llevará a cabo el 30 de septiembre de 2026, a las 7:30 horas en
 el boulevard Los Próceres 24-69, Edificio Zona Pradera, torre 4, nivel 17,
-MUNICIPALIDAD DE COLOTENANGO sala Pollo Rey, zona 10 de esta ciudad.
-HUEHUETENANGO, GUATEMALA C.A.
-CONVOCATORIA
-LICITACION PUBLICA No. 11-2026.
-La municipalidad de Colotenango, del departamento de Huehuetenango, convoca:
-A todas las empresas interesadas en participar en la licitación del proyecto 1. Elección de miembros para cargos vacantes del Consejo Directivo
-denominado: “CONSERVACION A LA CULTURA - DOTACION DE HILOS PARA TRAJE 2026-2028.
-TIPICO (GUIPIL) A MUJERES ORGANIZADAS EN TODO EL MUNICIPIO DE
-COLOTENANGO, HUEHUETENANGO.” Ubicación: MUNICIPIO DE COLOTENANGO,
-HUEHUETENANGO. Podrán adquirir las bases en la DIRECCION MUNICIPAL DE
-PLANIFICACION —DMP- DE LA MUNICIPALIDAD DE COLOTENANGO,
-HUEHUETENANGO, el cierre de la recepción de ofertas en forma electrónica será a
-la 10:00 horas el día 19 octubre 2026, la publicación y el ingreso de la oferta
-electrónica del evento se puede consultar a través de internet en la dirección
-www.quatecompras.gt con el Numero de Operación en Guatecompras (NOG)
-31762697, Las consultas relacionadas al proyecto, se darán únicamente en la
+sala Pollo Rey, zona 10 de esta ciudad.
 
 Agenda propuesta:
+
+1. Elección de miembros para cargos vacantes del Consejo Directivo
+2026-2028.
 
 De conformidad con lo establecido en los estatutos de la Fundación, de no
 haber quórum a la hora indicada, la Junta se llevará a cabo una hora
 después, en el mismo lugar con los miembros presentes.
 
-municipalidad de Colotenango, Huehuetenango.
-(348586)-10-septiembre
-
-(348604)-10-septiembre
-
-MINISTERIO PÚBLICO
-DE GUATEMALA
-
-Departamento de Eventos de Cotización y Licitación
-Guatemala, Guatemala
-
-REPÚB_LICA_ DE GUATEMALA
-LICITACIÓN PUBLICA MP-L-2-2025
-
-El Ministerio Público, de conformidad con lo establecido en el artículo
-23 del Decreto número 57-92 del Congreso de la República de
-Guatemala, Ley de Contrataciones del Estado:
-
-INVITA
-
-A participar en la licitación pública para la:
-
-“ADQUISICIÓN DE YEHÍCULOS TIPO PICK-UP
-CON FURGON PARA USO DEL
-MINISTERIO PUBLICO, MP-L-2-20257”
-
-Los interesados en participar podrán adquirir las bases de licitación y
-demás documentación, por medio del Sistema de Información de
-Contrataciones y Adquisiciones del Estado —GUATECOMPRAS-. Las
-bases de licitación fueron publicadas en dicho Sistema el 8 de
-septiembre de 2026.
-
-La fecha para la recepción de ofertas y apertura de plicas, será el 22 de
-octubre de 2026, a las 10:00 horas, en el salón Autonomía, quinto nivel
-del Edificio Administrativo del Ministerio Público, situado en la 82.
-Avenida 10-67, zona 1 ciudad de Guatemala.
-
-Las plicas presentadas despueés de transcurridos treinta (30) minutos de
-la hora señalada para su presentación y recepción, serán rechazadas
-sin responsabilidad alguna del Ministerio Público y la Junta de Licitación
-nombrada para dicho evento.
-
-Las bases y demás documentación del presente concurso pueden ser
-consultadas en la dirección de Internet www quatecompras.gt con el
-Número de Operación Guatecompras (NOG) 30367476.
-
-8 Avenida 10-67 zona 1, S* nivel
-Edificio Administrativo
-Ciudad de Guatemala, Guatemala
-
-Ciudad de Guatemala, septiembre de 2026.
+Ciudad de Guatemala, septiembre de 2026,
 
 (348605)-10-septiembre
 
-MUNICIPALIDAD DE CHIQUIMULILLA, SANTA ROSA &
-LICITACIÓN PÚBLICA No. 12-2026 —
+MUNICIPALIDAD DE CHIQUIMULILLA, SANTA ROSA ES
+LICITACIÓN PÚBLICA No. 12-2026 ¡ai
 Invita a todas las empresas individuales y/o Jurídicas a participa en la Licitación del
 Proyecto:
 
@@ -7271,8 +7236,8 @@ el portal www.guatecompras.gob.gt con el número de operación NOG:
 
 (VSN-33791)-10-septiembre
 
-MUNICIPALIDAD DE CHIQUIMULILLA, SANTA ROSA ¡Z£_
-LICITACIÓN PÚBLICA No. 11-2026 —
+MUNICIPALIDAD DE CHIQUIMULILLA, SANTA ROSA ES
+LICITACIÓN PÚBLICA No. 11-2026 ¡c,
 
 Invita a todas las empresas individuales y/o Jurídicas a participa en la Licitación del
 Proyecto:
@@ -7302,112 +7267,112 @@ NÚMERO 52
 
 
 
-(348608)-10-septiembre
+NÚMERO 52
 
-m
+Que
 
 CONVOCATORIA
-LICITACIÓN PÚBLICA N”. 14-2026
+LICITACIÓN PÚBLICA N?. 14-2026
 
-La Municipalidad de Santa Catarina Pinula, a través de la Dirección de Obras convoca a tada persona
-individual o jurídica, nacional o extranjera debidamente inscrita en los registros carespondientes de
-Guatemala y cuyo giro principal de su actividad económica, sea la construcción de obras, para que
+La Municipalidad de Santa Catarina Pinula, a través de la Dirección de Obras convoca a toda persona
+individual o jurídica, macional o extranjera debidamente inscrita en los registros corespondientes de
+Guatemala y cuyo giro principal de su actividad económica, sea la construcción de obros, para que
 participe en el concurso de la licitación pública denominada: “MEJORAMIENTO CALLE URBANA DEL
-SECTOR OCALES A SECTOR LOS TRES REYES DE ALDEA El PAJON, SANTA CATARINA PINULA, GUATEMALA".
+SECTOR OCALES A SECTOR LOS TRES REYES DE ALDEA El PAJON, SANTA CATARINA PINULA, GUATEMALA”.
 
-Para tales efectos, los oferentes interesados en participar en la presente Licitación, pográn adaquirir ¡as
-Bases de Licitación por medio electrónico, a través de la página www.quatecompras.gob.gt
-consultando el Número de Operación Guatecompras -NOG- 31738290 y dirigir por escrito su carta de
-intención para participar en el evento al Deparamento de Compras y Contrataciones de la
-Municipaldad de Santa Catarina Pinuia, ubicada en la primera calle número cinco guien cincuenta,
-zona uno del municipio de Santa Catarina Pinula, tercer nvel del Ediicio Municipal, dentro del plazo de
-CINCO (S) DÍAS HÁBILES posteriores a la fecha de publicación de la convocatoria en el Portal
+Para tales efectos, los oferentes interesados en participar en la presente licitación, pográn adquirir las
+Bases de Licitoción por medio electrónico, a través de la página www.quaftecompras.gob.qgt
+consultando el Número de Operación Guatecompras -NOG- 31738990 y dirigir por escrito su carta de
+intención pora participar en el evento al Departamento de Compras y Contrataciones de la
+Municipalidad de Santa Catarina Pinuia, ubicada en la primera calle número cinco guion cincuenta,
+zona uno del municipio de Santa Catarina Pinula, tercer nivel del Edificio Muricipal, dentro del plazo de
+CINCO (5) DÍAS HÁBILES posteriores a la fecha de publicación de la convocatoria en el Portal
 Guatecompras, contados a partir del MARTES 8 al LUNES 14 DE SEPTIEMBRE del AÑO 2026 en horario de
-07:00 a 16:00 horas: consignando en dicha carta, los datos generales de la persona oferente (individual
-o juídica), número de identificación tributaria -NIT-, dirección fiscal y comercial, teléfono, careo
-electrónico y la msma deberá estar firmado y sellada por el oferente (a través de su propietario,
-representante o mandatario); adicionalmente deberán adjuntar:
+09:00 a 16:00 horas: consignando en dicha carta, los datos generales de lo persona oferente (individual
+O jurídica), múmero de identificación tributaria -NIT-, dirección fiscal y comercial, teléfono, coreo
+electrónico y la misma deberá estor fimado y sellada por el oferente (o través de su propietario,
+representante o mandatario): adicionalmente deberán aajuntar:
 
-Gonstancia de Inscripaión y Pres ificución corna Prove
+Constancia de inscripción y Preésolificación como Pron
 
-emitcia por el Registro General de Adquisiciones del Es
+emilia por el Registo General de Adquisiciones del Es
 
-¿oeo liente d uu fisydl 2026, « contormider$ corho
+rs diente Ol añ fis al POP, de contormicke rd cor ho
 
-Construcción de careteras de povíimento fexible, Íaicio, seminígcio, calles,
-otras vas para vehículos y peatones, señdización honzontal y vertical, ciefenscs
-sisteraa de crenoje
+Construcción de cameteras de pammenta fesidle, rMeoncko, seminícado, calles,
+otras das pora vebículos y peatones, señalización honzontal y wertical, defensas
+sistesniade rrendje
 
-Cearreteras
-mentacias
+Carreteras
+mentadas
 
-Mantenmiento preventivo y ronmectu: de carteteras prmmentados y mo
-povimentacios, limpieza de ¿urreters, cunetas, haderas, derecho de via,
-alcrntarillas, csijas, traciantes, sebdalización verticalentre otros
-Pre 5
-como hpieza de tereno, remoc iros, y Ootres sinilares. No
+Mantenimiento. preventivo. y conectws de carreteras punármientcarias y ma
+pavmentades, limpieza de coreterda, cunetas, laderas, derecho de vía,
+alcantarillas, crajas, tragantes, sebalización vertical entre otros
+Pre, 5
+corno hrmpieza dle terreno, remos dos, y otros snilares. Na
 
-vécISe 4292, 0990, 3900, 7111, 4221, A2A, 4725, 4726 Y 4997
+véase 4292, 0990, 3900, 7111, 4221, 4224, A225, 4226 Y 4227
 Así mismo, el monto máximo de contratación del oferente reflejado en la constancia, deberá ser
-igual o superior a diez millones de quetzdles (Q.10,000,000.00).
+igual o superior a diez millones de quetzales (Q.10,000,000.00).
 
-lel temenc
+del terrena
 
 Revisados los documentos indicados anteriormente, los interesados deberán hacer efectivo el pago de
-Q.500.00 equivalentes a la reproducción de las planos de construcción de la obra; costo que deberá
-cancelarse en las cajas receptaras de la Municipalidad.
+Q.500.00 equivalentes a la reproducción de los planos de construcción de la obra; costo que deberá
+cancelarse en las cajas receptoras de la Municipalidad.
 
-Para la recepción y apertura de plicas que contienen las ofertas se señala el día LUNES 19 DE OCTUBRE
-DEL AÑO 2026, a la: 11:00 HORAS, en el Segundo Nivel del Salón de Usos Múltiples, ubicado en primera
-calle siete qguion ochenta, zona uno del municipio de Santa Catarina Pinula, Transcurtidos 30 mnutos de
-la hora indicada para la recepción de plicas no se aceptarán más ofertas.
+Para lo recepción y apertura de plicas que contienen las ofertas se señala el día_IUNES 19 DE OCTUBRE
+DEL AÑO 2026, a laz 11:00 HORAS, en el Segundo Nivel del Salón de Usos Múltiples, ubicado en primera
+calle siete guion ochenta, zona uno del municipio de Santa Catarina Pinula. Transcurridos 30 minutos de
+la hora indicada para la recepción de plicas mo se aceptarán más ofertas.
 
 SANTA CATARINA PINULA, SEPTIEMBRE DE 2026.
 
-QTel: 1525 www.sep.gob.gt - £ B Y EB infogecp.g0b aa
+O Tel: 1525 WWW.SCp.g0b.gt- 1 Y w UD intoQecp.gob.gt
 
-Edificio Municipal, 1 calle 5-50 Zona 1 - Santa Catarina Pinuta, Cuatemala
+Edificio Municipal, 1 calle 5-50 Zona 1 - Santa Catarina Pinuta, Guatemala
 
 (348612)-10-septiembre
-EsN ures Entarina
-aua
+El] sones Estarina
+¡saudenal
 
 CONVOCATORIA
-LICITACIÓN PUBLICA N”. 15-2026
+LICITACIÓN PÚBLICA N?. 15-2026
 
-La Muncipaldad de Santa Catarina Pinula, a través de la Dirección de Obras convaca a toda persona
-individual o jurídica, nacional o extranjera debidamente inscrita en los registros corespondientes de
-Guatemala y cuyo giro principal de su actividad económica, sea la construcción de abras, para que
+La Municipalidad de Santa Catarima Pinula, a través de la Dirección de Obras convoca a toda persona
+indiddual o jurídica, macional o extranjera debidamente inscrita en los registros correspondientes de
+Guatemala y cuyo giro principal de su actividad económica, sea la construcción de obras, para que
 participe en el concurso de la licitación pública denominada: “MEJORAMIENTO CALLE URBANA DE SECTOR
 CUATRO CAMINOS A SECTOR BUENA VISTA DE ALDEA LAGUNA BERMEJA DEL MUNICIPIO DE SANTA CATARINA
-PINULA, GUATEMALA".
+PINULA, GUATEMALA”.
 
-Para tales efectos, los oferentes interesados en participar en la presente Licitación, podrán adaquirir las
-Bases de Licitación por medio electrónico, a través de la página consultando
+Para tales efectos, los oferentes interesados en participar en la presente Licitación, podrán adquirir las
+Bases de licitación por medio electrónico, a través de la página consultando
 el Número de Operación Guatecompras -NOG-31742041 y dirigir por escrito su carta de intención para
 participar en el evento al Departamento de Compras y Contrataciones de la Municipaldad de Santa
 Catarina Pinula, ubicada en la primera calle número cinco guion cincuenta, zona uno del municipio de
-Santa Catarina Pinvla, tercer nivel del Edificio Municipal, dentro del plazo de CINCO (5) DÍAS HÁBILES
+Santa Catarina Pinula, tercer nivel del Edificio Municipal, dentro del plazo de CINCO (5) DÍAS HÁBILES
 posteriores a la fecha de publicación de la convocatoria en el Portal Guatecompras, contados a partir del
-MARTES 8 al LUNES 14 DE SEPTIEMBRE del AÑO 2026 en horario de 09:00 a 16:00 horas; consignando en dicha
-carta, los datos generales de la persona oferente (individual o jurídica), número de ¡dentificación 1ributaria
--NIT-, dirección fiscal y comercial, teléfono, correo electrónico y la misma deberá estar firmado y sellada
-po el cferente (a través de su propietado, representante o mandatario): adicionalmente deberán
+MARTES 8 ol LUNES 14 DE SEPTIEMBRE del AÑO 2026 en horario de 09:00 a 16:00 horas: consignando en dicna
+carta, los datos generales de la persona oferente (individual o juridica), número de ¡identificación tributaria
+-NIT-, dlrección fiscal y comercial, teléfono, correo electrónico y la riisma deberá estar firmado y sellada
+por el oferente (a través de su propietardo, representante o mandatario): adicionalmente deberán
 adjuntar:
 
-o Ceonstancia de Inscripción y Precalficación como Proveedor del Estado, habiltado para
-proveer OBRAS, emtida por el Registro General de Adquislcione: del Estado -RGAE-, debidamente
-actualzado y vigente corespondiente al año fiscal 2026, de confoarmidad con lo establecido para el
-efecto en el Acuerdo Ministerial Húmero 563-2018 del Ministerio de Finanzas Públicas y sus reformas; de
-conformidad con el catálogo de espedalidade: emitido por el referido registro, en su inscripción deberán
+o Constancia de Inseripción y Precalficación como Proveedor del Estado, habilitado para
+proveer OBRAS, emitida por el Registro General de Adquisiciones del Estado -RGAE-, debidamente
+actualizado y vgente correspondiente al año fiscal 207é, de conformidad con lo establecido para el
+efecto en el Acuerdo Ministerial Número 5653-2018 del Ministerio de Finanzas Púbiicas y sus reformas; de
+conformidad con el catálogo de especialidades emitido por el referido registro, en su inscripción deberán
 tener las especialidades de los siguientes renglones:
 
-p i mwopesxtGIÓN — _|
-Correteras pcevimentacias
-Mantenmiento +
-careteras
+ll NKO.DERENGIÓN,| |
+Carreteras paovimentacias
+Mantenimiento 140
+caretercis
 
-an — —lerepacciónceltereno
+eL eno cel teneno
 
 Así mismo, el monto máximo de contratación del oferente reflejado en la constancia, deberá ser igual o
 superior a diez millones de quetzales (Q.10,000,000.00).
@@ -7416,22 +7381,24 @@ Revisados los documentos indicados anteriormente, los interesados deberán hacer
 Q.500.00 equivalentes a la reproducción de los planos de construcción de la obra: costo que deberá
 cancelarse en las cajas receptoras de la Municipalidad.
 
-Para la recepción y apertura de plicas que contienen las ofertas se señala el día LUNES 19 DE OCTUBRE DEL
-AÑO 2026, a las 15:00 HORAS, en el Segundo Nivel del Salón de Usos Múltipies, ubicado en primera calle
-siete guion ochenta, zona uno del municipio de Santa Catarina Pinula. TTanscumidos 30 minutos de la hora
-indicada para la recepción de plicas no se aceptarán más ofertas,
+Para la recepción y opertura de plicas que contienen las ofertas se señala el día LUNES 19 DE OCTUBRE DEL
+AÑO 2026, a las 15:00 HORAS, en el Segundo Nivel del Salón de Usos Múltiples, ubicado en primera calle
+siete guion ochenta, zona uno del municipio de Santa Catarina Pinula. Transcurridos 30 minutos de la hora
+indicada pora la recepción de plicas no se aceptarán más ofertas.
 
-SANTA CATARINA PINULA, SEPTIEMBRE DE 2026.
+SANTA CATARINA PINULA, SEPTIEMBRE DE 2024.
 
-E infoGscr-gobatr
+UD inrogecp.gob.at
 Edificio Municipal, 1 calle 5-50 Zona 1 - Santa Catarina Pinula, Guatemala
 
-QTel: 1525 wwwgscp.gob gt- £ 9Y
+OTe!: 1525 WwWw.scp.gob.gt-t O yw
+
+(348608)-10-septiembre
 
 INSTITUTO
 GUATEMALTECO DE
 
-MIGRACIÓO
+MIGRACIO
 
 EL INSTITUTO GUATEMALTECO DE MIGRACIÓN
 
@@ -7448,12 +7415,12 @@ AVANZADA PARA EL INSTITUTO GUATEMALTECO DE MIGRACIÓN
 Las personas individuales o jurídicas, nacionales o extranjeras interesadas en
 participar en la LICITACIÓN PÚBLICA, pueden obtener las bases de Licitación
 Pública de forma gratuita y las Especificaciones Técnicas de lo requerido,
-descargándolas de la dirección electrónica www.quatecompras.gt consultando el
+descargándolas de la dirección electrónica www.guatecompras.gt consultando el
 Número de Operación Guatecompras -NOG 31412440.
 
-La recepción de plicas sera el día 21 de octubre del 2026 a las 9:00 horas,
+La recepción de plicas será el día 21 de octubre del 2026 a las 9:00 horas,
 en el tercer nivel del Edificio Central del Instituto Guatemalteco de Migración,
-ubicado en la 6*. avenida 3-11 zona 4 de la ciudad de Guatemala.
+ubicado en la 6?. avenida 3-11 zona 4 de la ciudad de Guatemala.
 
 De acuerdo a lo establecido en el artículo 24 de la Ley de Contrataciones del
 Estado, transcurridos treinta (30) minutos de la hora señalada para la presentación
@@ -7472,14 +7439,14 @@ el Salón Yurrita del Hotel Courtyard Guatemala City, ubicado en la 1? Av. 12-47
 Guatemala, Guatemala. En dicha Asamblea General Ordinaria se tratará la siguiente
 agenda:
 
-Bienvenida y constatación de quérum.
+Bienvenida y constatación de quórum.
 
 Lectura y aprobación de agenda.
 
-Lectura y aprobación de acta anterior.
+Lectura y aprobación de acta anterior,
 
 Someter a consideración de la Asamblea General para su discusión y
-aprobación o no, en su caso, el informe de actividades del período 2025 — 2026.
+aprobación o no, en su caso, el informe de actividades del periodo 2025 — 2026.
 Someter a consideración de la Asamblea General para su discusión y
 aprobación o no, en su caso, el informe financiero circunstanciado del período de
 julio 2025 a junio 2026.
@@ -7487,7 +7454,7 @@ julio 2025 a junio 2026.
 Someter a consideración de la Asamblea General para su discusión y
 aprobación o no, en su caso, el estado de cuenta de los socios activos.
 
-Elección de la Junta Directiva para el periíodo 2026 — 2028.
+Elección de la Junta Directiva para el periodo 2026 - 2028.
 
 Elección y/o ratificación de los representantes ante la Comisión Nacional para la
 Fortificación y/o Equiparación de Alimentos (CONAFOR) y la Comisión Nacional
@@ -7507,88 +7474,86 @@ Junta Directiva Asociación Nacional de Salineros de Guatemala (ANSAL)
 
 (VSN-33761)-10-septiembre
 
-NÚMERO 52
-
 Guatemala, JUEVES 10 de septiembre de 2026
 
 NÚMERO 52
 21
-Guatemala, JUEVES 10 de septiembre de 2026 21
+Guatemala, JUEVES 10 de septiembre de 2026 241
 
 
 
 NUMERO 52
 
-TYLNINILNOS
+TVLNINILNOS
 
-YZNYVIiNO9 NS YLISOd3a
-_ Qº VYI1YW3l1YNn9 3dNOd
+VZNVIANO9 NS VLISOd30
+/ SE) VWIVW3LVA9 3IANOQ
 
-907 p o;DEw_uawm 9p Oo| seuoIesiland
+9z0c =p a4quieidas 3P Ol SSUO/IDE39INd
 
-JO LIO92IJÓ MA
+16 'LUOD'DID'MMM
 
-SIZLN |e ejeolunuoo ejueno
+81Z1 Y ¡e sjeojunuos ejuano
 
-N JeANe OUIOS Sp uoeuoyjui seul eledg
+N] JeA1J98 OUUO9 SP UOIDRUUJOJUI SEU LIE G
 
-92/60/5 97/80/L€ 91/60/ V1O 7343d vaN3 97/60/9 90/80/L€ 91/60/9 NYVZVIV9 Zdavnr H139Yzi13 vIANY I 92/60/07 9c/80/L€ 91/60/27 ILNI9IA ILNIJIA OYVIIA OIN3LAY
+92/60/S 92/80/1€ 91/60/S VIDYVO Z383d VAN 92/60/9 92/80/L€ 91/60/9 NVZVIVO ZI84v Ar H138wZM13 VIONVI9 92/60/22 92/80/1€ 91/60/22 1N3OlA I1N3OA OQDSVOIY ONLY
 
-90/60/97 97/80/L€ 91/60/97 7343d 39YOr NIVEJ43 92/60/97 90/80/L€ 91/60/97 ZVI1A ZI1YZNOS9 O1VNOG OS 1393 97/60/7 97/80/L€ 91/60/7 SYYIULNO9 ZINIWIr OANYWNEY
+92/60/92 92/80/L€ 91/60/92 Z383d 308401 NIVay3 92/60/92 92/80/L€ 91/60/92 ZWI0O ZIVWZNOO OJVNOQ OS139 92/6012 92/80/1€ 91/60/2 SV43YLANOO ZININIF OONVASV
 
-97/60/7 97/80/1€ 91/60/7 IHINANJ9 Sil O/A SIIVHON NIMO3 97/60/97 90/80/L€ 91/60/97 Y 93140 OSNYIO OlHYSOY 130 VNITYIYO 97/60/8 9c/80/L€ 9 1/60/8 24dO 7343d OINOLNY
+92/60/Z 92/80/LE 91/60/2 3HI3NANO Slell O/A SIIVAICOIN NIMO3 92/60/92 92/80/L€ 91/60/92 V3311%Y0 OJdAIVWIO OlYVsOY 130 VNIVIVO 92/60/8 92/80/1€ 91/60/8 Z1d01 Z3843d OINOINV
 
-97/60/L1 97/80/1€ 9L/60/21 ZILIAVE YIIAYO ONINOL NIAG3 92/60/97 90/80/L€ 91/60/97 VILASUN VLIDNINEYO 97/60/67 9c/80/L€ 91/60/67 SIIVAHOWN YNY 1134O NIYICOY HINNY
+92/60/£L 92/80/1€ 91/60/£L ZIYINVE VIDUVO ONINOL NIAQ3 92/60/92 92/80/L€ 91/60/92 VILNYIN VLIONINAVO 92/60/62 92/80/1€ 91/60/62 SIIVIOA VNVITIIYO NI43dOY Y]NNV
 
-97/60721 97/80/1L€ 9L/60/21 VIOSYSYI NYVAIVO OdNYNOE 9c/60/07 90/80/L€ 91/60/07 O143WA Z4HINYS NEWHY9 97/60/17 9c/80/L€ 91/60/17 ZIdO1 OINVIOd YNYIN Y N39NY
+92/60/21 92/80/1€ 91/60/21 WIOSVSVI NVAIVO OA VNOA 92/60/02 92/80/L€ 91/60/02 OTSJN ZIHONVS NINYVO 92/60/12 92/80/1€ 91/60/LZ Z3d01 O9NVI1Od VNVIIMN VONIONV
 
-90/60/71 97/80/L€ 9L/60/71 SONYT1315Y9 ZIdO1 OANY ON HYDOF 92/60/97 90/80/L€ 91/60/97 0Z409 ZYd 3SOr SOTAVO 97/60/8 9c/80/L€ 9 1/60/8 NYagOr SAWII Y 132NY
+92/60/v1L 92/80/1€ 91/60/v1 SONV 13159 Z3d01 OONVIOY 4VDd3 92/60/92 92/80/L€ 91/60/92 OZHYO9 ZW 3SOT SOTAVO 92/60/8 92/80/1€ 91/60/8 NvVagOr SAN31VI1DNV
 
-97/60/61 97/80/L€ 9L/60/61 Y93A Z3NOQO 3sOr 09910 92/60/0€ 90/80/L€ 91/60/0€ VAY1ZIdO1 Oly391Y SOTIVO 92/60/71 97/80/L€ 91/60/71 VNOCUYI YNIMIONY
+92/60/61 92/80/L€ 91/60/61 V93A ZINOQYO 3SOF O93/0 92/60/0€ 92/80/L€ 91/60/0€ Vav1Z3d01 014381 SOTAVO 92/60/vL 92/80/1€ 91/60/vL VNOQYVO VNMIONV
 
-97/60/87 97/80/1€ 91/60/87 SIIVHOWN VA YN TINOJ 4739430 9c/60/91 90/80/L€ 91/60/91 OAYYVAIY SOLNYS OCIVWWINO OlYYI30N YO 97/60/€7 9c/80/L€ 91/60/€7 VaI4U3H VNYdS3 H139SI YNY
+92/60/82 92/80/LE 91/60/82 SIIVION VAS VN TINO31 1938930 92/60/91 92/80/L€ 91/60/91 OQUVEVAIV SOLNVS OCIVAISO Ol VIIONVO 92/60/82 92/80/1€ 91/60/EZ Vy3Y43H VNVAS3 H138SM VNV
 
-97/60/61 97/80/1€ 9L/60/61 Zn47 OTILAHOd VINISVA AWI3O 92/60/91 90/80/L€ 91/60/9L Z3U4VNr NOCIO? VaIYHOZ YANAEYa 97/60/67 9c/80/L€ 91/60/67 Yd3d37 YO3A OYYATY
+92/60/61 92/80/1€ 91/60/61 ZN89 OTILUOA VINISVA AAM3O 92/60/91 92/80/L€ 91/60/91 ZIY4VNT NOUYOO VOIVTOZ VON348 92/60/62 92/80/1€ 91/60/62 V03d3Z VIJA OYVATV
 
-92/60/L 97/80/1L€ 91/60/L VYONYZ 30 O4Y9N9 Z3AN313N IHYNY YNQ 9c/60/7 90/80/L€ 91/60/7 IdNMIYaYNO VIEYWN VIDIYO OAVIYOS 97/60/07 9c/80/L€ 91/60/27 AVOTIN YOH3O OANVNY34 ONYATY
+92/60/L 92/80/1€ 91/60/£ VIOAVZ 30 OY VIN9 ZIONTIIAN IHVNV VNM3d 92/60/Z 92/80/L€ 91/60/2 IANTVOVNO VISVIA VIDEVO OAVIJO4 92/60/22 92/80/1€ 91/60/22 Y VOTIAN VOHIO OONVN434 OYVAIV
 
-97/60/1 97/80/L€ 91/60/1 SOTX Y198YD TainNva 9c/60/1 90/80/L€ 9L/60/€L OIY YZNYV43dS3 VINVI9 97/60/8 9c/80/L€ 9 1/60/8 SVAYN YVZViY ONANYIE1Y SIX31Y
+92/6071 92/80/1€ 91/60/L POUIX VIDEVO TINVO 92/60/21 92/80/L€ 9L/60/ZL OTIWAVO VZNVI1dS3 VINV 18 92/60/8 92/80/1€ 91/60/8 SVAVN VZVIY4W OYONVI3TV SIX31V
 
-90/60/87 92/80/L€ 91/60/87 NOIYHI O1NId INIWSYFr ASIVO 92/60/0€ 90/80/L€ 91/60/0€ OYOLY TA Z3NILUYIN OLSINY3 34119 92/60/€ 90/80/L€ 91/60/€ ZINO9 ZIAIAV YNID32 YNILA391Y
+92/60/82 92/80/1€ 91/60/82 NO9VWHI OLNId 3NIANSVP ASIVO 92/60/0€ 92/80/L€ 91/60/0€ OYOJVTMIA ZINLLAVIA OLS3N4Y3 344148 92/60/€ 92/80/L€ 91/60/€ ZINOD Z3YIAVE VIIDIO VNLLI391V
 
-90/60/71 97/80/1€ 9L/60/71 SIANZIAlY Z443d SASI1r 30 1Y OLSINO 9c/60/€7 90/80/L€ 91/60/€7 IY 30 VI3A NIYYIW YIOS YVHONNY 97/60/01 9c/80/L€ 91/60/21 SYIIHI VANYS - YSOS ValY
+92/60/vL 92/80/LE 91/60/v1 SIYNZIATW Z383d SASAP 30 IVEO SINO 92/60/EZ 92/80/L€ 9L/60/€2 UNIX 30 VI3A NIAVIA VIJOS VUOYNV 92/60/21 92/80/1€ 91/60/ZL SVOIH9 VIUNVS - VSOS VETlV
 
-S 'SINOI9YINas
+“VS "SINOIDWIN3S
 
-97/60/61 97/80/1€ 9L/60/61 UANIS VHYd OANA1934I 9c/60/87 90/80/L€ 91/60/87 Z3HINYS VYI49VI OlYYSON VANY 97/60/17 9c/80/L€ 91/60/17 -3Nd34 dar SYZNvId A sOUNDAS 30 VIDN39Y
+92/60/61 92/80/1€ 91/60/61 YIAYIS VUVA OONI/9389 92/60/82 92/80/L€ 91/60/82 ZIHINVS VAJYa VO OlYVSOY VANV 92/60/12 92/80/1€ 91/60/LZ -38d38 8f SYZNVIJ A SOYNDIS JA VIONIOV
 
-92/60/€ 97/80/1L€ 91/60/€ 14 SINT NYS I1NI VIO9IYOY VALLYHIdOO? 9c/60/87 90/80/L€ 91/60/87 VZAN YNIUYWA Vany 92/60/9 9c/80/L€ 9 1/60/9 0977040 30 OLOS SONYY AYGIALIYN V13aY
+92/60/€ 92/80/1€ 91/60/€ 18 SIN NVS 1NI VIODIVOV VALLVAIADOD 92/60/82 92/80/L€ 91/60/82 VZIN VNIA4VA Vanv 92/60/9 92/80/1€ 91/60/9 O9ZOYO 30 OJOS SONVE OVOIALIVN W130V
 
-d YY 137 YNVIAIA A? OSONY
-9
-92/60/0€ 97/80/L€ 91/60/0€ ONAVIYN *0 ZANOSY13A YLON 31110312 92/60/5 90/80/L€ 91/60/9 -NYN O ONOTvd Z30dNYNY3H asor TvanuasY 97/60/7 9c/80/L€ 91/60/2 -3LNOW 30 NOH2OS OLOS vI934211 VI30Y
+3 VOVI13Z VNVIAIA AS OSOYy
+a
+92/60/0€ 92/80/1€ 91/60/0€ ONYVIVN 90 ZINOSVIZA VOM 3QTUILLO3TD 92/60/S 92/80/L€ 91/60/5 -NYN O ONOTW ZIONVNSJH ISOF IVENAOSV 92/60/Z 92/80/1€ 91/60/Z -31NOM 30 NOHDOS OJOS VIDIVIN] VIJAY
 
-97/60721 92/80/L€ 9L/60/21 ONYZHOOS V2YYN] YI9342N1 VIANY 12 92/60/L 90/80/L€ 91/60/2 OWOodvId YNINVYLIE9 OYNINV 92/60/67 90/80/L€ 91/60/67 H1NOINYL39 Z34YNr OCIO4Y NYINaY
+92/60/21 92/80/1€ 91/60/21 ONVZJOT1OS VIYVAT VISIYINI VIANVIO 92/60/£ 92/80/L€ 91/60/£ ONO0Y3d VNINV4 1138 OYNLIV 92/60/62 92/80/L€ 91/60/62 H14NOINV138 Z3Y8 VAT OQIOYV Nvl4gv
 
-soue OL E E soue Oj EN H soue Ol E
-ojualINDUSA 2equan” e| ap aiquoN ojualuIDusA equen” e| sp a.quoN ojueILIDUSA 2equen? e| ap a.quoN
-ap e4>a pepianeul ap opoliag ap ey>a4 pepia2eul ap opoliad ap e4>a4 pepianeul ap opoliad
+soue QL Iv z soue OL Ir : soue OL IVY
+OJUA/MIDUIA equan) e] ap a1quuioN OJUA/MIDUIA e3uan) BP] ap a1quion OJUSIUIIDUIA ejJusan) e] Sp a/quIoN
+ap eyoay pepianseul ap opoliag ap eyaay Pepia1:>eul ap opollag ap eyoay Pepiameul ap opoltag
 
-'Soppuobpja1 Inbo Kej p| o spuIOJa1 SP| UO ajusLIPponoepo ipduuno
-bpand as anb v1subul ap 'so1UaBy sp.1sanu sp bun6|p p esopupzogp (ojispdep o o.lje1 ap o1paul 1od) pjDAN2Da1 egap anb piueno us IDUJO DAJIS 35 SOLIDIDIJOS
-9 “(Vd04) OYHOHY T3d NOIJI3LO4d Y1 VaYd OANO4 IP PIUen9 NS "p oplips |ap opojsp,] |s 103118 PIDd “oIDUenIesuUO9 U 'SOpPuolQUSUI ajUSLIONAjUD
-sDp211sIay9b102 spj LUOS biuen? pun usesod “oppisi¡ 9 US sPUOSIad sp| ap se1quuou so| “odubg J¡ep so1ISIBaI SOJ US “anb soLIDUJOJUI a| YOMSjUD Oj ap PpNHIA US
+'"SOPDUOIDD|SA INDO “A3] D] O SOUAJOJAA SP] UOD SJUSLMUNPONI3PO AM ALUNO
+pDpand as anb biaubu ap 'soiusBy sossenu ap PUNA]. LP SSOPUBIOAP (OYSOASP O O4IJS DP OIP3UI 100) D|IDAIIODSA SSP ab HJUANI US INUIO] DAJIS SS SOLUDYIIOS
+8| '(v4O3) OYJOHV 130 NOIDD3LOYA VW] VÍVA OUNOY [0 bjuana ns ap opjos fep opo¡sox] je 40jyns bid “pIDUANISSUO) UY "SOPpUODUaUI aJUSUJO!IaJUD
+SD91I5119I9D409 SH] UOD bjUSN9 pun Usasod “opbjsI]| je US spuOsIad so] ap sal1quuou so] 'oDUbg Jep sos]siBal so| Us “anb SOUIDUIJOJUI a| YOLISJUD O| SP PNYIA UY
 
-“(Yd04) OHHOHY
-130 NOIII3LOHd Y1 VAVd OANO4 |*P 1010j US “SOPOBLAnap sesaajui so| LOI OJUNÍ “UDJIQLIDsaId “SPANIPUI UP9ZaUPLSd soyp OL ejUDINP anb “go'SZIESN P
-seJ0Usu SOpjps UO p1afuD1X3 ppauou us o CO'O00TO P se10USUI SOpjDs LOS |DUOIDPU Ppauouw us “sOJOUD ap Á solloyeuou sojisodap ap sojueno sp|anb a2ajgojsa
-jpn9 |a “(so1elubulg sodnug Á sooubg ap ÁS1 p| b yal Lt oIN9I.D | QUONIPP anb) piopuwieIDN9 ap polgnday b| ap ose1Buod ¡ap ZLoZ-97 OJSUINN 039122d |eP +
-o|n2nub |sp [puoISINO.d ugISUSdsns bj 920131 “SOJO 81)US “on2 b| ap pnHIA us ElLOZ-ZO87 Á ELOZ-€EZSZ7 SOppjnuIN9D sajuelpadxs so| ap udIsPoo UO popijpuorniIysud9
-ep ayoj p| 10d ppiwe piuajues p| PallsuIy 01)UeY ap olibIg | US “Pppaljgnd anj “SIOZ ap ozibu ap /| |9 aenb “sajusigpuyniueno sejgbloa:do solsenu y
+“(VdOÍ) OJÍJOHV
+130 NOI993L10Yd VW1 VA Vd OUINOJ I9p 40n0y Us 'sopoBuanap sasajajul so] OD OJUNÍ 'UDAIQUISaIA “SOAJIDUI UDIZAUPLUMSA SOUYD OL aJUDINP AN 'DO'SZLESN
+S3J0U3Uuu SOP|pS UOI PISUNAIXS PP3UOUY US O DO'OOO TO P SAJOUIUI SOP|PS UOI PUOIDDU DPpauou Us “SOJOYD SP Á SOLIDJSUOV SOYSOCSP AP SOJUANI SO] ANb 993/010]59
+¡On9 [9 “(sOJ3/9UDUIY SOANIS Á SODUDG SP Á97 D| D 431 Ly ONU Ja QUOINIPLP IND) DPUIVNO SP POaNdayY D| SP OSSIBUO) [SP ZLOZ-9Z OJSUUNN OJSD9Q JSP y
+O|NIIUD [Sp [PUOISIAOAA UOISUSASNS PD] PIOADA 'SOJJO 34JUS JONI D| SP PNYA US “ElOZ-LO8BZ Á ElOZ-EZ9GZ SOPD|NUUINID SAJUSIPSAXS SO| SP UOISHIO VOI POPIPUOIMNFISUO)
+2P 3OI D] JOd bp We biduajuas b| “POMSUY OMUSI) SP OLDIG ja US 'DpPpaand any 'slOZ Sp OzZIDU ap Z| fe anb 'sajuaiqoybjuana sajqbidaudo soJseanu y
 
-YWA0O4NI
+-VWNYJOJNI
 
-'V'S 1WI1N3NILNO92 189 O3NYA
+"VS "IVLN3NILNOO 189 OINVA
 
 22
 Guatemala, JUEVES 10 de septiembre de 2026
@@ -7600,518 +7565,518 @@ NUMERO 52
 
 22 Guatemala, JUEVES 10 de septiembre de 2026
 
-TY.LNINILNOI
+TVLNINILNOI
 
-15274
+L9DCA
 
-90/60/71
+92/60/vL
 
-97/60/67
+92/60/62
 
-97/60/91
+92/60/91
 
 92/60/0€
 
-97/60/17
+92/60/12
 
-90/60/17
+92/60/LZ
 
-97/60/87
+92/60/82
 
-97/80/L€
+92/80/1€
 
-97/80/L€
+92/80/L€
 
-97/80/L€
+92/80/L€
 
-97/80/L€
+92/80/L€
 
-97/80/L€
+92/80/1€
 
-97/80/L€
+92/80/1€
 
-97/80/L€
+92/80/L€
 
-9L/60/71
+91/60/v1
 
-91/60/67
+91/60/62
 
-9L/60/91
+91/60/91
 
-9L/60/0€
+91/60/0€
 
-9L/60/17
+91/60/12
 
-91/60/77
+91/60/LZ
 
-91/60/87
+91/60/82
 
-YZNYI3NO2 NS YLISOd3a
+VZNVIJNO9 NS VLISOd30O
 
-VYIVW3lLYN9 3ANOG
+VIVW3LVA9 IONOGQ
 
-SOWYa SvINY9 OfNNL OYYW
-OYUVAIY SY9N1 ONMI2YYWN
-ZIdO1 Z3NOS VII3NNYWN
+SOMNVY SVIYVI ONNL ODEVA
+OQOVIVATV SVINT ONTIZDIVIA
+Z3d017 ZINOD VIINNVIA
 
-JdO YZOANIN TINNYWN
+9IdO1 VZOINIA TINNVIA
 
-NYana 30 OHan91vs
-VI3N O/A 437731 NYYNC ANYAO37 TINNYWW
+Nana 30 OY3NOTVS
+VI3N O/A 432231 NV4nd ANVAOIP IINNVIAN
 
-ILNYI1Y9S3 2343d YN31VODYWN
+J1NVIVIS3 Z3893d VNIIVODVIA
 
-Z3AUVr ZONNWN AN34O1ZMI
+ZJ18VP ZONNIA AN3Y01ZM1
 
-97/60/01
+92/60/12 L
 
-92/60/9L
+92/60/91
 
 92/60/8
 
-97/60/77
+92/60/12
 
-97/60/67
+92/60/62
 
-97/60/8
+92/60/8
 
-92/60/71
+92/60/YL
 
-97/80/1€
+92/80/1€
 
-92/80/L€
+92/80/1€
 
-97/80/1€
-
-97/80/L€
-
-97/80/L€
-
-97/80/1€
+92/80/1€
 
 92/80/L€
 
-91/60/01
+92/80/1€
+
+92/80/1€
+
+92/80/1€
+
+91/60/ZL
 
 91/60/91
 
 91/60/8
 
-91/60/97
+91/60/vZ
 
-91/60/67
+91/60/62
 
 91/60/8
 
-91/60/71
+91/60/vL
 
-9707 ep asquendes ep o| seuobeoI¡gnd
+9Z07 3p a1queandas ap )| SSUOIDRINANA
 
-IS WO2 9O MMA
+JS WUOIDIE MMM
 
-SIZLY |e ajestunLOS ejueno
+8LZ1 Y [e sjesjunuoo ejuano
 
-N JeAN9E OUIOS p uoeuwnoyjUI SEWI Eled
+N] J8A1J98 OLUOD SP UOIDRUIJOJUI SU PIeg
 
-VTHINYA VUN93s OINOLNY OfiAF 97/60/87 90/80/1L€ 91/60/87 SYN34Y O9SNH
+WIIONVIA VIND3S OINOLNV ONNF 92/60/82 92/80/1€ 91/60/82 SVN3YV O9NH
 
-NINDOYAYN ZI1YZNO9 YNI139Y4O YINNA 9c/60/7 90/80/1L€ 91/60/7 ZIYd VAVALSI H139YZ13 YANH
+NINOOYAVÍA Z31VZNO9 VNIM3880 VIINF 92/60/2 92/80/1€ 91/60/2 ZIVd VWOV4 153 H139WZ113 VOTIH
 
-ZI3NDNINOG 30 INLIXI rory2Yd YNYNFI 9c/60/€L 90/80/1L€ 9L/60/€L Z343d S3YNZIA1Y OCIYANYIN YOLIIH
-ZI1YZNOS YOU4INDO NOWYS NYnNr 97/60/8 90/80/1L€ 91/60/8 Z|O INNYVAOI9 YOL93H
+ZINININOO 30 IN.LXI POPVIVA VNVNF 92/60/€L 92/80/1€ 9L/60/€L Z383d SIYNZIATVY OOFUANVA YOLIIH
+ZI1VWZNOD VOYJINO NONVa NNF 92/60/8 92/80/1€ 91/60/8 ZIUYO INNVAOIO YOLI3H
 
-VaYano vAYINO NOWYS NYNF 9c/60/17 90/80/1L€ 91/60/17 1V2 3dM1vaYnNO
+V4YaN9 VIYINO NONVE NNF 92/60/12 92/80/1€ 91/60/LZ IWW9 IANTVIVNO
 
-VIAY Z30NYNY3H NYNI 92/60/0€ 90/80/1L€ 91L/60/0€ VWAINONY aYOI9OS TYalW odnYo
+WIAV ZIONVN83H NVAF 92/60/0€ 92/80/1€ 91/60/0€ VIAINONV OVOÑIDOS “IVIN OdNyo
 
-YVINDY
+AvIINDWV
 
-OSONNILNON ASIVO A OCI101 SOTHY2 NYNF 97/60/87 90/80/1L€ 91/60/87 3d Svroy YVOTEW YNITIONVA3 VINOTO
+OSOYIJANOWM ASIVO A O03101 SOTEVO NVNF 92/60/82 92/80/1€ 91/60/82 30 SYTOY YYOTJN VNINIONVA VIYOTD
 
-92/60/97
+92/60/92
 
-97/60/€L
+92/60/€L
 
-90/60/21
+92/60/21
 
-97/60/87
+92/60/82
 
-97/80/L€
+92/80/1E
 
-97/80/L€
+92/80/L€
 
-97/80/L€
+92/80/1€
 
-97/80/L€
+92/80/1€
 
-91/60/97
+91/60/92
 
-9L/60/€L
+91/60/EL
 
-9L/60/2L
+91/60/21
 
-91/60/87
+91/60/82
 
-7343d ZVIC YNI933 ViNT
+Z3483d ZVIO VNIO38 Vian
 
-AYCIY YaYaLS3 O9IICOY SINT
+AVOTV VOV41S3 OSADO SIN
 
-OGYUVAIY SYNICVI VINVIIONY YID342N1
+OQVIVATV SVNIOVO VIYWIIONVO VIDIY9MI
 
-SYaO TIAINOS3 YNYXON H139S
-
-92/60/6
-
-97/60/€
-
-97/60721
+Sv0dO8 TÍAINOS3 VNVXOY H1385
 
 92/60/6
 
+92/60/€
+
+92/60/21
+
 92/60/6
 
-97/80/L€
+92/60/6
 
-97/80/L€
+92/80/L€
 
-97/80/L€
+92/80/1E
 
-97/80/L€
+92/80/L€
 
-97/80/L€
+92/80/1€
+
+92/80/1€
 
 91/60/6
 
 91/60/€
 
-9L/60/2L
+91/60/21
 
 91/60/6
 
 91/60/6
 
-Z3UYNI] VL3dYZz 1OSIYYW H139S|
+ZIY UNI VLIAVZ TOSIVVIA H1398|
 
-VI2AYO NI9rYs INV43153 YON
+VIOYVO NI8rvS INV33153 VON
 
-2343d 314Yna NIWAaY? 130 YNYII
+Z3843d I1YVNO NINaVO 130 VNVII
 
-VNION YLXIL VIINOY3A NYI
+VNNMON VLXLL YOINOY3A NVI
 
-9ISV 1VV2 VINYIA O/A YOYEn9I4 HIINYA YIO
+DISVIVVI VIYVIA O/A VOY3INDI HLINVA VIA!
 
-97/60/07
+92/60/02
 
-92/60/7
+92/60/V
 
-97/60/€7
+92/60/82
 
-97/60/17
+92/60/12
 
-97/60/5
+92/60/S
 
-97/60/L1
+92/60/LL
 
-97/60/7
+92/6012
 
-97/60/07
+92/60/02
 
-97/60/1
+92/60/L
 
-97/80/L€
-
-97/80/L€
-
-97/80/L€
-
-97/80/1€
+92/80/1€
 
 92/80/L€
 
-97/80/L€
+92/80/1€
 
-97/80/L€
+92/80/1€
 
-97/80/L€
+92/80/1€
 
-97/80/1€
+92/80/1€
 
-9 1/60/07
+92/80/L€
 
-9 1/60/7
+92/80/1€
 
-91/60/€7
+92/80/1€
 
-91/60//7
+91/60/02
 
-9 1/60/5
+91/60/p
+
+91/60/E2
+
+91/60/42
+
+91/60/S5
+
+91/60/£L
+
+91/60/Z
+
+91/60/02
+
+91/60/L
+
+ZINOQYO SIYO1Y SOTAVO NVNF 92/60/SZ 92/80/1€ 91/60/52 SIYANIMO9 ZIONVNYS3H SMIAVIAWV VON39O
+OQC8VIW3 30 4V19703 AVNINOSINO VIISOP 92/60/02 92/80/1€ 91/60/02 ONIYOAM 4V480953 VNNOYVI SIOWID
+
+WIIAV OLOS SIMI 3SOF 92/60/vPZ 92/80/1€ 91/60/b2 ZÍAVHO ZINOSVI3A IANTWIVND OLY3BTID
+
+ZINLLIVIA VAMO sin 3SOr 92/60/12 92/80/1€ 91/60/LZ VIYIAVIO VYTYYTH VISVIN VI3IYEVO
+
+VLINDIV OYVZ8EVO SIMI 3SOF 92/60/92 92/80/1€ 91/60/92 Z3IHINVS VNINOIS TlYEVO
+
+rol
+
+NO31 30 3sOr 92/60/22 92/80/1€ 91/60/22 NV93.153 VIYVIA ¿O VANNAYY AOYOD TIJEVO
+
+VIDYVO VLLOAN Ol VO 3SOF 92/60/0€ 92/80/1€ 91/60/0€ OJOS JOTUNVO O ONY3TINO 30 S VUNVIOA O
+
+YVZVIVS OYOM NOIONASV 3SOF 92/60/£L 92/80/1€ 91/60/£L UAIMVANS SIS OOIVMSO AQIYA
+
+ZINDNINOO SODINAVZ VIA OYONVIT TV 3SOP 92/60/€ 92/80/1€ 91/60/€ OlIIN VN393Z OINOINV AQ3484
+
+92/60/EL
+
+92/80/1€
+
+9L/60/EZ
+
+NVYOAN VNVTI380 IN3HON VIA!
+
+92/60/12
+
+92/80/L€
+
+91/60/vZ
+
+OQVHEOS A OAVEOO SVINOOV 3SOP 92/60/€L 92/80/1€ 9L/60/EL OQUVaAVAIV SIIVIOMN OL43913
+
+92/60/21
+
+92/60/91
+
+92/60/S
+
+92/80/1E
+
+92/80/L€
+
+92/80/1€
 
 91/60/21
 
-91/60/2
+91/60/91
 
-9 1/60/07
+91/60/S
 
-91/60/£
+WWTMIOVd VIDAVO VNLLSIVO VIO
 
-ZINOAYO SIYOTA4 SOTAVI NYNF 92/60/S7 90/80/1L€ 91/60/S7 SIYANIO9 ZIANYNYH SMIYYVIAY YaN19
-Oy Ya 30 4Y9104 AYNINOSINO Y43SOr 9c/60/07 90/80/1L€ 91/60/07 ONIAON YYAO9IS3 YNITOYY SIAVID
+SIIVIOAN VAIS MI9V8V VIQN
 
-VIAY OLOS SINT 3SOr 9c/60/77 90/80/1L€ 91/60/77 Z3AYH9 ZINOSV13A 3dN1YaYN9 OlMall9o
+SVIYVNH 350!
+A SYIYVNH INDIANA "Z3843Id AYNOHO OI VIO37
 
-ZINILAYIN YNION SINT3SOr 97/60/17 90/80/1L€ 91/60/17 VIYIAVI2 YU3Y43H VIUVIA Vi3IH9vO
+92/60/22
 
-V13n9YV OYvZUVO SINT 35Or 97/60/97 90/80/1L€ 91/60/97 Z3HINYS YNINDIS T3lu9vO
+92/60/81
 
-rOL
+92/60/91
 
-NO31 30d 350r 9c/60/27 90/80/1L€ 91/60/27 NV3LSI VINYIN .O. VUlNNY AOOO TEluavo
-
-VI12AY9 YLLOW Oliva 3SOr 9c/60/0€ 90/80/1L€ 91L/60/0€ OLOS IO1INYO O OWMITIN9 30 $ YANYIDA 9
-
-UVZY 1YS OYOW NOIINNSY 3SOFr 9c/60/L1 90/80/1L€ 9L/60/21 INO SIS OCIYMSO AGA
-
-ZIN9NINOG SODHYZYN OYANVIIY 3sSOr 97/60/€ 90/80/1L€ 91/60/€ OIYIN YN3237 OINOINY Ad344
-
-90/60/€7
+92/80/1€
 
 92/80/L€
 
-91/60/€7
+92/80/1€
 
-NYHOW YNYTI134O INIHON VIA
+91/60/22
 
-97/60/97
-
-97/80/1€
-
-91/60/97
-
-OAYHO9 A OAYHO? SVINOGY 3SOr 9c/60/€L 90/80/1L€ 9L/60/€L OaAVAVAIY SITYHON OlY3914
-
-97/607/21
-
-97/60/91
-
-92/60/5
-
-97/80/L€
-
-97/80/L€
-
-97/80/L€
-
-9L/60/2L
-
-9L/60/91
-
-91/60/
-
-VI11AYd VIIYYO YNILSIH? YIO
-
-SI1VYON VAI31 1132YY vICN
-
-SYIYVNH 35O
-A SY2UYNH 3NDIIN3 Zaldad AYNOHO OldY9031
-
-97/60/07
-
-97/60/81
-
-97/60/91
-
-97/80/L€
-
-97/80/L€
-
-97/80/L€
-
-91/60/07
-
-91/60/31
+91/60/81
 
 91/60/91
 
-OWINOYr YYZY IV 3XIN ANHOFr 9c/60/61 90/80/1L€ 9L/60/61 VI3A Z34YA1Y OANYNY34
+ONINOY21 4VZVITV8 ANN ANHOF 92/60/61 92/80/1€ 91/60/61 VIA ZIYVAIV OONVN 434
 
-N3dY ZJANYNY3H
+NIdV ZIONVN43H
 
-VNN7 9 YH O AN ANOWAYS NHOF 97/60/0€ 9e80nE 91/60/0€
+VNIMIANYV9 VOTIH OA Aya ONONAVY NHOP 9c/60/0€ 9e/BorLt 9L/60/0€
 
-VAYYLS3 VIIYYO OLMIBIANH XI34
+VOVe8LSa VIDUVO OLSIIGANH XM44
 
-NOYICIY9 30 24d01 Z31131 NYAYO YE4INNEr 92/60/€ 90/80/1L€ 91/60/€ 23dO v124Y9 OCIOYY NIAS1
+NOY30TV9 30 Z3d01 231131 NWAVO Y3JINN3F 92/60/€ 92/80/1€ 91/60/€ Z3d01 VIDUVWD OCTIOYV NIAS3
 
-97/60/7
+92/60/Z
 
-97/60/01
+92/60/01
 
-97/60/8
+92/60/8
 
-97/60/01
+92/60/01
 
-97/60/91
+92/60/91
 
-97/60/67
+92/60/62
 
-97/80/L€
+92/80/1€
+
+92/80/1€
+
+92/80/1E
 
 92/80/L€
 
-97/80/L€
+92/80/1€
 
-97/80/L€
+92/80/1€
 
-97/80/L€
+91/60/2
 
-97/80/L€
-
-91/60/7
-
-9L/60/0L
+91/60/01
 
 91/60/8
 
-9L/60/01
-
-9L/60/91
-
-9L/60/67
-
-"V S 'NOU
-
-Z3YYAlY YNINON 11Y91gY VI113X4
-OG3101 VUY3LLVATYS FIOS TIOYWY
-SYIN1 Z3NAN YUYWOIS Y 14VX
-ZINILHYWN YC3NId A1YQOY 39INY37 NIVY
-
-343149 NIYVY
-
-97/60/5
-
-92/60/9
-
-97/60/7
-
-97/60/61
-
-97/60/1
-
-97/60/€L
-
-97/80/1€
-
-97/80/1€
-
-97/80/L€
-
-97/80/1€
-
-97/80/L€
-
-97/80/1€
-
-9 1/60/5
-
-91/60/9
-
-91/60/7
-
-91/60/61
-
-91/60/1
-
-91/60/€L
-
-IVAONYS IVAOGNYS Otinl4Y Y3ElAYr 97/60/9 90/80/1L€ 91/60/9 SAWI1 NYINDYA OdiVNL1S3
-
-OAVYVAIY ZINICCOS OYANYITY Y3lAVI 9c/60/7 90/80/1L€ 91/60/7 Z343d SOIYYVA OWNSVY3 YYDS3
-
-VI2YO OSOISON 13YNYI1YN OIVr 9c/60/91 90/80/1L€ 91/60/9L OlNY HONAW O/A Olgny Y»5143
-
-Olany ONVINOS HYI1IWY OyIvr 9c/60/71 90/80/1L€ 91/60/71 Z3AYAF ZILHO ANVAO39 Y5143
-
-ZIANYNYIH 4YO9S3 OLDIAYIA 3WNIYr 9c/60/7 90/80/1L€ 91/60/7 3UNINDV IVAOONYS OLSNONY 45143
-
-SIA3Y 7234Id YVNYXOY NATIXIYL 97/60/17 90/80/1L€ 91/60/17 YC 3NId ONYVAYN 9143
-
-90/60/27
-
-92/80/L€
-
-91/60/27
-
-YVWIYVd YSSIAIW N3YVX
-
-97/60/0€
-
-97/80/1€
-
-9 1/60/0€
-
-SOLNYS OdYYNLS3 A 9c/60/01 90/80/1L€ 9L/60/7L SONY 1134 NO31 30 ONIWN3
-
-92/60/9
-
-90/60/07
-
-soue O|
-
-olUSILIDUSA
-
-ap e4>a
-
-97/80/L€
-
-97/80/L€
-
-y
-
-91/60/9
-
-91/60/07
-
-:199
-
-pepian>eul ap opoliag
-
-ZIL4O SHOS OfAF
-
-ZIN9 1Oy 1v31 OAYYIY Of AN
-
-equany e| ap alquoN
-
-97/60/67
-
-97/60/9L
-
-soue O|
-
-olUaILIDUSA
-
-ap e4>a4
-
-97/80/L€
-
-97/80/1€
-
-y
-
-91/60/67
+91/60/01
 
 91/60/91
 
-e
+91/60/62
 
-pepian>eul ap opoliad
+“Y S 'NOYN
 
-IT3NIHINYS NI1S3 O/A Ya349v> Si 9c/60/01 90/80/1L€ 9L/60/0L Vu149YI OTILLHOd NOYIN3 ONIINE
+ZIYVAIV VANO TIVOl8VY VIA
+003101 VEY3LIVATVS 3105 TOYWA
+Sv3M1 ZINNN VIVINOIS VIEVA
+ZINILAWA VWO3NId AIVOV IOINVIP Niyv
 
-V'S 'OINOLNY NYS VHOCYLUOdI!N 97/60/6 90/80/1L€ 91/60/6 ZIUIAYY IGYEHANY ONOCION3
+383189 Nlyvx
 
-soue OL EN :199
-ejuenz el ap a1quoN ojualupusa ejuenz el ep e1quoN
-ap ey>a pepiameul ap opoliad
+92/60/S
+
+92/60/9
+
+92/60/2
+
+92/60/61
+
+92/60/1
+
+92/60/EL
+
+92/80/1€
+
+92/80/L€
+
+92/80/1€
+
+92/80/1€
+
+92/80/1€
+
+92/80/1€
+
+91/60/5
+
+91/60/9
+
+91/60/2
+
+91/60/61
+
+91/60/L
+
+91/60/EL
+
+“IVAOUNVS IVAOUNVS OYN LIV Y3IAVO 92/60/9 92/80/1€ 91/60/9 SNIAI31 NVINOVA OQ4VN.1S3
+
+OQUVEVAIV ZINICOD OYONVIITV YalA vr 92/60/v 92/80/1€ 91/60/p Z381d SOIJY VA ONSVYUA YWOSI
+
+VIDYVO OSOISON TIVNVIVN OYlvr 92/60/91 92/80/1€ 91/60/91 Ol8Ng HONAMA O/A Olgna vAOl3
+
+OI8NY ONVIJOS YVITNAV Oylvr 92/60/v1L 92/80/1€ 9L/60/bL A8VNf ZILAO ANVAO39 ADl83
+
+ZIONVNY3H Y4V8O0953 OIDIYAVIA JINIVP 92/60/2 92/80/1€ 91/60/2 388INOV TVAOONVS OLSNONV 19l43
+
+SIAJ8 Z384Id VNVXOY NAIIADVL 92/60/12 92/80/1€ 91/60/LZ VOINIA OYEVAVN 943
+
+92/60/22
+
+92/80/1€
+
+91/60/22
+
+VATIVd VSSMIAN NIYvA
+
+92/60/0€
+
+92/80/L€
+
+91/60/0€
+
+SOLNVS OQYVN1S3 P 92/60/21 92/80/1€ 9L/60/ZL SONVM38V NO31 30 ONIAN3
+
+92/60/9
+
+92/60/02
+
+soue 91
+
+OJUaIuInDuaA
+
+ap eyay
+
+92/80/1E
+
+92/80/L€
+
+Iv
+
+91/60/9
+
+91/60/02
+
+“199
+
+pepinnseul ep opoliag
+
+ZILJO SNOS ONNF
+
+Z3N9l84dOY IV31 OQ8V9l8 ONNF
+
+equan) e] ap a/quioN
+
+92/60/62
+
+92/60/91
+
+soue 91
+
+OJUaIuUIIDuUaA
+
+ap eyay
+
+92/80/1€
+
+92/80/1€
+
+lv
+
+91/60/62
+
+91/60/91
+
+199
+
+pepianseul ap opollag
+
+IMANIHONVS NS O/A VITYEVO Sl8l 92/60/01 92/80/1€ 91/60/01 Vy47848 9 OTILYIOA NOIDINI OlS3IN
+
+“VS "'OINOLNV NVS VIO VLIOdIA! 92/60/6 92/80/1€ 91/60/6 ZIYAVE IOVIONV OYOCONA
+
+soue OL Iv :19g
+ejuan> e] ap alquioN OJUaIuInuaA ejuany e] ep alquion
+ap eyaay pepianmeul ap opoltag
 
 Guatemala, JUEVES 10 de septiembre de 2026
 
@@ -8126,701 +8091,701 @@ NUMERO 52
 
 (VSN-33776) 10 septiembre
 
-TW1LNAINILNOS
+TVLNINILNOI
 
-1824
+L9DVA
 
-92/10/L
+O2/LO/L
 
-97/80/1€
+92/80/L€
 
-91//0/L
+91/L0/£
 
-YZNYI3NO2 NS YLISOd3a
+VZNVIJNO9 NS VLISOd3I0O
 
-VYIVW3lYN9 3dNOG
+VIVWI3LVA9 JONOGO
 
-SOYINSI? VIJIAYIWN A Z3d01 YNINI3Q
+SOY3NSIO VIAIIVIA A Z3d071 VNI41390
 
-90/907/71
+92/90/v 1
 
-90/70/S7
+9L/V0/ST
 
-97/80/L€
+92/80/1€
 
-97/80/1€
+92/80/1€
 
-91/20/71
+91/90/v1
 
-91/70/S7
+9L/VO/SZ
 
-YVI104 YHYAINO OAYLSND HONANWN
+Y v9104 VEVAINO OAVLSND JONA
 
-YXO T3NYry TIINOLO YSIYW
+PVXO9 TINVPV TBINOLO ADIVÍA
 
-92/60/07
+92/60/02
 
-92/60/97
+92/60/92
 
-92/60/0
+92/60/2
 
-92/60/07
+92/60/02
 
-9c/80/L€
+92/80/1€
 
-9c/80/L€
+92/80/1€
 
-90/80/L€
+92/80/1€
 
-9c/80/L€
+92/80/1€
 
-9 1/60/07
+91/60/02
 
 91/60/92
 
 91/60/2
 
-9 1/60/02
+91/60/02
 
-VUN HOLIIH O/A
-VUN 30 NOXYY 313H9 YVZNYY3d93 VIgINOL
+VIVIAN YOLIAH O/A
+VOlMIIN 30 NOXVY 713H9 VZNVYJdS3 VIBIVOL
 
-VAADIHSI O2INNA OYOWOL
+WVMWAIHSI OSINN OXONO_L
 
-SIYO 14 SITYON OCTIYNOY SYWOL
+SIY0O 14 SIIVION OOTVNOS SVNOL
 
-dOr 30 VI]NNYS 137Y9 vsaH3IL
+dOr 30 VANVS 13249 VS3Y31
 
-9c/60/17
+92/60/12
 
-92/60/€2
+92/60/€Z
 
-9707 *ep a1quendes sp o| seuobesINgnd
-IOLWO2 9O MMA
+9Z0Z 9p a1quianidas ap O| SSUOIDRINANA
+JO UIOD'DIJO MMM
 
-BZ YN |2 93e9IUNLUOS Ejuan?o
+81/19 [e ajestunwos equano
 
-n JeAN9e OLIO ap LoIEeLOJUI SELU EJed
+N] JeAI]98 OUJOD SP LOIDRUIJOJUI SEU PIeg
 
-97/80/1L€
+92/80/1€
 
-97/80/1L€
+92/80/1€
 
-91/60/17
+91/60/LZ
 
-91/60/€7
+91/60/€2
 
-SOLNYS *Q 314 NA ZILHO YNIYYW YOO
+SOLNVS 20 318YN0 ZILIO VNISVA VOTO
 
-SO9IYZYW 1YSO4
-OGNNWO3 AdNY O/A $ SO91YYZYIA VIAYL2O
+SODIYVZVIN IVSOY
+OUNNANAO3 AGN O/A S SODINSVZVIA VIAVIIO
 
 92/60/9
 
-90/80/1L€
+92/80/1€
 
 91/60/9
 
-VAINONY GYGd3DOS “dO
+VNINONV OVO3IDOS 'gO
 
-9c/60/€7
+92/60/€Z
 
-90/80/1L€
+92/80/1€
 
-91/60/€7
+91/60/€2
 
-ZINDIUCION HYZENIS H139YZIT3 YHON
+Z3NDIACOY YVZ3115 H139VZM VION
 
-92/70/7
+92/VP0/Z
 
-97/80/L€
+92/80/1€
 
-91/70/0
+9L/VO/Z
 
-SAW31 ZIdO1 YNIA1313 YWION
+SNA Z3d07 VNIA1313 VAYJON
+
+92/60/61
+
+92/80/1€
+
+91/60/61
+
+ZIYVATV NHINIWA VIATIS
+
+92/60/11
+
+92/80/1€
+
+9L/60/LL
+
+OZIINVS Va3Alg M38508 NOIT13N
+
+92/€0/LZ
+
+92/80/LE
+
+9L/E0/LZ
+
+V8JAlY ZINJAIP OCSVOJAN Ola wa
+
+sc/60/82
+
+SE/vo/ZL
+
+Se/LO/0€
+
+vZ/LL/p
+
+EZIvO/L
+
+OZ/ZL/EL
+
+81/80/11
+
+81/L0/22
+
+92/80/L€
+
+92/80/1€
+
+92/80/1€
+
+92/80/L€
+
+92/80/L€
+
+92/80/L€
+
+92/80/L€
+
+92/80/L€
+
+s1/60/82
+
+SL/vO/ZL
+
+sL/LO/O€
+
+yL/LL/p
+
+ZL/vo/L
+
+OL/ZL/EL
+
+80/80/11
+
+80/L0/2Z
+
+SIYIPNIA 30 YOJDIS
+
+SvIS311| V43Y4 Va VIJOS
+
+SWOINIAV 19
+A€9 JYLNI V “9 VL9/ Oliva 30 O9INN LIANOO
+
+dIOSNN
+
+VaV1Z14017 OONVIOY NAAI3S
+
+Nal3d OL
+“IN38 NVS 3 Q OIYVAIVO 13 VNVLLSISO NOISIA
+
+VIOTOSAVIOYAV
+
+SNVA 30 VZIÍN AINOM NINYVO 1390 VLle
+
+92/60/61
+
+92/60/92
+
+92/60/92
+
+92/60/12
+
+92/60/12
+
+92/60/8L
+
+92/60/02
+
+92/60/82
+
+92/60/61
+
+92/80/1€
+
+92/80/1€
+
+92/80/1€
+
+92/80/L€
+
+92/80/1€
+
+92/80/1€
+
+92/80/1€
+
+92/80/L€
+
+92/80/1€
+
+91/60/61
+
+91/60/92
+
+91/60/92
+
+91/60/2
+
+91/60/LZ
+
+91/60/81
+
+91/60/02
+
+91/60/82
+
+91/60/61
+
+VOJ11Y0 YVZVIVS VZNVY3dS3 VIATIS
+
+NO9IVHI VIIAV HlYa vo O1D435
+
+OZYO9 ZVd NVILSV83S
+
+Ora 1NZNd VIO39838 Vavs
+
+sOl4v] SONVE HLIONF Vavs
+
+NVIAIZND ANOVLSI OOVILINVS
+
+OY30Y09 VIy3an9 NONOTVS
+
+V8Aly 90 Z383d YVIINDV VINIOYIA VSOY
+
+VSOS VIN39 /ZIOIVA VNYOH /ONVICIN VSOY
+
+92/60/12
+
+92/60/0€
+
+92/60/SL
+
+92/60/v
+
+92/60/22
+
+92/60/0€
+
+92/60/1
+
+92/60/02
+
+92/60/8
+
+92/80/1€
+
+92/80/1€
+
+92/80/1€
+
+92/80/1€
+
+92/80/1€
+
+92/80/1€
+
+92/80/1€
+
+92/80/1€
+
+92/80/1€
+
+91/60/LZ
+
+91/60/0€
+
+91/60/SL
+
+91/60/p
+
+91/60/22
+
+91/60/0€
+
+91/6071
+
+91/60/02
+
+91/60/8
+
+VS 'VINSOMN
+
+ZIYAVE VOVIYYV JON NOJTIA
+
+ZIHINVS OOVILNVS INVgIOA NIATIN
+
+ZIYVAIV JOHAN 138VZ113 INVIZAN
+
+VANYVO 30 ZIYIAVE SVYJANOO TIIHVA NANAVÍA
+
+09N0Q439 Z383d ONIXVÍIA
+
+ZJIONVN43H ZIONVNY3H ANVEO 21 NIAYVÍA
+
+VNVTI380 SVI8VIVZ INNVAOIO NIAYVIA
+
+sola va JANLSVOVS I8Na VII3 VHLIVIA
+
+21/80/£
+
+£1/LO/ZL
+
+v1/80/9
+
+92/60/82
+
+92/60/2
+
+92/60/02
+
+92/60/8
+
+92/60/8
+
+92/60/EL
+
+92/60/91
+
+92/60/EL
+
+92/80/L€
+
+92/80/L€
+
+92/80/L€
+
+92/80/L€
+
+92/80/L€
+
+92/80/L€
+
+92/80/L€
+
+92/80/L€
+
+92/80/L€
+
+92/80/L€
+
+92/80/L€
+
+10/80/£
+
+L0/10/ZL
+
+v0/80/9
+
+91/60/82
+
+91/60/2
+
+91/60/02
+
+91/60/8
+
+91/60/8
+
+91/60/EZ
+
+91/60/91
+
+9L/60/EZ
+
+Nso1padsisajen
+-INZJ9PUe De 1pal desp ye XA [e Injoejenos313suoo
+
+92/60/L
+
+92/80/1€
+
+91/60/£
+
+ZIYINVE A ZIYIAVY VE IV VSOY
+
+92/60/22
+
+92/80/1€
+
+91/60/22
+
+ZIYVAIV S3YO 14 VION VLEVIA
+
+ZINLLAVIA VANO OYNLAV OIDSIONVAS
+VLL3807 OlSLSV 'SONVTIILSVI VIVAV
+ZJIONVN83H OPINYOO HL38WZ113 VNVAOA
+Z3d01 30 VANO 1135 VION VONVIOA
+3NOVdIS NFV IIVIASI NOSTIM
+
+Z383d Z3843d OJNOY YVIATIA
+
+Va vO YVOTIIAN YIONVX3TV AVITIIAA
+
+92/60/01
+
+92/60/02
+
+92/60/62
+
+92/80/1€
+
+92/80/1€
+
+92/80/1€
+
+91/60/01
+
+91/60/02
+
+91/60/62
+
+VNIdl VOYOAVÍA 3501 OIVNOY
+
+Vd3MVEO VEN DIS OUNVIOSY
+
+VAN OLSINY3
+OCTIVMSO A YVIINDV ZINONINO OL438O0Y
+
+92/60/EL
+
+92/60/21
+
+92/60/8
+
+92/80/1€
+
+92/80/1€
+
+92/80/1€
+
+91/60/€2
+
+91/60/ZL
+
+91/60/8
+
+O9NVea 30 TOSIVVIA
+
+NNVINA3AA 30 ZINONINO NOYOS VNISVIA
+
+OY LSVI Z3IND9310 IIBISVÍA
+
+NNVAWINAVA INVIA Ya IVA
+
+VAIS TOSIAVIA VINIDIIA
+
+NOXVY ZIYIN VE MiDVIV VINTIA
+
+92/6012
+
+92/60/8
+
+92/60/6
+
+92/6012
+
+92/60/61
 
 92/60/61
 
 92/80/L€
 
-91/60/61
+92/80/L€
 
-Z3UYA1Y NHINAW VIAINS
+92/80/L€
 
-92/60/L1
+92/80/L€
 
-97/80/1L€
+92/80/L€
 
-9L/60/11
+92/80/L€
 
-OZILNYS VAJAl 139509 NOLTAEN
-
-92/€0/17
-
-97/80/1L€
-
-9L/€0/17
-
-VUJAN ZIN3AIr OdIYO3WN Olva
-
-se/60/87
-
-servoel
-
-Se/10/0€
-
-ve/LL/o
-
-ee/v0/
-
-O7/cL/EL
-
-81/80/L1
-
-81//0/27
-
-97/80/1L€
-
-97/80/1€
-
-97/80/L€
-
-97/80/1€
-
-97/80/L€
-
-97/80/L€
-
-97/80/1€
-
-97/80/L€
-
-S1/60/87
-
-S1/v0/2L
-
-S1/L0/0€
-
-vL/LL/D
-
-21/v0/L
-
-OL/2L/EL
-
-80/80/1 1
-
-80/10/27
-
-SIYINTAW 30 HO1933S
-
-SYISITII VHIHYVA VIJOS
-
-SYGIN3AY y9
-Á €9 3ULNA Y 9 vI9/ OldYa 30 OJINN 3LINO?
-
-CIO9NIT
-
-VaY1Z1do1 OANVIOS NAATIS
-
-Nal3d 'OL
-“IN39 NYVS 3 d OIIVANYO 13 YNYVILSIYD NOISIN
-
-VIO1OS-WY404dY
-
-SNYA3 30 YZAN A3NOW N3Wav9 130 YY
-
-92/60/61
-
-92/60/97
-
-92/60/97
-
-92/60/7
-
-92/60/17
-
-97/60/81
-
-92/60/07
-
-92/60/97
-
-92/60/61
-
-9c/80/LE€
-
-9c/80/L€
-
-90/80/L€
-
-9c/80/L€
-
-9c/80/L€
-
-9c/80/L€
-
-9c/80/L€
-
-90/80/L€
-
-9c/80/L€
-
-9L/60/61
-
-91/60/92
-
-91/60/97
-
-9 1/60/2
-
-91/60/12
-
-91/60/81
-
-9 1/60/07
-
-91/60/87
-
-91/60/61
-
-Y 93140 YVZY1VS VZNY41dS3 VIAINS
-
-NO9IYHI VIIAY 1314979 019435
-
-074O09 ZYd NYILSYg35
-
-Oraul inznd y23934 vavS
-
-SOIYY] SOWYY HLJaNfF YaYS
-
-NYIWZAND ANIYLS3 OVILNYS
-
-OY30YO7 YYYIND NONOYS
-
-VUJANY 20 7443d HYIINDY VINIONIA YSOY
-
-YSOS YW39 /Z3C1VA YWIHOH /ONYVCN YSOY
-
-9c/60/17
-
-92/60/0€
-
-9c/60/S|
-
-9c/60/7
-
-90/60/22
-
-92/60/0€
-
-9c/60/1
-
-92/60/07
-
-92/60/8
-
-90/80/1L€
-
-97/80/1L€
-
-90/80/1L€
-
-90/80/1L€
-
-90/80/1L€
-
-90/80/1L€
-
-90/80/1L€
-
-90/80/1L€
-
-90/80/1L€
-
-91/60/17
-
-91/60/0€
-
-91/60/S1
-
-91/60/7
-
-91/60/27
-
-91/60/0€
-
-91/60/L
-
-91/60/07
+91/60/2
 
 91/60/8
-
-V'S YIN9ON
-
-ZIYNAYA YO VY 3ION NOLIIN
-
-Z3HINYS O9VILNYS INVEDA NIATN
-
-Z3YYAIY YHOHITIWN 139vZi13 INVIJIA
-
-VWYVO 30 Z3UINYA SYHILLNO9 TIHYA INNAYN
-
-O9NAYd 7443d ONIXYWN
-
-Z3ANYNYIH ZIANVNYIH ANY9O37 NIAYYIN
-
-VNY 1134O SYVIUVIYZ INNVAOIS NIANYIA
-
-solImYa 3NN1SYOYS |ANY YI3 YHLHYIA
-
-11/80/L
-
-Z1/10/21
-
-y 1/80/9
-
-90/60/87
-
-97/60/0
-
-92/60/07
-
-97/60/38
-
-97/60/8
-
-90/60/€7
-
-92/60/91
-
-90/60/€7
-
-97/80/L€
-
-97/80/L€
-
-97/80/L€
-
-97/80/1€
-
-97/80/LE
-
-97/80/L€
-
-97/80/L€
-
-97/80/L€
-
-97/80/L€
-
-97/80/L€
-
-97/80/LE
-
-L0/80/L
-
-20/Lo0/2L
-
-70/80/9
-
-91/60/87
-
-91/60/7
-
-9L/60/07
-
-91/60/8
-
-91/60/8
-
-91/60/€7
-
-9L/60/91
-
-9L/60/€7
-
-Wsopadsisajsa
--INZ)9puesDjeIpaIgespryenin|enajoejenos91su )
-
-92/60/1
-
-9c/80/L€
-
-91/60/L
-
-ZIUIAYA A Z3YIN YE VEV YSOY
-
-9c/60/27
-
-90/80/1L€
-
-91/60/77
-
-Z3UVAlY SIYO14 VICN VLIVIA
-
-ZINILEYIN YANO ON1YY OISION YS
-YLL3401 diiLsY 'SONVTI31SYO VIvAY
-Z3ANYNY3H OrINHO9 H138YZI13 YNYADA
-Z3dO1 30 YANO 1135 YITION YANYIDA
-InDvdis ry 13YIWWSI NOSTIM
-
-2343d 7Z3443d O3NO4 YVANIM
-
-VaIYav? HYOTIN YIANVXI1Y INVITIZA
-
-92/60/01
-
-92/60/07
-
-92/60/67
-
-9c/80/L€
-
-9c/80/L€
-
-9c/80/L€
-
-91/60/01
-
-9 1/60/07
-
-91/60/67
-
-VNid| YDHO0AYWN 3SOr C1YNOY
-
-VaINYYO VAND3s OOANYVIOSY
-
-VNN OLSINY3
-OCIYMSO A YY IINDY ZINONINO 0l43904
-
-97/60/€7
-
-9c/60/01
-
-97/60/8
-
-90/80/1L€
-
-90/80/1L€
-
-90/80/1L€
-
-91/60/€7
-
-9L/60/7L
-
-91/60/8
-
-OINvV4 30 TOSINYIN
-
-NNYWA3M 30 ZANONIND NOCIYO VNINYIA
-
-OYLSVI ZIN931a T13dIAVIN
-
-NNYWANYX INVN YELIVAA
-
-VAIS TOSIAYWN VINIDAIA
-
-NOXYU Z3UINY 1132vav YAIIA
-
-97/60/7
-
-97/60/3
-
-92/60/6
-
-97/60/7
-
-97/60/61
-
-97/60/61
-
-9c/80/L€
-
-9c/80/L€
-
-9c/80/L€
-
-9c/B0/L€
-
-9c/B0/L€
-
-9c/80/L€
-
-91/60/7
-
-9 1/60/8
 
 91/60/6
 
-91/60/7
+91/60/2
 
 91/60/61
 
 91/60/61
 
-VIINZNI1YA 30 YWI1Yd SYD3NVA YIy
+WIINZNIIVA 30 VNTVd SVIINVI Vlle
 
-ZIdO1 SIA3Y O1YIJONSIY
+Z3d01 SIA38 O18439090l8
 
-VTHUH2NIH2 OdYYIY
+WTIHINIHO OQYVOlY
 
-ZINO9 NOIVHI OdYVINOd
+ZINO9 NO9VHO Od8vVIMOd
 
-VNA34 VINYd
+VNAJY4 VINVA
 
-VNY9 OIOYENY TINOLO
+VNV9 ONDOYJEANV 13INOLO
 
-9c/60/€L
+92/60/€L
 
-97/60/17
+92/60/LZ
 
-9c/60/€L
+92/60/€L
 
-92/60/5
-
-9c/60/1
-
-97/60/87
-
-90/80/1L€
-
-90/80/1L€
-
-90/80/1L€
-
-90/80/1L€
-
-90/80/1€
-
-90/80/1L€
-
-9L/60/€L
-
-91/60/27
-
-9L/60/€L
-
-91/60/9
-
-9L/60/L
-
-91/60/87
-
-97/60/17
-
-9c/B0/L€
-
-91/60/17
-
-NYLIVO OAOYHY H139YZI13 VIILO
-
-9c/60/L
-
-90/80/1L€
-
-91/60/L
-
-NOZNOW OGNIY9 Zn49 Y1 30 ONVINYIA
-
-I1NVvI9
-VLIOZ A ZI1YZNOS VINV19-VU3ANY VINYIA
-
-V3dO1 O3HIIN vsin1 vIEVIN
-
-ZIVd NO9VH9 V12342n1 VINYIA
-
-Al 139 NOYIO YN313 VINYIA
-
-VNYaIY ZI140 S3139NY SO 30 VINYWN
-
-AINVI 39 ZIYINYA ONOM YVNILSIHO VIEVIA
-
-97/60/0
+92/60/S
 
 92/60/1
 
-soue O
-ojualuUSA
-ep e4>a4
+92/60/82
 
-97/80/LE
+92/80/1€
 
-97/80/L€
+92/80/1€
 
-y
+92/80/1€
 
-pepianoeul
+92/80/1€
 
-91/60/7
+92/80/1€
 
-91/60/1
+92/80/1€
+
+9L/60/EL
+
+91/60/L2
+
+9L/60/€L
+
+91/60/S
+
+91/60/L
+
+91/60/82
+
+92/60/12
+
+92/80/L€
+
+91/60/12
+
+NVLIVO OAOYaV H138WZ113 VILO
+
+9c/60/L
+
+92/80/1€
+
+91/60/£
+
+NOZNOM OQNIIVO ZN49 VI] 30 ONVIAVIA
+
+1NVO
+VLMIOZ A ZIVVZNOO VONVI18-VIAIY VIYVIA
+
+Va3dO1 OJHNA VSIN VISVIA
+
+ZIVd NO9VHO VI9349N7 VIYVIA
+
+d19 130 NOD VN313 VIYVIA
+
+WNVO TV ZILYO SI13IONV SOT 30 VIYVIA
+
+AJINVO 30 Z3JAVY DNOM VNILSIVO VIVIA
+
+92/60/2
+
+92/6071
+
+soue OL
+OJUaIuUINuaA
+ep eyoay
+
+92/80/L€
+
+92/80/L€
+
+Iv
+
+pepiagoeur
+
+91/60/2
+
+91/60/L
 
 :199
 
-ap opoliad
+ap opolad
 
-VV| YY3Y4HIH OVISINYLS3 HOLIIA
+VIV] V434e43H OVISINVLS YOJDIA
 
-VZNY 9439 Z31VZNO9 3153139 AYI3A
+VZNVO438 Z3IVZNO9 3153139 AMIA
 
-ejueny e| ap alquoN
+eyuan) e] sp alquioy
 
-97/60/27
+92/60/L2
 
-92/60/5
+92/60/S
 
-soue O
-OjueILIIUSA
-ap ey>a4
+soue OL
+Ojua/uISuaa
+sp eyoay
 
-9c/B0/L€
+92/80/L€
 
-9c/B0/L€
+92/80/L€
 
-9
+“IV
 
-91/60/27
+91/60/L2
 
-91/60/5
+91/60/S
 
-:19
+“190
 
-pepianoeul ap opoliad
+pepiameu! ap opolsad
 
-NOJIVINYd YI24Y9 13N031 4795O
+NOJTIVLNVd VIDAVO 1INO31 VISO
 
-Z3NDOSYA VIGN A Z3YJINYa YNINO
+ZINOSVA VION A ZIYIAVY VITINO
 
-ejueny el p a1quoN
+ejuan) e] ap a1quioN
 
-9e/60/07
+92/60/vWT
 
-9c/60/91
+92/60/91
 
-soue o
-oluaILINUSA
-ap e4>a4
+soue OL
+OJUSIUIDUSA
+ep eyoay
 
-90/80/1L€
+92/80/1€
 
-90/80/1L€
+92/80/1€
 
-“7
+“IV
 
-91/60/77
+91/60/b2
 
-91/60/9L
+91/60/91
 
-:190
+“199
 
-pepianeul ap opoliad
+pepianeul ap opolag
 
-Z3NO9 VIFIN YLNIN312 VISYIN
+ZINOO VIPIAN VINIIN3T19 VISVIA
 
-VI9UYO NIAYIWW OI9Y3S SO
+VIDYVO NIAVIN O/D43S SODY
 
-ejuen) el ep a1quoN
+eJuan) e] ep as1quioN
 
 24
 Guatemala, JUEVES 10 de septiembre de 2026
@@ -8837,8 +8802,8 @@ NÚMERO 52
 
 24 Guatemala, JUEVES 10 de septiembre de 2026 
 
-4 04 s AVISO DE LICITACION PÚBLICA No. 03-2026
-?;; Municipalidad de San Carlos Alzatate Jalapa
+A: VS , AVISO DE LICITACION PÚBLICA No. 03-2026
+>) Municipalidad de San Carlos Alzatate Jalapa
 
 AVISO DE LICITACIÓN PÚBLICA No. 04-2026
 
@@ -8846,22 +8811,22 @@ MUNICIPALIDAD DE MAZATENANGO, SUCHITEPEQUEZ
 
 La municipalidad de Mazatenango, Suchitepéquez, invita a
 toda persona individual o jurídica a participar en la Licitación
-del proyecto: MEJORAMIENTO CALLE E6TA AVENIDA
+del proyecto: MEJORAMIENTO CALLE 6TA AVENIDA
 COLONIA ACEITUNO CASCO URBANO MAZATENANGO,
 SUCHITEPEQUEZ. Las bases del presente concurso pueden
 ser consultadas a través del internet en la dirección
-www.quatecompras.gob.gt bajo el número NOG. 31834264
+www. quatecompras.qgob.at bajo el número NOG. 31834264
 
 Mejoramiento Sistema de Alcantarillado Sanitario Aldea El Pino Zapoton, San Carlos Alzatate, Jalapa.
 
-Las bases pueden obtenerse en el portal GUATECOMPRAS:; y los planos pueden adquinirse en la Dirección
+Las bases pueden obtenerse en el portal GUATECOMPRAS; y los planos pueden adquirirse en la Dirección
 Municipal de Planificación a partir del día lunes 14 de septiembre del presente año en horarios de 8:00 a 16:00
 horas, previo pago de Q250.00 en Tesorería Municipal, como costos económicos de su impresión.
 
 NOG: 31678076
 
-La recepción de ofertas v apertura de plicas será el día 19 de octubre de 2026 a las 10:30 horas, wanscurridos
-treinta (30) minutos de la hora y fecha señaladas, se cerrará la recepción de otertas v será abierta la primera plica.
+La recepción de ofertas y apertura de plicas será el día 19 de octubre de 2026 a las 10:30 horas, transcurridos
+treinta (30) minutos de la hora y fecha señaladas, se cerrará la recepción de ofertas y será abierta la primera plica.
 
 Una vez abierta ésta, no se aceptará ninguna oferta más. La recepción y apertura de plicas se llevara a cabo a partir
 
@@ -8869,23 +8834,21 @@ Fredi Omar García Galiano
 Alcalde Municipal
 2024-2028 (VSN-33817)-10-septiembre
 
-- 7
-K
+s 2
+fa
 
-Íí% Municipalidad de San Carlos Alzatate Jalapa
+WM
 
-NE A
+>) Municipalidad de San Carlos Alzatate Jalapa
 
 AVISO DE LICITACIÓN PÚBLICA No. 05-2026
 
 Ampliación Sistema de Alcantarillado Sanitario Sector El Centro, Aldea Sabanetas, San Carlos Alzatate,
 Jalapa.
 
-Las bases pueden obtenerse en el portal GUATECOMPRAS: v los planos pueden adquirirse en la Dirección
-
-Miunicipal de Planificación a partir del día lunes 14 de septiembre del presente año en horarios de 8:00 a 16:00
-
-horas, previo pago de Q2350.00 en Tesorería Municipal, como costos económicos de su impresión.
+Las bases pueden obtenerse en el portal GUATECOMPRAS:. y los planos pueden adquirirse en la Dirección
+Municipal de Planificación a partir del día lunes 14 de septiembre del presente año en horarios de 8:00 a 16:00
+horas, previo pago de Q250.00 en Tesorería Municipal, como costos económicos de su impresión.
 
 NOG: 31678319
 
@@ -8896,7 +8859,7 @@ Una vez abierta ésta, no se aceptará ninguna oferta más.
 Fredi Omar García Galiano
 
 Alcalde Municipal
-2024-2028 (VEN-33823)-10-septiembre
+2024-2028 (VSN-33823)-10-septiembre
 
 MUNICIPALIDAD DE QUESADA, JUTIAPA
 LICITACION PUBLICA No. 08-2026
@@ -8906,7 +8869,7 @@ las personas individuales y/o jurídicas a participar en el evento De Licitació
 Pública para el proyecto: MEJORAMIENTO CAMINO RURAL DE CASA PABLO
 ESQUIVEL HACIA CUATRO CAMINOS ALDEA EL TULE, QUESADA, JUTIAPA.
 Para efecto las empresas legalmente constituidas, interesadas en ofertar podrán
-tener más información ingresando a la página www.qguatecompras.gt consultando
+tener más información ingresando a la página www. guatecompras.at consultando
 el número de operación de Guatecompras NOG: 31643124, cumpliendo con todas
 las disposiciones generales y técnicas establecidas en las Bases de Licitación, de
 conformidad a lo que estipula la Ley de Contrataciones y Adquisiciones del Estado
@@ -8917,14 +8880,14 @@ DAFIM, el Martes 20 de octubre del año 2026, a las catorce horas en punto
 de ofertas. (VSN-33821)-10-septiembre
 
 MUNICIPALIDAD DE QUESADA, JUTIAPA
-LICITACION PUBLICA No, 07-2026
+LICITACION PUBLICA No. 07-2026
 
 La municipalidad de Quesada, departamento de Jutiapa por este medio convoca a
 las personas individuales y/o jurídicas a participar en el evento De Licitación
 Pública para el proyecto: MEJORAMIENTO CAMINO RURAL DE ESCUELA
-PRIMARIA HACIA EL CRUCE ALDEA POTRERILLOS, QUESADA, JUTIAPA.
+PRIMARIA HACIA EL CRUCE ALDEA POTRERILLOS, QUESADA, JUTIAPA,
 Para efecto las empresas legalmente constituidas, interesadas en ofertar podrán
-tener más información ingresando a la página www.quatecompras.gt consultando
+tener más información ingresando a la página www quatecompras.gt consultando
 el número de operación de Guatecompras NOG: 31643248, cumpliendo con todas
 las disposiciones generales y técnicas establecidas en las Bases de Licitación, de
 conformidad a lo que estipula la Ley de Contrataciones y Adquisiciones del Estado
@@ -8932,24 +8895,25 @@ y su reglamento. La presentación de ofertas se realizará en la Unidad de Compr
 DAFIM, el Martes 20 de octubre del año 2026, a las diez horas en punto
 (10:00Hrs) y transcurridos 30 minutos de la hora señalada, se cerrará la recepción
 
-de ofertas. (VSN-33822)-10-septiembre
+de ofertas. (V5N-33822)-10-septiembre
 
-del día, Hora y Fecha señalado en el sistema
+del día, Hora y Fecha señalado en el: sistema
 GUATECOMPRAS, en el Salón de Usos Múltiples, del
 Municipio de Mazatenango del departamento de
 
 Suchitepéquez. (VSN-33826)-10-septiembre
 
 AVISO DE LICITACION PÚBLICA No. 04-2026
+
 MUNICIPALIDAD DE MAZATENANGO, SUCHITEPEQUEZ
 
 La municipalidad de Mazatenango, Suchitepéquez, invita a
 toda persona individual o jurídica a participar en la Licitación
-del —proyecto: MEJORAMIENTO CALLE SEGUNDA
+del proyecto: MEJORAMIENTO CALLE SEGUNDA
 AVENIDA COLONIA LOS ALMENDROS MAZATENANGO,
 SUCHITEPEQUEZ. Las bases del presente concurso pueden
-ser consultadas áa través del internet en la dirección
-www.quatecompras.gob.gt bajo el número NOG. 31835651
+ser consultadas a través del internet en la dirección
+www.guatecompras.qgob.at bajo el número NOG. 31835651
 
 La recepción y apertura de plicas se llevara a cabo a partir
 del día, Hora y Fecha señalado en el sistema
@@ -8962,29 +8926,29 @@ MUNICIPALIDAD DE MAZATENANGO, SUCHITEPEQUEZ
 
 La municipalidad de Mazatenango, Suchitepéquez, invita a
 toda persona individual o jurídica a participar en la Licitación
-del 11proyecto: MEJORAMIENTO CALLE PRINCIPAL
+del proyecto: MEJORAMIENTO CALLE PRINCIPAL
 LOTIFICACION LA CAÑADA CASCO URBANO
 MAZATENANGO, SUCHITEPEQUEZ. Las bases del presente
 concurso pueden ser consultadas a través del internet en la
-dirección www .guatecompras.gob.gt bajo el número NOG.
+dirección www. qgquatecompras.gob.gt bajo el número NOG.
 31827802
 
 La recepción y apertura de plicas se llevara a cabo a partir del
 día, Hora y Fecha señalado en el sistema GUATECOMPRAS,
 en el Salón de Usos Múltiples, del Municipio de Mazatenango
 
-del departamento de Suchitepéquez. (VSN-33828)-10-septiembre
+del departamento de Suchitepéquez. (VSN-33828)-10-sepliembre
 
 COLECCIÓN
-v DOCUMENTOS
+> DOCUMENTOS
 
-Es una reflexión, crítica sobre
+Es una reflexión, critica sobre
 los diversos acontecimientos
 de la historia, política, sociedad
 y cultura guatemalteca.
 
-DiarioxCentro América
+Diario Centro Imérica
 
-Comunicate al PBX: 1590 ext. 112 y 613 para más información,
+Comunícate al PBX: 1590 ext. 112 y 613 para más información,
 o visitanos en 18 calle 6-72, zona 1
 

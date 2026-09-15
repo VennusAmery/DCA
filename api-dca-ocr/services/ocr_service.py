@@ -1,9 +1,26 @@
 import os
+import platform
 import cv2
 import pytesseract
 
-TESSERACT_CMD = os.getenv("TESSERACT_CMD", "/usr/bin/tesseract")
-pytesseract.pytesseract.tesseract_cmd = TESSERACT_CMD
+# La ruta de Tesseract depende del sistema operativo. En Render/Linux
+# viene en /usr/bin/tesseract vía apt. En Windows normalmente queda en
+# "C:\Program Files\Tesseract-OCR\tesseract.exe" tras instalar el .exe
+# de UB-Mannheim. Se puede sobreescribir con la variable de entorno
+# TESSERACT_CMD si tu instalación quedó en otro lado.
+_RUTA_POR_DEFECTO_WINDOWS = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+_RUTA_POR_DEFECTO_LINUX = "/usr/bin/tesseract"
+
+ruta_tesseract = os.getenv("TESSERACT_CMD")
+
+if not ruta_tesseract:
+    if platform.system() == "Windows":
+        ruta_tesseract = _RUTA_POR_DEFECTO_WINDOWS
+    else:
+        ruta_tesseract = _RUTA_POR_DEFECTO_LINUX
+
+pytesseract.pytesseract.tesseract_cmd = ruta_tesseract
+
 
 def _preprocesar(ruta_imagen):
     """
