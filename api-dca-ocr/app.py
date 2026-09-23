@@ -24,14 +24,6 @@ b2_api = B2Api(info)
 b2_api.authorize_account("production", os.getenv("B2_KEY_ID"), os.getenv("B2_APP_KEY"))
 bucket = b2_api.get_bucket_by_name(os.getenv("B2_BUCKET_NAME"))
 
-scheduler = BackgroundScheduler(timezone="America/Guatemala")
-scheduler.add_job(
-    ejecutar_automatico,
-    trigger=CronTrigger(day_of_week="mon-fri", hour=10, minute=0, timezone="America/Guatemala"),
-    id="dca_diario",
-    replace_existing=True,
-)
-scheduler.start()
 
 _cache_tokens = {}
 def obtener_url_firmada(nombre_archivo_b2):
