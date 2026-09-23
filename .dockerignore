@@ -1,0 +1,13 @@
+.env
+venv*/
+__pycache__/
+
+.env
+storage/pdfs/
+storage/reportes/
+storage/resumenes/
+storage/textos/
+storage/imagenes/
+
+*.pdf
+node_modules/
