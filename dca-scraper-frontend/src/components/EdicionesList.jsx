@@ -118,7 +118,7 @@ if (cargando) {
   return (
     <div className="ediciones-list">
       <div className="ediciones-header-fijo">
-        <h1>MiniDCA</h1>
+        <h1> MiniDCA </h1>
 
         <div className="controles-filtro">
           <input
