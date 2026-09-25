@@ -1,3 +1,4 @@
+//app.jsx
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import EdicionesList from './components/EdicionesList'
 import EdicionDetalle from './components/EdicionDetalle'

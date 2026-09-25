@@ -1,9 +1,13 @@
-import { useEffect, useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
-import { getEdiciones } from '../api/dcaApi'
+import { getEdiciones, descargarOriginalBlob, generarResumenArchivoBlob } from '../api/dcaApi'
+import { useEffect, useState, useMemo, useRef } from 'react'
+
 import EstadoBadge from './EstadoBadge'
 import './EdicionesList.css'
+
 import loaderGif from '../../src/assets/cargando.gif'
+import doneImg from '../assets/done.png'
+import notdoneImg from '../assets/NotDone.png'
 
 const MESES = [
   { num: '01', nombre: 'Enero' },
@@ -49,6 +53,12 @@ export default function EdicionesList() {
   const [anioFiltro, setAnioFiltro] = useState('todos')
   const [mesFiltro, setMesFiltro] = useState('todos')
 
+  const [linkManual, setLinkManual] = useState('')
+  const [cargandoOriginal, setCargandoOriginal] = useState(false)
+  const [cargandoResumen, setCargandoResumen] = useState(false)
+  const [modal, setModal] = useState(null) 
+  const fileInputRef = useRef(null)
+
   useEffect(() => {
     getEdiciones()
       .then(setEdiciones)
@@ -64,6 +74,66 @@ export default function EdicionesList() {
     })
     return Array.from(aniosSet).sort().reverse()
   }, [ediciones])
+
+const _descargarBlob = (blob, nombreArchivo) => {
+  const url = URL.createObjectURL(blob)
+  const a = document.createElement('a')
+  a.href = url
+  a.download = nombreArchivo
+  a.click()
+  URL.revokeObjectURL(url)
+}
+
+const handleDescargarOriginal = async () => {
+  if (!linkManual.trim()) {
+    setModal({ tipo: 'error', texto: 'Pega primero el link de la edición del DCA.' })
+    return
+  }
+  setCargandoOriginal(true)
+  try {
+    const blob = await descargarOriginalBlob(linkManual.trim())
+    _descargarBlob(blob, 'edicion-dca.pdf')
+    setModal({ tipo: 'ok', texto: 'Edición descargada correctamente.' })
+  } catch (e) {
+    setModal({ tipo: 'error', texto: 'No se pudo descargar la edición.' })
+  } finally {
+    setCargandoOriginal(false)
+  }
+}
+
+const handleGenerarResumen = async () => {
+  if (!linkManual.trim()) {
+    setModal({ tipo: 'error', texto: 'Pega el link de la edición que quieres resumir.' })
+    return
+  }
+  setCargandoResumen(true)
+  try {
+    const blob = await generarResumenBlob(linkManual.trim())
+    _descargarBlob(blob, 'resumen-dca.pdf')
+    setModal({ tipo: 'ok', texto: 'Resumen generado y descargado correctamente.' })
+  } catch (e) {
+    setModal({ tipo: 'error', texto: 'No se pudo generar el resumen.' })
+  } finally {
+    setCargandoResumen(false)
+  }
+}
+
+const handleArchivoSeleccionado = async (e) => {
+  const file = e.target.files[0]
+  e.target.value = '' 
+  if (!file) return
+
+  setCargandoResumen(true)
+  try {
+    const blob = await generarResumenArchivoBlob(file)
+    _descargarBlob(blob, `resumen-${file.name}`)
+    setModal({ tipo: 'ok', texto: 'Resumen generado y descargado correctamente.' })
+  } catch (e) {
+    setModal({ tipo: 'error', texto: 'No se pudo generar el resumen.' })
+  } finally {
+    setCargandoResumen(false)
+  }
+}
 
   const edicionesProcesadas = useMemo(() => {
     return ediciones
@@ -165,6 +235,55 @@ if (cargando) {
           </select>
         </div>
       </div>
+
+        <div className="descarga-manual">
+          <input
+            className="descarga-manual-input"
+            type="text"
+            placeholder="Pega aquí el link de la edición del DCA..."
+            value={linkManual}
+            onChange={(e) => setLinkManual(e.target.value)}
+            disabled={cargandoOriginal || cargandoResumen}
+          />
+          <button className="descarga-manual-btn" onClick={handleDescargarOriginal} disabled={cargandoOriginal || cargandoResumen}>
+            ⬇️ Descargar edición
+          </button>
+            <input
+              type="file"
+              accept="application/pdf"
+              ref={fileInputRef}
+              style={{ display: 'none' }}
+              onChange={handleArchivoSeleccionado}
+            />
+            <button
+              className="descarga-manual-btn descarga-manual-btn-resumen"
+              onClick={() => fileInputRef.current?.click()}
+              disabled={cargandoOriginal || cargandoResumen}
+            >
+              📊 Generar resumen
+            </button>
+        </div>
+
+        {(cargandoOriginal || cargandoResumen) && (
+          <div className="mini-loading-overlay">
+            <img src={loaderGif} alt="Cargando..." />
+            <p>{cargandoOriginal ? 'Descargando edición...' : 'Generando resumen ejecutivo...'}</p>
+          </div>
+        )}
+
+        {modal && (
+          <div className="mini-modal-overlay" onClick={() => setModal(null)}>
+            <div className="mini-modal-box" onClick={(e) => e.stopPropagation()}>
+              <img
+                src={modal.tipo === 'ok' ? doneImg : notDoneImg}
+                alt=""
+                className="mini-modal-icon"
+              />
+              <p className={`mini-modal-msg ${modal.tipo}`}>{modal.texto}</p>
+              <button className="mini-modal-cerrar-btn" onClick={() => setModal(null)}>Cerrar</button>
+            </div>
+          </div>
+        )}
 
       {/* Contenedor wrapper para el scroll responsive */}
       <div className="tabla-contenedor">

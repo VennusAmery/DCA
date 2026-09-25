@@ -1,3 +1,5 @@
+from flask import request
+
 from io import BytesIO
 import os
 from datetime import datetime, timedelta
@@ -7,10 +9,21 @@ from flask_cors import CORS
 from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.triggers.cron import CronTrigger
 
-from services.auto_dca import ejecutar_automatico
 from database import SessionLocal
 from database.models import Edicion, Resumen
 from b2sdk.v2 import InMemoryAccountInfo, B2Api
+
+from services.auto_dca import ejecutar_automatico, generar_resumen_directo
+from services.download_pdf_manual import descargar_pdf_por_link
+
+from services.transcribir_pdf import transcribir_pdf
+from services.resumen_ejecutivo import generar_resumen_ejecutivo
+from services.generador_pdf import generar_pdf
+
+from pathlib import Path
+from services.auto_dca import ejecutar_automatico, generar_resumen_directo
+from services.download_pdf_manual import descargar_pdf_por_link
+
 
 # Directorio base y carpeta de archivos estáticos
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -134,8 +147,72 @@ def listar_ediciones():
         } for e in ediciones])
     finally:
         db.close()
-        
-# --- RUTA FRONTEND (CATCH-ALL) ---
+
+# -- LO MANUAL
+
+@app.route('/api/dca/descargar-original', methods=['POST'])
+def ruta_descargar_original():
+    data = request.get_json(force=True) or {}
+    link = data.get('link', '').strip()
+    if not link:
+        return jsonify({'error': 'Debes enviar un link o ID de documento.'}), 400
+    try:
+        ruta_pdf = descargar_pdf_por_link(link)
+        return send_file(
+            str(ruta_pdf),
+            mimetype='application/pdf',
+            as_attachment=True,
+            download_name=ruta_pdf.name,
+        )
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/dca/generar-resumen-directo', methods=['POST'])
+def ruta_generar_resumen_directo():
+    data = request.get_json(force=True) or {}
+    link = data.get('link', '').strip()
+    if not link:
+        return jsonify({'error': 'Debes enviar un link o ID de documento.'}), 400
+    try:
+        ruta_reporte = generar_resumen_directo(link)
+        return send_file(
+            str(ruta_reporte),
+            mimetype='application/pdf',
+            as_attachment=True,
+            download_name=Path(ruta_reporte).name,
+        )
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/dca/generar-resumen-archivo', methods=['POST'])
+def ruta_generar_resumen_archivo():
+    if 'archivo' not in request.files or request.files['archivo'].filename == '':
+        return jsonify({'error': 'Debes subir un archivo PDF.'}), 400
+
+    archivo = request.files['archivo']
+    if not archivo.filename.lower().endswith('.pdf'):
+        return jsonify({'error': 'El archivo debe ser un PDF.'}), 400
+
+    try:
+        pdf_dir = Path("storage/pdfs")
+        pdf_dir.mkdir(parents=True, exist_ok=True)
+        ruta_pdf = pdf_dir / archivo.filename
+        archivo.save(ruta_pdf)
+
+        texto_extraido, ruta_txt = transcribir_pdf(ruta_pdf)
+        resumen = generar_resumen_ejecutivo(ruta_txt)
+        ruta_reporte = generar_pdf(resumen)
+
+        return send_file(
+            str(ruta_reporte),
+            mimetype='application/pdf',
+            as_attachment=True,
+            download_name=Path(ruta_reporte).name,
+        )
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+# --- RUTA FRONTEND  ---
 @app.route('/', defaults={'path': ''}, endpoint='serve_frontend_root')
 @app.route('/<path:path>', endpoint='serve_frontend_path')
 def serve_frontend(path):

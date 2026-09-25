@@ -43,6 +43,18 @@ def _guardar_en_mapa(base: str, reporte_nombre: str, resumen_nombre: str):
     MAPA_PATH.parent.mkdir(parents=True, exist_ok=True)
     MAPA_PATH.write_text(json.dumps(mapa, indent=2, ensure_ascii=False), encoding="utf-8")
 
+# -- COSA MANUAL
+def generar_resumen_directo(url_o_id: str) -> str:
+    """Descarga, transcribe y genera el resumen ejecutivo SIN tocar la base de datos.
+    Devuelve la ruta del PDF final para servirlo directo al usuario."""
+    from services.download_pdf_manual import descargar_pdf_por_link
+
+    ruta_pdf = descargar_pdf_por_link(url_o_id)
+    texto_extraido, ruta_txt = transcribir_pdf(ruta_pdf)
+    resumen = generar_resumen_ejecutivo(ruta_txt)
+    ruta_reporte = generar_pdf(resumen)
+    return ruta_reporte
+
 def ejecutar_automatico():
     hoy = datetime.now()
     if hoy.weekday() >= 5:  
