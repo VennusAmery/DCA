@@ -1,7 +1,7 @@
 FROM node:20-slim AS frontend-build
 WORKDIR /frontend
 RUN corepack enable && corepack prepare pnpm@latest --activate
-COPY dca-scraper-frontend/package*.json ./
+COPY dca-scraper-frontend/package*.json dca-scraper-frontend/pnpm-workspace.yaml ./
 RUN pnpm install
 COPY dca-scraper-frontend/ ./
 RUN pnpm run build
