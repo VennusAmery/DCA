@@ -12,7 +12,6 @@
 
 .ediciones-list h1 {
   font-family: 'Playfair Display', serif;
-  font-style: italic;
   color: #1E2130;
   margin-bottom: 1rem;
   font-size: clamp(1.5rem, 4vw, 2.2rem);

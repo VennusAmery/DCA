@@ -7,7 +7,7 @@ import './EdicionesList.css'
 
 import loaderGif from '../../src/assets/cargando.gif'
 import doneImg from '../assets/done.png'
-import notdoneImg from '../assets/NotDone.png'
+import notDoneImg from '../assets/NotDone.png'
 
 const MESES = [
   { num: '01', nombre: 'Enero' },
@@ -89,13 +89,15 @@ const handleDescargarOriginal = async () => {
     setModal({ tipo: 'error', texto: 'Pega primero el link de la edición del DCA.' })
     return
   }
+  const link = linkManual.trim()
+  setLinkManual('') // limpia el input de una vez
   setCargandoOriginal(true)
   try {
-    const blob = await descargarOriginalBlob(linkManual.trim())
+    const blob = await descargarOriginalBlob(link)
     _descargarBlob(blob, 'edicion-dca.pdf')
     setModal({ tipo: 'ok', texto: 'Edición descargada correctamente.' })
   } catch (e) {
-    setModal({ tipo: 'error', texto: 'No se pudo descargar la edición.' })
+    setModal({ tipo: 'error', texto: e?.response?.data?.error || 'No se pudo descargar la edición.' })
   } finally {
     setCargandoOriginal(false)
   }
@@ -243,6 +245,11 @@ if (cargando) {
             placeholder="Pega aquí el link de la edición del DCA..."
             value={linkManual}
             onChange={(e) => setLinkManual(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' && !cargandoOriginal && !cargandoResumen) {
+                handleDescargarOriginal()
+              }
+            }}
             disabled={cargandoOriginal || cargandoResumen}
           />
           <button className="descarga-manual-btn" onClick={handleDescargarOriginal} disabled={cargandoOriginal || cargandoResumen}>

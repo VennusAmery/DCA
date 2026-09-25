@@ -1,9 +1,9 @@
 .env
-storage/pdfs/
-storage/reportes/
-storage/resumenes/
-storage/textos/
-storage/imagenes/
+backend/storage/pdfs/
+backend/storage/reportes/
+backend/storage/resumenes/
+backend/storage/textos/
+backend/storage/imagenes/
 
 *.pdf
 node_modules/

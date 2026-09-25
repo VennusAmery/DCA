@@ -12,7 +12,14 @@ HEADERS = {
         "Chrome/120.0.0.0 Safari/537.36"
     ),
 }
+
 _PARAM_NAMES = ["doc", "idDocumento", "verDocumento", "documento", "id"]
+
+_MARCAS_NO_DISPONIBLE = [
+    "archivo no disponible",
+    "documento no disponible",
+    "documento no encontrado",
+]
 
 
 def _extraer_doc_id(url_o_id: str) -> str:
@@ -35,14 +42,19 @@ def _extraer_doc_id(url_o_id: str) -> str:
     raise ValueError("No se pudo extraer el ID del documento del link.")
 
 
-def _contar_paginas(contenido: bytes) -> int:
+def _inspeccionar_pdf(contenido: bytes) -> tuple[int, str]:
+    """Devuelve (numero_de_paginas, texto_extraido_en_minusculas).
+    Si el PDF esta corrupto, devuelve (0, "")."""
     try:
         doc = fitz.open(stream=contenido, filetype="pdf")
-        n = doc.page_count
+        num_paginas = doc.page_count
+        texto = ""
+        for i in range(min(num_paginas, 2)):  # con la primera pagina basta
+            texto += doc.load_page(i).get_text()
         doc.close()
-        return n
+        return num_paginas, texto.lower()
     except Exception:
-        return 0
+        return 0, ""
 
 
 def descargar_pdf_por_link(url_o_id: str, nombre_archivo: str = None) -> Path:
@@ -56,30 +68,46 @@ def descargar_pdf_por_link(url_o_id: str, nombre_archivo: str = None) -> Path:
         try:
             session.get(url_visor, timeout=20)
         except requests.RequestException:
-            pass
+            pass  # si esto falla, igual intentamos la descarga directa
 
     referer = url_visor or "https://legal.dca.gob.gt/"
-
     url_descarga = f"https://legal.dca.gob.gt/GestionDocumento/DescargarPDFDocumento?idDocumento={doc_id}"
 
     try:
         response = session.get(url_descarga, headers={"Referer": referer}, timeout=30)
         response.raise_for_status()
+    except requests.exceptions.ConnectionError:
+        raise ValueError(
+            "No se pudo conectar con el sitio del DCA. Parece que la página "
+            "no está disponible en este momento; intenta de nuevo más tarde."
+        )
+    except requests.exceptions.Timeout:
+        raise ValueError(
+            "El servidor del DCA tardó demasiado en responder. "
+            "Intenta de nuevo más tarde."
+        )
     except requests.RequestException as e:
         raise ValueError(f"No se pudo contactar al servidor del DCA: {e}")
 
     if response.content[:4] != b"%PDF":
         raise ValueError(
-            "El servidor del DCA no devolvio un PDF valido para este documento "
+            "El servidor del DCA no devolvió un PDF válido para este documento "
             "(posible link vencido o ID incorrecto)."
         )
 
-    num_paginas = _contar_paginas(response.content)
+    num_paginas, texto = _inspeccionar_pdf(response.content)
+
     if num_paginas == 0:
         raise ValueError(
-            f"El documento '{doc_id}' parece estar dañado en el servidor del DCA "
-            "(incluso su propio visor no puede abrirlo). No es un error de este "
-            "sistema: intenta con otra edición o vuelve a intentar más tarde."
+            f"El documento '{doc_id}' llegó corrupto desde el servidor del DCA "
+            "(sin páginas legibles). Intenta de nuevo más tarde."
+        )
+
+    if any(marca in texto for marca in _MARCAS_NO_DISPONIBLE):
+        raise ValueError(
+            "El documento no está disponible en el servidor del DCA en este "
+            "momento (el propio sitio lo marca como no disponible). "
+            "Intenta de nuevo más tarde."
         )
 
     Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
