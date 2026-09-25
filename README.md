@@ -6,3 +6,5 @@ python -m services.auto_dca
 
 python app.py
 pnpm run dev
+
+pnpm run build -- en frontend!!!

@@ -223,6 +223,16 @@ def serve_frontend(path):
     
     return send_from_directory(PUBLIC_DIR, 'index.html')
 
+# --- CRON ---
+scheduler = BackgroundScheduler(timezone="America/Guatemala")
+scheduler.add_job(
+    ejecutar_automatico,
+    trigger=CronTrigger(day_of_week="mon-fri", hour=7, minute=0, timezone="America/Guatemala"),
+    id="dca_diario",
+    replace_existing=True,
+)
+scheduler.start()
+
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5002))
     app.run(host='0.0.0.0', port=port)
