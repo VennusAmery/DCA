@@ -1,6 +1,7 @@
 FROM node:20-slim AS frontend-build
 WORKDIR /frontend
-COPY dca-scraper-frontend/package*.json dca-scraper-frontend/.npmrc ./
+
+COPY dca-scraper-frontend/package*.json dca-scraper-frontend/.npmrc* ./
 RUN npm install
 COPY dca-scraper-frontend/ ./
 RUN npm run build
@@ -17,4 +18,4 @@ COPY . .
 RUN rm -rf api-dca-ocr/public
 COPY --from=frontend-build /frontend/dist ./api-dca-ocr/public
 
-CMD gunicorn --chdir api-dca-ocr app:app --bind 0.0.0.0:${PORT:-8080} --workers 1 --timeout 300
+CMD ["sh", "-c", "gunicorn --chdir api-dca-ocr app:app --bind 0.0.0.0:${PORT:-8080} --workers 1 --timeout 300"]
