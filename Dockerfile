@@ -1,10 +1,9 @@
 FROM node:20-slim AS frontend-build
 WORKDIR /frontend
-RUN corepack enable && corepack prepare pnpm@latest --activate
 COPY dca-scraper-frontend/package*.json dca-scraper-frontend/.npmrc ./
-RUN pnpm install
+RUN npm install
 COPY dca-scraper-frontend/ ./
-RUN pnpm run build
+RUN npm run build
 
 FROM python:3.11-slim
 RUN apt-get update && apt-get install -y --no-install-recommends \
