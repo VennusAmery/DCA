@@ -1,9 +1,9 @@
 .env
-backend/storage/pdfs/
-backend/storage/reportes/
-backend/storage/resumenes/
-backend/storage/textos/
-backend/storage/imagenes/
+api-dca-ocr/storage/pdfs/
+api-dca-ocr/storage/reportes/
+api-dca-ocr/storage/resumenes/
+api-dca-ocr/storage/textos/
+api-dca-ocr/storage/imagenes/
 
 *.pdf
 node_modules/
